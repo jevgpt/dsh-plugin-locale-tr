@@ -1,0 +1,218 @@
+{
+  "ns": "common",
+  "pkg": "dsh-client-locale",
+  "tr": {
+    "back": "Geri",
+    "brand.localBuild": "DSH Yerel Derleme",
+    "cancel": "İptal",
+    "close": "Kapat",
+    "codeBlock.title": "Kod bloğu",
+    "codeBlock.unwrap": "Satır kaydırmayı kapat",
+    "codeBlock.wrap": "Satırları kaydır",
+    "collapse": "Daralt",
+    "copied": "Kopyalandı",
+    "copy": "Kopyala",
+    "copy.compactJson": "Kompakt JSON kopyala",
+    "copy.failed": "Kopyalama başarısız",
+    "copy.json": "JSON kopyala",
+    "copy.optionsHint": "{action}; kopyalama seçenekleri için sağ tıklayın",
+    "copy.path": "Özellik yolunu kopyala",
+    "copy.prettyJson": "Biçimlendirilmiş JSON kopyala",
+    "copy.value": "Değeri kopyala",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "expand": "Genişlet",
+    "json.label": "JSON",
+    "language.title": "Dil",
+    "load.failed": "Yüklenemedi",
+    "loading": "Yükleniyor…",
+    "markdown.footnotes": "Dipnotlar",
+    "markdown.truncatedCharacters": "… {total} karakterde kesildi",
+    "more": "Daha fazla",
+    "next": "İleri",
+    "none": "Yok",
+    "number.million": "{value}M",
+    "number.thousand": "{value}K",
+    "ok": "Tamam",
+    "previous": "Önceki",
+    "retry": "Yeniden dene",
+    "save": "Kaydet",
+    "search": "Ara",
+    "skip": "Atla",
+    "submit": "Gönder",
+    "submitting": "Gönderiliyor…",
+    "truncated": "Kesildi",
+    "unknown": "Bilinmiyor",
+    "workspace.defaultName": "Varsayılan çalışma alanı"
+  },
+  "rows": {
+    "back": {
+      "en": "Back",
+      "zh": "返回"
+    },
+    "brand.localBuild": {
+      "en": "DSH Local Build",
+      "zh": "DSH 本地构建"
+    },
+    "cancel": {
+      "en": "Cancel",
+      "zh": "取消"
+    },
+    "close": {
+      "en": "Close",
+      "zh": "关闭"
+    },
+    "codeBlock.title": {
+      "en": "Code block",
+      "zh": "代码块"
+    },
+    "codeBlock.unwrap": {
+      "en": "Do not wrap lines",
+      "zh": "取消自动换行"
+    },
+    "codeBlock.wrap": {
+      "en": "Wrap lines",
+      "zh": "自动换行"
+    },
+    "collapse": {
+      "en": "Collapse",
+      "zh": "收起"
+    },
+    "copied": {
+      "en": "Copied",
+      "zh": "复制成功"
+    },
+    "copy": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "copy.compactJson": {
+      "en": "Copy compact JSON",
+      "zh": "复制紧凑 JSON"
+    },
+    "copy.failed": {
+      "en": "Copy failed",
+      "zh": "复制失败"
+    },
+    "copy.json": {
+      "en": "Copy JSON",
+      "zh": "复制 JSON"
+    },
+    "copy.optionsHint": {
+      "en": "{action}; right-click for copy options",
+      "zh": "{action}；右键点击可选择复制方式"
+    },
+    "copy.path": {
+      "en": "Copy property path",
+      "zh": "复制属性路径"
+    },
+    "copy.prettyJson": {
+      "en": "Copy pretty JSON",
+      "zh": "复制格式化 JSON"
+    },
+    "copy.value": {
+      "en": "Copy value",
+      "zh": "复制值"
+    },
+    "delete": {
+      "en": "Delete",
+      "zh": "删除"
+    },
+    "edit": {
+      "en": "Edit",
+      "zh": "编辑"
+    },
+    "expand": {
+      "en": "Expand",
+      "zh": "展开"
+    },
+    "json.label": {
+      "en": "JSON",
+      "zh": "JSON"
+    },
+    "language.title": {
+      "en": "Language",
+      "zh": "语言"
+    },
+    "load.failed": {
+      "en": "Failed to load",
+      "zh": "加载失败"
+    },
+    "loading": {
+      "en": "Loading…",
+      "zh": "加载中…"
+    },
+    "markdown.footnotes": {
+      "en": "Footnotes",
+      "zh": "脚注"
+    },
+    "markdown.truncatedCharacters": {
+      "en": "… truncated at {total} characters",
+      "zh": "… 已截断，共 {total} 字符"
+    },
+    "more": {
+      "en": "More",
+      "zh": "更多"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一步"
+    },
+    "none": {
+      "en": "None",
+      "zh": "无"
+    },
+    "number.million": {
+      "en": "{value}M",
+      "zh": "{value}M"
+    },
+    "number.thousand": {
+      "en": "{value}K",
+      "zh": "{value}K"
+    },
+    "ok": {
+      "en": "OK",
+      "zh": "确定"
+    },
+    "previous": {
+      "en": "Previous",
+      "zh": "上一步"
+    },
+    "retry": {
+      "en": "Retry",
+      "zh": "重试"
+    },
+    "save": {
+      "en": "Save",
+      "zh": "保存"
+    },
+    "search": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "skip": {
+      "en": "Skip",
+      "zh": "跳过"
+    },
+    "submit": {
+      "en": "Submit",
+      "zh": "提交"
+    },
+    "submitting": {
+      "en": "Submitting…",
+      "zh": "正在提交…"
+    },
+    "truncated": {
+      "en": "Truncated",
+      "zh": "已截断"
+    },
+    "unknown": {
+      "en": "Unknown",
+      "zh": "未知"
+    },
+    "workspace.defaultName": {
+      "en": "Default workspace",
+      "zh": "默认工作区"
+    }
+  }
+}

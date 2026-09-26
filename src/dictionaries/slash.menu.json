@@ -1,0 +1,53 @@
+{
+  "ns": "slash.menu",
+  "pkg": "dsh-client-ui-input-trigger",
+  "tr": {
+    "command": "Komutlar",
+    "crumbs.aria": "Klasör gezinimi",
+    "drill.aria": "Klasöre göz at",
+    "drill.hint": "Klasöre göz at",
+    "drill.key": "Tab",
+    "loading": "Yükleniyor…",
+    "skill": "Yetenekler",
+    "subagent": "Alt ajanlar",
+    "suggestions.aria": "Tetikleyici önerileri"
+  },
+  "rows": {
+    "command": {
+      "en": "Commands",
+      "zh": "指令"
+    },
+    "crumbs.aria": {
+      "en": "Folder navigation",
+      "zh": "目录导航"
+    },
+    "drill.aria": {
+      "en": "Browse folder",
+      "zh": "进入目录"
+    },
+    "drill.hint": {
+      "en": "Browse folder",
+      "zh": "进入目录"
+    },
+    "drill.key": {
+      "en": "Tab",
+      "zh": "Tab"
+    },
+    "loading": {
+      "en": "Loading…",
+      "zh": "正在加载…"
+    },
+    "skill": {
+      "en": "Skills",
+      "zh": "技能"
+    },
+    "subagent": {
+      "en": "Subagents",
+      "zh": "子智能体"
+    },
+    "suggestions.aria": {
+      "en": "Trigger suggestions",
+      "zh": "触发候选建议"
+    }
+  }
+}

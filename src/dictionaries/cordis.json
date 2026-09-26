@@ -1,0 +1,263 @@
+{
+  "ns": "cordis",
+  "pkg": "dsh-client-ui-cordis",
+  "tr": {
+    "a11y.defining": "Eklenti tanımlanıyor",
+    "a11y.failed": "Tanımlama başarısız",
+    "a11y.preparing": "Cordis araç çağrısı hazırlanıyor",
+    "a11y.stopped": "Tanımlama kesildi",
+    "action.approve": "İzin ver",
+    "action.approveOnce": "Yalnızca bu sürüme izin ver",
+    "action.approvePlugin": "Bu eklentinin sonraki sürümlerine izin ver",
+    "action.decline": "Reddet",
+    "action.inspect": "İncele",
+    "action.remove": "Kaldır",
+    "action.retry": "Yeniden dene",
+    "action.rollback": "Geri al",
+    "action.run": "Çalıştır",
+    "action.stop": "Durdur",
+    "body.clientCode": "Client",
+    "body.copied": "Kopyalandı",
+    "body.copy": "Kopyala",
+    "body.hostCode": "Host",
+    "body.output": "Sonuç",
+    "body.source": "Eklenti kaynağı",
+    "panel.approvals.aria": "Cordis onayları",
+    "panel.current": "Geçerli: {packageId}",
+    "panel.empty": "Henüz eklenti tanımlanmadı",
+    "panel.group.current": "Bu oturum",
+    "panel.group.others": "Diğer oturumlar",
+    "panel.hint": "Çalıştırma denetimleri, Ayarlar'ın üstündeki Cordis panelinde bulunur",
+    "panel.loading": "Okunuyor…",
+    "panel.next": "Sıradaki: {packageId}",
+    "panel.plugins.aria": "Cordis eklentileri",
+    "panel.readFailed": "Eklenti listesi okunamadı: {message}",
+    "panel.runningCount": "{count} çalışıyor",
+    "panel.title": "Cordis eklentileri",
+    "panel.trigger": "Cordis Eklentisi",
+    "panel.version": "Sürüm",
+    "purpose.missing": "(amaç belirtilmemiş)",
+    "render.failedAbdicated": "{slot} içinde işleme başarısız oldu; varsayılan arayüz geri yüklendi:",
+    "render.failedHeld": "{slot} içinde işleme başarısız oldu:",
+    "row.defineTitle": "Cordis Eklentisini Kaydet",
+    "row.removeTitle": "Cordis Eklentisini Kaldır",
+    "row.runTitle": "Cordis Eklentisini Çalıştır",
+    "row.stopTitle": "Cordis Eklentisini Durdur",
+    "row.updateTitle": "Cordis Eklentisini Güncelle",
+    "run.removed": "Bu paket artık mevcut değil",
+    "run.superseded": "Aşağıda daha yeni bir çalıştırma kartı var",
+    "status.awaitingApproval": "Onay bekliyor",
+    "status.clientPending": "Client etkinleştirmeye hazır",
+    "status.failed": "Çalıştırma başarısız",
+    "status.idle": "Hazır",
+    "status.removed": "Kaldırıldı",
+    "status.running": "Çalışıyor",
+    "status.superseded": "Daha yeni çalıştırma var"
+  },
+  "rows": {
+    "a11y.defining": {
+      "en": "Defining the plugin",
+      "zh": "正在定义插件"
+    },
+    "a11y.failed": {
+      "en": "Definition failed",
+      "zh": "定义失败"
+    },
+    "a11y.preparing": {
+      "en": "Preparing a Cordis tool call",
+      "zh": "准备调用 Cordis 工具"
+    },
+    "a11y.stopped": {
+      "en": "Definition interrupted",
+      "zh": "定义已中断"
+    },
+    "action.approve": {
+      "en": "Allow",
+      "zh": "允许"
+    },
+    "action.approveOnce": {
+      "en": "Allow this version only",
+      "zh": "仅允许此版本"
+    },
+    "action.approvePlugin": {
+      "en": "Allow future versions of this plugin",
+      "zh": "允许此插件的后续版本"
+    },
+    "action.decline": {
+      "en": "Decline",
+      "zh": "拒绝"
+    },
+    "action.inspect": {
+      "en": "Inspect",
+      "zh": "查看"
+    },
+    "action.remove": {
+      "en": "Remove",
+      "zh": "移除"
+    },
+    "action.retry": {
+      "en": "Retry",
+      "zh": "重试"
+    },
+    "action.rollback": {
+      "en": "Roll back",
+      "zh": "回退"
+    },
+    "action.run": {
+      "en": "Run",
+      "zh": "运行"
+    },
+    "action.stop": {
+      "en": "Stop",
+      "zh": "停止"
+    },
+    "body.clientCode": {
+      "en": "Client",
+      "zh": "Client"
+    },
+    "body.copied": {
+      "en": "Copied",
+      "zh": "已复制"
+    },
+    "body.copy": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "body.hostCode": {
+      "en": "Host",
+      "zh": "Host"
+    },
+    "body.output": {
+      "en": "Result",
+      "zh": "结果"
+    },
+    "body.source": {
+      "en": "Plugin source",
+      "zh": "插件代码"
+    },
+    "panel.approvals.aria": {
+      "en": "Cordis approvals",
+      "zh": "Cordis 审批"
+    },
+    "panel.current": {
+      "en": "Current: {packageId}",
+      "zh": "当前：{packageId}"
+    },
+    "panel.empty": {
+      "en": "No plugins defined yet",
+      "zh": "还没有定义任何插件"
+    },
+    "panel.group.current": {
+      "en": "This session",
+      "zh": "当前会话"
+    },
+    "panel.group.others": {
+      "en": "Other sessions",
+      "zh": "其他会话"
+    },
+    "panel.hint": {
+      "en": "Run controls live in the Cordis panel above Settings",
+      "zh": "运行控制在左下角设置上方的 Cordis 面板"
+    },
+    "panel.loading": {
+      "en": "Reading…",
+      "zh": "读取中…"
+    },
+    "panel.next": {
+      "en": "Next: {packageId}",
+      "zh": "待切换：{packageId}"
+    },
+    "panel.plugins.aria": {
+      "en": "Cordis plugins",
+      "zh": "Cordis 插件"
+    },
+    "panel.readFailed": {
+      "en": "Reading the plugin inventory failed: {message}",
+      "zh": "读取插件清单失败：{message}"
+    },
+    "panel.runningCount": {
+      "en": "{count} running",
+      "zh": "{count} running"
+    },
+    "panel.title": {
+      "en": "Cordis plugins",
+      "zh": "Cordis 插件"
+    },
+    "panel.trigger": {
+      "en": "Cordis Plugin",
+      "zh": "Cordis Plugin"
+    },
+    "panel.version": {
+      "en": "Version",
+      "zh": "版本"
+    },
+    "purpose.missing": {
+      "en": "(no purpose given)",
+      "zh": "(未填写用途)"
+    },
+    "render.failedAbdicated": {
+      "en": "Rendering failed in {slot}; the default UI was restored:",
+      "zh": "{slot} 渲染失败，已恢复默认界面："
+    },
+    "render.failedHeld": {
+      "en": "Rendering failed in {slot}:",
+      "zh": "{slot} 渲染失败："
+    },
+    "row.defineTitle": {
+      "en": "Register Cordis Plugin",
+      "zh": "注册 Cordis 插件"
+    },
+    "row.removeTitle": {
+      "en": "Remove Cordis Plugin",
+      "zh": "移除 Cordis 插件"
+    },
+    "row.runTitle": {
+      "en": "Run Cordis Plugin",
+      "zh": "运行 Cordis 插件"
+    },
+    "row.stopTitle": {
+      "en": "Stop Cordis Plugin",
+      "zh": "停止 Cordis 插件"
+    },
+    "row.updateTitle": {
+      "en": "Update Cordis Plugin",
+      "zh": "更新 Cordis 插件"
+    },
+    "run.removed": {
+      "en": "This package no longer exists",
+      "zh": "包已不存在"
+    },
+    "run.superseded": {
+      "en": "A newer run card is available below",
+      "zh": "已有更新的运行卡片，请查看下方"
+    },
+    "status.awaitingApproval": {
+      "en": "Awaiting approval",
+      "zh": "待审批"
+    },
+    "status.clientPending": {
+      "en": "Client ready to activate",
+      "zh": "Client 待激活"
+    },
+    "status.failed": {
+      "en": "Run failed",
+      "zh": "运行失败"
+    },
+    "status.idle": {
+      "en": "Ready",
+      "zh": "待激活"
+    },
+    "status.removed": {
+      "en": "Removed",
+      "zh": "已移除"
+    },
+    "status.running": {
+      "en": "Running",
+      "zh": "运行中"
+    },
+    "status.superseded": {
+      "en": "Newer run available",
+      "zh": "已有更新"
+    }
+  }
+}

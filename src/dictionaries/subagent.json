@@ -1,0 +1,203 @@
+{
+  "ns": "subagent",
+  "pkg": "dsh-client-ui-subagent",
+  "tr": {
+    "activity.completed": "tamamlandı",
+    "activity.inactive": "çalışmıyor",
+    "activity.running": "çalışıyor",
+    "branch.collapse": "{label} alt öğelerini daralt",
+    "branch.expand": "{label} alt öğelerini genişlet",
+    "count.running.one": "{count} alt ajan çalışıyor",
+    "count.running.other": "{count} alt ajan çalışıyor",
+    "count.total.one": "{count} alt ajan",
+    "count.total.other": "{count} alt ajan",
+    "duration.days": "{days}g",
+    "duration.daysHours": "{days}g {hours}sa",
+    "duration.exactDays": "{days}g {hours}sa {minutes}dk {seconds}sn",
+    "duration.exactTitle": "Toplam etkin süre: {duration}",
+    "duration.hours": "{hours}sa {minutes}dk {seconds}sn",
+    "duration.minutes": "{minutes}dk {seconds}sn",
+    "duration.months": "~{months} ay",
+    "duration.monthsDays": "~{months} ay {days}g",
+    "duration.seconds": "{seconds}sn",
+    "duration.years": "~{years} yıl",
+    "duration.yearsMonths": "~{years} yıl {months} ay",
+    "load.error": "Alt ajanlar yüklenemiyor",
+    "loading.label": "Alt ajanlar yükleniyor…",
+    "mode.continuable": "sürdürülebilir",
+    "mode.oneShot": "tek seferlik",
+    "mode.unknown": "bilinmeyen mod",
+    "open.sidebar": "Kenar çubuğunda aç",
+    "open.sidebar.aria": "{label} öğesini kenar çubuğunda aç",
+    "readonly.body": "Üst oturum çevrimdışı; mesaj göndermeye devam etmek için oturumu yeniden açın.",
+    "readonly.oneShot.body": "Tek seferlik görevler sonraki mesajları kabul etmez; tüm yürütme kaydını buradan inceleyebilirsiniz.",
+    "readonly.oneShot.title": "Tek seferlik alt ajan kaydı",
+    "readonly.title": "Bu alt ajan şimdilik salt okunur",
+    "readonly.unknown.body": "Sürdürülüp sürdürülemeyeceğini belirlemek için alt oturumu okuyun.",
+    "retry": "Yeniden dene",
+    "sidebar.chat": "Sohbet",
+    "switcher.aria": "Alt ajanı değiştir: {title}",
+    "tokens.million": "{value}M",
+    "tokens.thousand": "{value}K",
+    "tokens.total": "{value} tok",
+    "tree.aria": "Alt ajan oturumları"
+  },
+  "rows": {
+    "activity.completed": {
+      "en": "completed",
+      "zh": "已完成"
+    },
+    "activity.inactive": {
+      "en": "not running",
+      "zh": "当前未运行"
+    },
+    "activity.running": {
+      "en": "running",
+      "zh": "正在运行"
+    },
+    "branch.collapse": {
+      "en": "Collapse {label} descendants",
+      "zh": "收起 {label} 的下级子智能体"
+    },
+    "branch.expand": {
+      "en": "Expand {label} descendants",
+      "zh": "展开 {label} 的下级子智能体"
+    },
+    "count.running.one": {
+      "en": "{count} subagent running",
+      "zh": "{count} 个子智能体，正在运行"
+    },
+    "count.running.other": {
+      "en": "{count} subagents running",
+      "zh": "{count} 个子智能体，正在运行"
+    },
+    "count.total.one": {
+      "en": "{count} subagent",
+      "zh": "{count} 个子智能体"
+    },
+    "count.total.other": {
+      "en": "{count} subagents",
+      "zh": "{count} 个子智能体"
+    },
+    "duration.days": {
+      "en": "{days}d",
+      "zh": "{days}天"
+    },
+    "duration.daysHours": {
+      "en": "{days}d {hours}h",
+      "zh": "{days}天{hours}小时"
+    },
+    "duration.exactDays": {
+      "en": "{days}d {hours}h {minutes}m {seconds}s",
+      "zh": "{days}天{hours}小时{minutes}分{seconds}秒"
+    },
+    "duration.exactTitle": {
+      "en": "Total active duration: {duration}",
+      "zh": "总活跃耗时：{duration}"
+    },
+    "duration.hours": {
+      "en": "{hours}h {minutes}m {seconds}s",
+      "zh": "{hours}小时{minutes}分{seconds}秒"
+    },
+    "duration.minutes": {
+      "en": "{minutes}m {seconds}s",
+      "zh": "{minutes}分{seconds}秒"
+    },
+    "duration.months": {
+      "en": "~{months}mo",
+      "zh": "约{months}个月"
+    },
+    "duration.monthsDays": {
+      "en": "~{months}mo {days}d",
+      "zh": "约{months}个月{days}天"
+    },
+    "duration.seconds": {
+      "en": "{seconds}s",
+      "zh": "{seconds}秒"
+    },
+    "duration.years": {
+      "en": "~{years}y",
+      "zh": "约{years}年"
+    },
+    "duration.yearsMonths": {
+      "en": "~{years}y {months}mo",
+      "zh": "约{years}年{months}个月"
+    },
+    "load.error": {
+      "en": "Unable to load subagents",
+      "zh": "无法加载子智能体"
+    },
+    "loading.label": {
+      "en": "Loading subagents…",
+      "zh": "正在加载子智能体…"
+    },
+    "mode.continuable": {
+      "en": "continuable",
+      "zh": "可继续"
+    },
+    "mode.oneShot": {
+      "en": "one-shot",
+      "zh": "一次性"
+    },
+    "mode.unknown": {
+      "en": "unknown mode",
+      "zh": "模式未知"
+    },
+    "open.sidebar": {
+      "en": "Open in sidebar",
+      "zh": "在侧边栏打开"
+    },
+    "open.sidebar.aria": {
+      "en": "Open {label} in sidebar",
+      "zh": "在侧边栏打开 {label}"
+    },
+    "readonly.body": {
+      "en": "The parent session is offline; reopen it to continue sending messages.",
+      "zh": "父会话当前不在线，重新打开父会话后即可继续发送消息。"
+    },
+    "readonly.oneShot.body": {
+      "en": "One-shot tasks do not accept follow-ups; review the full execution record here.",
+      "zh": "一次性任务不支持后续消息，可在这里查看完整执行记录。"
+    },
+    "readonly.oneShot.title": {
+      "en": "One-shot subagent record",
+      "zh": "一次性子智能体记录"
+    },
+    "readonly.title": {
+      "en": "This subagent is read-only for now",
+      "zh": "此子智能体暂时只读"
+    },
+    "readonly.unknown.body": {
+      "en": "Read the child session to determine whether it can be continued.",
+      "zh": "读取子会话后才能确定是否可继续。"
+    },
+    "retry": {
+      "en": "Retry",
+      "zh": "重试"
+    },
+    "sidebar.chat": {
+      "en": "Chat",
+      "zh": "聊天"
+    },
+    "switcher.aria": {
+      "en": "Switch subagent: {title}",
+      "zh": "切换子智能体：{title}"
+    },
+    "tokens.million": {
+      "en": "{value}M",
+      "zh": "{value}M"
+    },
+    "tokens.thousand": {
+      "en": "{value}K",
+      "zh": "{value}K"
+    },
+    "tokens.total": {
+      "en": "{value} tok",
+      "zh": "{value} tok"
+    },
+    "tree.aria": {
+      "en": "Subagent sessions",
+      "zh": "子智能体会话"
+    }
+  }
+}

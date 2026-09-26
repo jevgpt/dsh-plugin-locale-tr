@@ -1,0 +1,968 @@
+{
+  "ns": "trajectory",
+  "pkg": "dsh-client-ui-trajectory",
+  "tr": {
+    "attachment.imageName": "Görsel {index}",
+    "attachment.list": "Ekler",
+    "block.label": "Blok #{index} {type}",
+    "block.openSummary": "Blok #{index} araç çağrısı özetini aç",
+    "block.openSummaryTitle": "Araç çağrısı özetini aç",
+    "code.copyOutput": "Çıktıyı kopyala",
+    "code.copySource": "Kodu kopyala",
+    "code.originalJson": "Özgün JSON",
+    "code.output": "Çıktı",
+    "code.running": "Çalışıyor…",
+    "code.source": "Kod",
+    "column.input": "Girdi",
+    "column.model": "Model",
+    "column.output": "Çıktı",
+    "column.think": "Düşünme",
+    "column.time": "Zaman",
+    "column.tools": "Araçlar",
+    "details.assistantMessage": "Asistan mesajı",
+    "details.close": "Ayrıntıları kapat",
+    "details.compacted": "Sıkıştırıldı",
+    "details.error": "Hata",
+    "details.event": "Olay ayrıntıları",
+    "details.failure.auth": "API anahtarı geçersiz",
+    "details.hierarchy": "Hiyerarşi",
+    "details.model": "Model",
+    "details.provider": "Sağlayıcı",
+    "details.purpose": "Amaç",
+    "details.resize": "Olay ayrıntılarını yeniden boyutlandır",
+    "details.resizeTitle": "Yeniden boyutlandırmak için sürükleyin. Sıfırlamak için çift tıklayın.",
+    "details.result": "Sonuç",
+    "details.retry": "Yeniden dene",
+    "details.retryDelay": "Yeniden deneme gecikmesi",
+    "details.scheduled": "Planlandı",
+    "details.source": "Kaynak",
+    "details.status": "Durum",
+    "details.subtoolCalls": "Alt araç çağrıları",
+    "details.toolCall": "Araç çağrısı",
+    "details.toolCalls": "Araç çağrıları",
+    "group.compaction": "Sıkıştırma {seq}",
+    "group.message": "Mesaj",
+    "group.step": "Adım {step}",
+    "history.clickToLoadEarlier": "Daha eski geçmişi yüklemek için tıklayın",
+    "history.loadEarlier": "Daha eski geçmişi yükle",
+    "history.loadingEarlier": "Daha eski geçmiş yükleniyor…",
+    "history.loadingEarlierAria": "Daha eski geçmiş yükleniyor…",
+    "history.loadingTrajectory": "Yörünge yükleniyor…",
+    "kind.assistant": "ASİSTAN",
+    "kind.compacted": "SIKIŞTIRILDI",
+    "kind.context": "BAĞLAM",
+    "kind.message": "Mesaj",
+    "kind.sub": "Alt",
+    "kind.subtool": "ALT ARAÇ",
+    "kind.system": "SİSTEM",
+    "kind.tool": "ARAÇ",
+    "kind.user": "KULLANICI",
+    "layout.compacted": "Bağlam sıkıştırıldı",
+    "layout.compacting": "Bağlam sıkıştırılıyor…",
+    "layout.compactionFailed": "Sıkıştırma başarısız",
+    "layout.compactionInterrupted": "Sıkıştırma tamamlanmadan kesintiye uğradı.",
+    "layout.fileAttachments": "Dosyalar ×{count}",
+    "layout.imageCount": "Görseller ×{count}",
+    "layout.initialSystemPrompt": "Başlangıç Sistem İstemi",
+    "layout.systemPromptAndToolsUpdated": "Sistem İstemi ve Araçlar Güncellendi",
+    "layout.systemPromptUpdated": "Sistem İstemi Güncellendi",
+    "layout.toolAdded": "Araç eklendi: {name}",
+    "layout.toolCallOnly": "Yalnızca araç çağrısı",
+    "layout.toolRemoved": "Araç kaldırıldı: {name}",
+    "layout.toolUpdateNotice": "Araçlar güncellendi",
+    "layout.toolsAdded": "Eklenen: {names}",
+    "layout.toolsAddedCount": "{count} eklendi",
+    "layout.toolsChanged": "{added} eklendi, {removed} kaldırıldı",
+    "layout.toolsRemoved": "Kaldırılan: {names}",
+    "layout.toolsRemovedCount": "{count} kaldırıldı",
+    "layout.toolsUpdated": "Araçlar Güncellendi",
+    "options.json": "İstek seçenekleri JSON",
+    "options.notRecorded": "Seçenekler kaydedilmedi",
+    "record.json": "JSON",
+    "record.namedParametersJson": "{name} parametreleri JSON",
+    "record.noContent": "İçerik yok",
+    "record.noOutput": "Çıktı yok",
+    "record.noPayload": "Yük yakalanmadı",
+    "record.noResult": "Sonuç yakalanmadı",
+    "record.outputJson": "Sonuç JSON",
+    "record.parameters": "Parametreler",
+    "record.parametersJson": "parametreler JSON",
+    "record.payloadJson": "Yük JSON",
+    "record.resultJson": "Sonuç JSON",
+    "record.schemaUnavailable": "Şema kullanılamıyor",
+    "record.systemPrompt": "Sistem istemi",
+    "record.systemPromptMissing": "Bu istekte sistem istemi yok",
+    "record.thinking": "Düşünme",
+    "record.toolCallOnly": "(yalnızca araç çağrısı)",
+    "record.tools": "Araçlar",
+    "record.toolsMissing": "Bu istekte araç yok",
+    "record.wrapLines": "Satırları kaydır",
+    "request.collapsedAssistant": "asistan",
+    "request.collapsedSummary": "Daraltılmış {kind} özeti, {summary}",
+    "request.collapsedTurn": "tur",
+    "request.compaction": "Sıkıştırma · {section}",
+    "request.compactionPurpose": "Sıkıştırma",
+    "request.label": "İstek #{request}",
+    "request.labelCompaction": "İstek #{request} · Sıkıştırma",
+    "request.noContent": "içerik yok",
+    "request.retryProgress": "Deneme {retry}/{maximum}",
+    "request.rowAria": "{request}{kind}, {content}",
+    "request.rowAriaCompaction": "İstek {request}, sıkıştırma",
+    "request.rowPrefix": "İstek {request}, ",
+    "section.betweenTurns": "Turlar arası",
+    "source.goal": "Hedef",
+    "source.goalRound": "Hedef · Tur {round}",
+    "source.messageJson": "Mesaj kaynağı JSON",
+    "source.notRecorded": "Kaynak kaydedilmedi",
+    "source.plugin": "Eklenti",
+    "source.pluginNamed": "Eklenti · {plugin}",
+    "source.unknown": "Bilinmiyor",
+    "source.user": "Kullanıcı",
+    "status.completed": "Tamamlandı",
+    "status.failed": "Başarısız",
+    "status.pending": "Bekliyor",
+    "summary.steps.one": "{count} adım",
+    "summary.steps.other": "{count} adım",
+    "summary.toolCalls.one": "{count} araç çağrısı",
+    "summary.toolCalls.other": "{count} araç çağrısı",
+    "tab.diff": "Fark",
+    "tab.options": "Seçenekler",
+    "tab.payload": "Yük",
+    "tab.preview": "Önizleme",
+    "tab.raw": "Ham",
+    "tab.rawOutput": "Ham çıktı",
+    "tab.result": "Sonuç",
+    "tab.schema": "Şema",
+    "tab.source": "Kaynak",
+    "tab.summary": "Özet",
+    "tab.systemPrompt": "Sistem istemi",
+    "tab.timing": "Zamanlama",
+    "tab.tools": "Araçlar",
+    "tab.usage": "Kullanım",
+    "timeline.aria": "Yörünge zaman çizelgesi",
+    "timeline.noTimingData": "Zamanlama verisi yok",
+    "timeline.overviewAria": "Zaman çizelgesi genel görünümü; olaylara odaklanmak için yatay sürükleyin",
+    "timeline.started": "Başlangıç {time}",
+    "timeline.total": "Toplam {duration}",
+    "timeline.ttftDecoding": "TTFT {ttft} · Çözümleme {decoding}",
+    "timing.duration": "Süre",
+    "timing.durationTooShort": "Süre çok kısa",
+    "timing.firstTokenUnavailable": "İlk token kullanılamıyor",
+    "timing.generation": "Üretim",
+    "timing.notAvailable": "Kullanılamıyor",
+    "timing.notRecorded": "Kaydedilmedi",
+    "timing.outputTokensUnavailable": "Çıktı tokenları kullanılamıyor",
+    "timing.request": "İstek zamanlaması",
+    "timing.sessionTimestamps": "Oturum zaman damgaları",
+    "timing.sessionTimestampsRunning": "Oturum zaman damgaları (çalışıyor)",
+    "timing.showLocalTime": "Yerel saati göster",
+    "timing.showUnixTimestamp": "Unix zaman damgasını göster",
+    "timing.source": "Zamanlama kaynağı",
+    "timing.started": "Başlangıç",
+    "timing.stepStartUnavailable": "Adım başlangıcı kullanılamıyor",
+    "timing.throughput": "İşlem hızı",
+    "timing.totalDuration": "Toplam süre",
+    "timing.ttft": "TTFT",
+    "timing.usageUnavailable": "Kullanım verisi yok",
+    "toolbar.actualTime": "Gerçek zaman",
+    "toolbar.aria": "Yörünge araç çubuğu",
+    "toolbar.calls": "Çağrı",
+    "toolbar.collapseCalls": "Çağrıları daralt",
+    "toolbar.collapseTurns": "Turları daralt",
+    "toolbar.duration": "Süre",
+    "toolbar.expandCalls": "Çağrıları genişlet",
+    "toolbar.expandTurns": "Turları genişlet",
+    "toolbar.search": "Yörüngede ara",
+    "toolbar.searchPlaceholder": "Ara",
+    "toolbar.turns": "Tur",
+    "toolbar.useActualDuration": "Gerçek süreyi kullan",
+    "toolbar.useEqualWidth": "Eşit genişlikte işlemler kullan",
+    "turn.label": "Tur {turn}",
+    "unit.milliseconds": "{value} ms",
+    "unit.seconds": "{value} sn",
+    "unit.tokens": "{value} tok",
+    "unit.tokensPerSecond": "{value} tok/s",
+    "usage.cacheCreated": "Önbelleğe yazılan",
+    "usage.cached": "Önbellekten okunan",
+    "usage.content": "İçerik",
+    "usage.input": "Girdi",
+    "usage.notReported": "Kullanım bildirilmedi",
+    "usage.other": "Diğer",
+    "usage.output": "Çıktı",
+    "usage.reasoning": "Akıl yürütme",
+    "usage.sessionCumulative": "Oturum toplamı",
+    "usage.thisRequest": "Bu istek",
+    "usage.tokens": "Token",
+    "view.trajectory": "Yörünge"
+  },
+  "rows": {
+    "attachment.imageName": {
+      "en": "Image {index}",
+      "zh": "图片 {index}"
+    },
+    "attachment.list": {
+      "en": "Attachments",
+      "zh": "附件"
+    },
+    "block.label": {
+      "en": "Block #{index} {type}",
+      "zh": "块 #{index} {type}"
+    },
+    "block.openSummary": {
+      "en": "Open Block #{index} tool call summary",
+      "zh": "打开第 {index} 个块的工具调用概述"
+    },
+    "block.openSummaryTitle": {
+      "en": "Open tool call summary",
+      "zh": "打开工具调用概述"
+    },
+    "code.copyOutput": {
+      "en": "Copy output",
+      "zh": "复制输出"
+    },
+    "code.copySource": {
+      "en": "Copy code",
+      "zh": "复制代码"
+    },
+    "code.originalJson": {
+      "en": "Original JSON",
+      "zh": "原始 JSON"
+    },
+    "code.output": {
+      "en": "Output",
+      "zh": "输出"
+    },
+    "code.running": {
+      "en": "Running…",
+      "zh": "执行中…"
+    },
+    "code.source": {
+      "en": "Code",
+      "zh": "代码"
+    },
+    "column.input": {
+      "en": "Input",
+      "zh": "输入"
+    },
+    "column.model": {
+      "en": "Model",
+      "zh": "模型"
+    },
+    "column.output": {
+      "en": "Output",
+      "zh": "输出"
+    },
+    "column.think": {
+      "en": "Think",
+      "zh": "思考"
+    },
+    "column.time": {
+      "en": "Time",
+      "zh": "时间"
+    },
+    "column.tools": {
+      "en": "Tools",
+      "zh": "工具"
+    },
+    "details.assistantMessage": {
+      "en": "Assistant Message",
+      "zh": "助手消息"
+    },
+    "details.close": {
+      "en": "Close details",
+      "zh": "关闭详情"
+    },
+    "details.compacted": {
+      "en": "Compacted",
+      "zh": "已压缩"
+    },
+    "details.error": {
+      "en": "Error",
+      "zh": "错误"
+    },
+    "details.event": {
+      "en": "Event details",
+      "zh": "事件详情"
+    },
+    "details.failure.auth": {
+      "en": "API key is invalid",
+      "zh": "API 密钥无效"
+    },
+    "details.hierarchy": {
+      "en": "Hierarchy",
+      "zh": "层级"
+    },
+    "details.model": {
+      "en": "Model",
+      "zh": "模型"
+    },
+    "details.provider": {
+      "en": "Provider",
+      "zh": "提供方"
+    },
+    "details.purpose": {
+      "en": "Purpose",
+      "zh": "用途"
+    },
+    "details.resize": {
+      "en": "Resize event details",
+      "zh": "调整事件详情宽度"
+    },
+    "details.resizeTitle": {
+      "en": "Drag to resize. Double-click to reset.",
+      "zh": "拖动调整大小；双击恢复默认值。"
+    },
+    "details.result": {
+      "en": "Result",
+      "zh": "结果"
+    },
+    "details.retry": {
+      "en": "Retry",
+      "zh": "重试"
+    },
+    "details.retryDelay": {
+      "en": "Retry delay",
+      "zh": "重试延迟"
+    },
+    "details.scheduled": {
+      "en": "Scheduled",
+      "zh": "已计划"
+    },
+    "details.source": {
+      "en": "Source",
+      "zh": "来源"
+    },
+    "details.status": {
+      "en": "Status",
+      "zh": "状态"
+    },
+    "details.subtoolCalls": {
+      "en": "Subtool calls",
+      "zh": "子工具调用"
+    },
+    "details.toolCall": {
+      "en": "Tool Call",
+      "zh": "工具调用"
+    },
+    "details.toolCalls": {
+      "en": "Tool calls",
+      "zh": "工具调用"
+    },
+    "group.compaction": {
+      "en": "Compaction {seq}",
+      "zh": "压缩 {seq}"
+    },
+    "group.message": {
+      "en": "Message",
+      "zh": "消息"
+    },
+    "group.step": {
+      "en": "Step {step}",
+      "zh": "第 {step} 步"
+    },
+    "history.clickToLoadEarlier": {
+      "en": "Click to load earlier history",
+      "zh": "点击加载更早的历史"
+    },
+    "history.loadEarlier": {
+      "en": "Load earlier history",
+      "zh": "加载更早的历史"
+    },
+    "history.loadingEarlier": {
+      "en": "Loading earlier history…",
+      "zh": "正在加载更早的历史…"
+    },
+    "history.loadingEarlierAria": {
+      "en": "Loading earlier history…",
+      "zh": "正在加载更早的历史…"
+    },
+    "history.loadingTrajectory": {
+      "en": "Loading trajectory…",
+      "zh": "正在加载轨迹…"
+    },
+    "kind.assistant": {
+      "en": "ASSISTANT",
+      "zh": "助手"
+    },
+    "kind.compacted": {
+      "en": "COMPACTED",
+      "zh": "已压缩"
+    },
+    "kind.context": {
+      "en": "CONTEXT",
+      "zh": "上下文"
+    },
+    "kind.message": {
+      "en": "Message",
+      "zh": "消息"
+    },
+    "kind.sub": {
+      "en": "Sub",
+      "zh": "子项"
+    },
+    "kind.subtool": {
+      "en": "SUBTOOL",
+      "zh": "子工具"
+    },
+    "kind.system": {
+      "en": "SYSTEM",
+      "zh": "系统"
+    },
+    "kind.tool": {
+      "en": "TOOL",
+      "zh": "工具"
+    },
+    "kind.user": {
+      "en": "USER",
+      "zh": "用户"
+    },
+    "layout.compacted": {
+      "en": "Context compacted",
+      "zh": "上下文已压缩"
+    },
+    "layout.compacting": {
+      "en": "Compacting context…",
+      "zh": "正在压缩上下文…"
+    },
+    "layout.compactionFailed": {
+      "en": "Compaction failed",
+      "zh": "上下文压缩失败"
+    },
+    "layout.compactionInterrupted": {
+      "en": "Compaction was interrupted before completion.",
+      "zh": "上下文压缩在完成前被中断。"
+    },
+    "layout.fileAttachments": {
+      "en": "Files ×{count}",
+      "zh": "文件 ×{count}"
+    },
+    "layout.imageCount": {
+      "en": "Images ×{count}",
+      "zh": "图片 ×{count}"
+    },
+    "layout.initialSystemPrompt": {
+      "en": "Initial System Prompt",
+      "zh": "初始系统提示词"
+    },
+    "layout.systemPromptAndToolsUpdated": {
+      "en": "System Prompt and Tools Updated",
+      "zh": "系统提示词和工具已更新"
+    },
+    "layout.systemPromptUpdated": {
+      "en": "System Prompt Updated",
+      "zh": "系统提示词已更新"
+    },
+    "layout.toolAdded": {
+      "en": "Tool added: {name}",
+      "zh": "已添加工具：{name}"
+    },
+    "layout.toolCallOnly": {
+      "en": "Tool call only",
+      "zh": "仅工具调用"
+    },
+    "layout.toolRemoved": {
+      "en": "Tool removed: {name}",
+      "zh": "已移除工具：{name}"
+    },
+    "layout.toolUpdateNotice": {
+      "en": "Tools updated",
+      "zh": "工具已更新"
+    },
+    "layout.toolsAdded": {
+      "en": "Added: {names}",
+      "zh": "新增：{names}"
+    },
+    "layout.toolsAddedCount": {
+      "en": "{count} added",
+      "zh": "新增 {count} 个"
+    },
+    "layout.toolsChanged": {
+      "en": "{added} added, {removed} removed",
+      "zh": "新增 {added} 个，移除 {removed} 个"
+    },
+    "layout.toolsRemoved": {
+      "en": "Removed: {names}",
+      "zh": "移除：{names}"
+    },
+    "layout.toolsRemovedCount": {
+      "en": "{count} removed",
+      "zh": "移除 {count} 个"
+    },
+    "layout.toolsUpdated": {
+      "en": "Tools Updated",
+      "zh": "工具已更新"
+    },
+    "options.json": {
+      "en": "Request options JSON",
+      "zh": "请求选项 JSON"
+    },
+    "options.notRecorded": {
+      "en": "Options not recorded",
+      "zh": "未记录选项"
+    },
+    "record.json": {
+      "en": "JSON",
+      "zh": "JSON"
+    },
+    "record.namedParametersJson": {
+      "en": "{name} parameters JSON",
+      "zh": "{name} 参数 JSON"
+    },
+    "record.noContent": {
+      "en": "No content",
+      "zh": "无内容"
+    },
+    "record.noOutput": {
+      "en": "No output",
+      "zh": "无输出"
+    },
+    "record.noPayload": {
+      "en": "No payload captured",
+      "zh": "未捕获参数"
+    },
+    "record.noResult": {
+      "en": "No result captured",
+      "zh": "未捕获结果"
+    },
+    "record.outputJson": {
+      "en": "Result JSON",
+      "zh": "结果 JSON"
+    },
+    "record.parameters": {
+      "en": "Parameters",
+      "zh": "参数"
+    },
+    "record.parametersJson": {
+      "en": "parameters JSON",
+      "zh": "参数 JSON"
+    },
+    "record.payloadJson": {
+      "en": "Payload JSON",
+      "zh": "参数 JSON"
+    },
+    "record.resultJson": {
+      "en": "Result JSON",
+      "zh": "结果 JSON"
+    },
+    "record.schemaUnavailable": {
+      "en": "Schema unavailable",
+      "zh": "Schema 不可用"
+    },
+    "record.systemPrompt": {
+      "en": "System Prompt",
+      "zh": "系统提示词"
+    },
+    "record.systemPromptMissing": {
+      "en": "No system prompt in this request",
+      "zh": "本次请求没有系统提示词"
+    },
+    "record.thinking": {
+      "en": "Thinking",
+      "zh": "思考"
+    },
+    "record.toolCallOnly": {
+      "en": "(tool call only)",
+      "zh": "（仅工具调用）"
+    },
+    "record.tools": {
+      "en": "Tools",
+      "zh": "工具"
+    },
+    "record.toolsMissing": {
+      "en": "No tools in this request",
+      "zh": "本次请求没有工具"
+    },
+    "record.wrapLines": {
+      "en": "Wrap lines",
+      "zh": "自动换行"
+    },
+    "request.collapsedAssistant": {
+      "en": "assistant",
+      "zh": "助手"
+    },
+    "request.collapsedSummary": {
+      "en": "Collapsed {kind} summary, {summary}",
+      "zh": "已收起的{kind}概述，{summary}"
+    },
+    "request.collapsedTurn": {
+      "en": "turn",
+      "zh": "轮次"
+    },
+    "request.compaction": {
+      "en": "Compaction · {section}",
+      "zh": "压缩 · {section}"
+    },
+    "request.compactionPurpose": {
+      "en": "Compaction",
+      "zh": "压缩"
+    },
+    "request.label": {
+      "en": "Request #{request}",
+      "zh": "请求 #{request}"
+    },
+    "request.labelCompaction": {
+      "en": "Request #{request} · Compaction",
+      "zh": "请求 #{request} · 压缩"
+    },
+    "request.noContent": {
+      "en": "no content",
+      "zh": "无内容"
+    },
+    "request.retryProgress": {
+      "en": "{retry} of {maximum}",
+      "zh": "{retry}/{maximum}"
+    },
+    "request.rowAria": {
+      "en": "{request}{kind}, {content}",
+      "zh": "{request}{kind}，{content}"
+    },
+    "request.rowAriaCompaction": {
+      "en": "Request {request}, compaction",
+      "zh": "请求 {request}，压缩"
+    },
+    "request.rowPrefix": {
+      "en": "Request {request}, ",
+      "zh": "请求 {request}，"
+    },
+    "section.betweenTurns": {
+      "en": "Between turns",
+      "zh": "轮次之间"
+    },
+    "source.goal": {
+      "en": "Goal",
+      "zh": "目标"
+    },
+    "source.goalRound": {
+      "en": "Goal · Round {round}",
+      "zh": "目标 · Round {round}"
+    },
+    "source.messageJson": {
+      "en": "Message source JSON",
+      "zh": "消息来源 JSON"
+    },
+    "source.notRecorded": {
+      "en": "Source not recorded",
+      "zh": "未记录来源"
+    },
+    "source.plugin": {
+      "en": "Plugin",
+      "zh": "插件"
+    },
+    "source.pluginNamed": {
+      "en": "Plugin · {plugin}",
+      "zh": "插件 · {plugin}"
+    },
+    "source.unknown": {
+      "en": "Unknown",
+      "zh": "未知"
+    },
+    "source.user": {
+      "en": "User",
+      "zh": "用户"
+    },
+    "status.completed": {
+      "en": "Completed",
+      "zh": "已完成"
+    },
+    "status.failed": {
+      "en": "Failed",
+      "zh": "失败"
+    },
+    "status.pending": {
+      "en": "Pending",
+      "zh": "等待中"
+    },
+    "summary.steps.one": {
+      "en": "{count} step",
+      "zh": "{count} 个步骤"
+    },
+    "summary.steps.other": {
+      "en": "{count} steps",
+      "zh": "{count} 个步骤"
+    },
+    "summary.toolCalls.one": {
+      "en": "{count} tool call",
+      "zh": "{count} 个工具调用"
+    },
+    "summary.toolCalls.other": {
+      "en": "{count} tool calls",
+      "zh": "{count} 个工具调用"
+    },
+    "tab.diff": {
+      "en": "Diff",
+      "zh": "差异"
+    },
+    "tab.options": {
+      "en": "Options",
+      "zh": "选项"
+    },
+    "tab.payload": {
+      "en": "Payload",
+      "zh": "参数"
+    },
+    "tab.preview": {
+      "en": "Preview",
+      "zh": "预览"
+    },
+    "tab.raw": {
+      "en": "Raw",
+      "zh": "原始内容"
+    },
+    "tab.rawOutput": {
+      "en": "Raw Output",
+      "zh": "原始输出"
+    },
+    "tab.result": {
+      "en": "Result",
+      "zh": "结果"
+    },
+    "tab.schema": {
+      "en": "Schema",
+      "zh": "Schema"
+    },
+    "tab.source": {
+      "en": "Source",
+      "zh": "来源"
+    },
+    "tab.summary": {
+      "en": "Summary",
+      "zh": "概述"
+    },
+    "tab.systemPrompt": {
+      "en": "System Prompt",
+      "zh": "系统提示词"
+    },
+    "tab.timing": {
+      "en": "Timing",
+      "zh": "计时"
+    },
+    "tab.tools": {
+      "en": "Tools",
+      "zh": "工具"
+    },
+    "tab.usage": {
+      "en": "Usage",
+      "zh": "用量"
+    },
+    "timeline.aria": {
+      "en": "Trajectory timeline",
+      "zh": "轨迹时间线"
+    },
+    "timeline.noTimingData": {
+      "en": "No timing data",
+      "zh": "无计时数据"
+    },
+    "timeline.overviewAria": {
+      "en": "Timeline overview; drag horizontally to focus events",
+      "zh": "时间线概览；水平拖动可聚焦事件"
+    },
+    "timeline.started": {
+      "en": "Started {time}",
+      "zh": "开始于 {time}"
+    },
+    "timeline.total": {
+      "en": "Total {duration}",
+      "zh": "总计 {duration}"
+    },
+    "timeline.ttftDecoding": {
+      "en": "TTFT {ttft} · Decoding {decoding}",
+      "zh": "首 token {ttft} · 解码 {decoding}"
+    },
+    "timing.duration": {
+      "en": "Duration",
+      "zh": "时长"
+    },
+    "timing.durationTooShort": {
+      "en": "Duration too short",
+      "zh": "时长过短"
+    },
+    "timing.firstTokenUnavailable": {
+      "en": "First token unavailable",
+      "zh": "首 token 时间不可用"
+    },
+    "timing.generation": {
+      "en": "Generation",
+      "zh": "生成"
+    },
+    "timing.notAvailable": {
+      "en": "Not available",
+      "zh": "不可用"
+    },
+    "timing.notRecorded": {
+      "en": "Not recorded",
+      "zh": "未记录"
+    },
+    "timing.outputTokensUnavailable": {
+      "en": "Output tokens unavailable",
+      "zh": "输出 token 数不可用"
+    },
+    "timing.request": {
+      "en": "Request Timing",
+      "zh": "请求计时"
+    },
+    "timing.sessionTimestamps": {
+      "en": "Session timestamps",
+      "zh": "会话时间戳"
+    },
+    "timing.sessionTimestampsRunning": {
+      "en": "Session timestamps (running)",
+      "zh": "会话时间戳（运行中）"
+    },
+    "timing.showLocalTime": {
+      "en": "Show local time",
+      "zh": "显示本地时间"
+    },
+    "timing.showUnixTimestamp": {
+      "en": "Show Unix timestamp",
+      "zh": "显示 Unix 时间戳"
+    },
+    "timing.source": {
+      "en": "Timing source",
+      "zh": "计时来源"
+    },
+    "timing.started": {
+      "en": "Started",
+      "zh": "开始时间"
+    },
+    "timing.stepStartUnavailable": {
+      "en": "Step start unavailable",
+      "zh": "步骤开始时间不可用"
+    },
+    "timing.throughput": {
+      "en": "Throughput",
+      "zh": "吞吐量"
+    },
+    "timing.totalDuration": {
+      "en": "Total duration",
+      "zh": "总时长"
+    },
+    "timing.ttft": {
+      "en": "TTFT",
+      "zh": "首 token 延迟"
+    },
+    "timing.usageUnavailable": {
+      "en": "Usage unavailable",
+      "zh": "用量不可用"
+    },
+    "toolbar.actualTime": {
+      "en": "Actual time",
+      "zh": "实际时间"
+    },
+    "toolbar.aria": {
+      "en": "Trajectory toolbar",
+      "zh": "轨迹工具栏"
+    },
+    "toolbar.calls": {
+      "en": "Calls",
+      "zh": "调用"
+    },
+    "toolbar.collapseCalls": {
+      "en": "Collapse calls",
+      "zh": "收起所有调用"
+    },
+    "toolbar.collapseTurns": {
+      "en": "Collapse turns",
+      "zh": "收起所有轮次"
+    },
+    "toolbar.duration": {
+      "en": "Duration",
+      "zh": "时长"
+    },
+    "toolbar.expandCalls": {
+      "en": "Expand calls",
+      "zh": "展开所有调用"
+    },
+    "toolbar.expandTurns": {
+      "en": "Expand turns",
+      "zh": "展开所有轮次"
+    },
+    "toolbar.search": {
+      "en": "Search trajectory",
+      "zh": "搜索轨迹"
+    },
+    "toolbar.searchPlaceholder": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "toolbar.turns": {
+      "en": "Turns",
+      "zh": "轮次"
+    },
+    "toolbar.useActualDuration": {
+      "en": "Use actual duration",
+      "zh": "使用实际时长"
+    },
+    "toolbar.useEqualWidth": {
+      "en": "Use equal-width operations",
+      "zh": "使用等宽操作"
+    },
+    "turn.label": {
+      "en": "Turn {turn}",
+      "zh": "第 {turn} 轮"
+    },
+    "unit.milliseconds": {
+      "en": "{value} ms",
+      "zh": "{value} 毫秒"
+    },
+    "unit.seconds": {
+      "en": "{value} s",
+      "zh": "{value} 秒"
+    },
+    "unit.tokens": {
+      "en": "{value} tok",
+      "zh": "{value} tok"
+    },
+    "unit.tokensPerSecond": {
+      "en": "{value} tok/s",
+      "zh": "{value} tok/s"
+    },
+    "usage.cacheCreated": {
+      "en": "Cache created",
+      "zh": "缓存写入"
+    },
+    "usage.cached": {
+      "en": "Cached",
+      "zh": "缓存读取"
+    },
+    "usage.content": {
+      "en": "Content",
+      "zh": "内容"
+    },
+    "usage.input": {
+      "en": "Input",
+      "zh": "输入"
+    },
+    "usage.notReported": {
+      "en": "Usage not reported",
+      "zh": "未报告用量"
+    },
+    "usage.other": {
+      "en": "Other",
+      "zh": "其他"
+    },
+    "usage.output": {
+      "en": "Output",
+      "zh": "输出"
+    },
+    "usage.reasoning": {
+      "en": "Reasoning",
+      "zh": "推理"
+    },
+    "usage.sessionCumulative": {
+      "en": "Session cumulative",
+      "zh": "会话累计"
+    },
+    "usage.thisRequest": {
+      "en": "This request",
+      "zh": "本次请求"
+    },
+    "usage.tokens": {
+      "en": "Tokens",
+      "zh": "Token"
+    },
+    "view.trajectory": {
+      "en": "Trajectory",
+      "zh": "轨迹"
+    }
+  }
+}

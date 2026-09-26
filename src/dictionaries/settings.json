@@ -1,0 +1,178 @@
+{
+  "ns": "settings",
+  "pkg": "dsh-client-ui-settings-general",
+  "tr": {
+    "close": "Kapat",
+    "connection.connected": "Bağlandı",
+    "connection.connecting": "Yeniden bağlanıyor",
+    "connection.error": "Bağlantı kesildi",
+    "connection.reconnect": "Bağlantı kesildi, hemen yeniden bağlan",
+    "connection.restart": "Yeniden bağlanıyor, hemen yeniden bağlan",
+    "desktop.update.available": "Güncelle",
+    "desktop.update.checkFailed": "Güncellemeler denetlenemedi. Lütfen daha sonra yeniden deneyin.",
+    "desktop.update.checkNetworkFailed": "Güncellemeler denetlenemedi. Lütfen daha sonra yeniden deneyin. Bağlantı kesildi. Ağınızı kontrol edip yeniden deneyin.",
+    "desktop.update.checking": "Güncellemeler denetleniyor…",
+    "desktop.update.downloadDetail": "Güncelleme indiriliyor: {percent}%\nHedef sürüm: V{version}",
+    "desktop.update.downloadFailed": "Güncelleme indirilemedi. Lütfen yeniden deneyin.",
+    "desktop.update.downloadNetworkFailed": "Güncelleme indirilemedi. Lütfen yeniden deneyin. Bağlantı kesildi. Ağınızı kontrol edip yeniden deneyin.",
+    "desktop.update.installFailed": "Güncelleme yüklenemedi. Lütfen daha sonra yeniden deneyin.",
+    "desktop.update.installNetworkFailed": "Güncelleme yüklenemedi. Lütfen daha sonra yeniden deneyin. Bağlantı kesildi. Ağınızı kontrol edip yeniden deneyin.",
+    "desktop.update.installing": "Yeniden başlatmaya hazırlanıyor…",
+    "desktop.update.progress": "{percent}%",
+    "desktop.update.ready": "Yükle ve Yeniden Başlat",
+    "desktop.update.retry": "Güncellemeyi yeniden dene",
+    "desktop.update.stopFailed": "Görevler güvenli şekilde durdurulamadı. Güncelleme yüklenmedi. Lütfen daha sonra yeniden deneyin.",
+    "desktop.update.tasksChanged": "Yeni görevler başladı. Güncelleme onayını yeniden inceleyin.",
+    "desktop.update.tasksUnavailable": "Görev durumu kullanılamıyor. Çalışma alanı hazır olduğunda güncellemeyi yeniden deneyin.",
+    "desktop.update.verifying": "Güncelleme dosyaları doğrulanıyor…",
+    "desktop.update.versionDetail": "{label} — V{version}",
+    "developerTools.description": "Yeni sohbetlerde yörüngeyi, kod farklarını ve Ajan ön ayarı geçişini gösterir",
+    "developerTools.error": "Kaydedilemedi. Lütfen yeniden deneyin.",
+    "developerTools.title": "Kodlama Araçları",
+    "general.currentVersion": "Geçerli sürüm: {version}",
+    "general.nav": "Genel",
+    "openDocument": "Yapılandırma dosyasını aç",
+    "openDocument.error": "Yapılandırma dosyası açılamadı",
+    "shortcut.open": "Ayarları aç",
+    "title": "Ayarlar",
+    "trigger": "Ayarlar"
+  },
+  "rows": {
+    "close": {
+      "en": "Close",
+      "zh": "关闭"
+    },
+    "connection.connected": {
+      "en": "Connected",
+      "zh": "连接成功"
+    },
+    "connection.connecting": {
+      "en": "Reconnecting",
+      "zh": "重新连接中"
+    },
+    "connection.error": {
+      "en": "Disconnected",
+      "zh": "连接异常，刷新重试"
+    },
+    "connection.reconnect": {
+      "en": "Disconnected, reconnect now",
+      "zh": "连接异常，点击立即重连"
+    },
+    "connection.restart": {
+      "en": "Reconnecting, reconnect now",
+      "zh": "连接中断，正在重试，点击立即重连"
+    },
+    "desktop.update.available": {
+      "en": "Update",
+      "zh": "新版本"
+    },
+    "desktop.update.checkFailed": {
+      "en": "Could not check for updates. Please try again later.",
+      "zh": "检查更新失败，请稍后重试。"
+    },
+    "desktop.update.checkNetworkFailed": {
+      "en": "Could not check for updates. Please try again later. The connection was interrupted. Check your network and try again.",
+      "zh": "检查更新失败，请稍后重试。网络连接异常，请检查网络后重试。"
+    },
+    "desktop.update.checking": {
+      "en": "Checking for updates…",
+      "zh": "正在检查更新…"
+    },
+    "desktop.update.downloadDetail": {
+      "en": "Downloading update: {percent}%\nTarget version: V{version}",
+      "zh": "正在下载更新：{percent}%\n目标版本：V{version}"
+    },
+    "desktop.update.downloadFailed": {
+      "en": "Could not download the update. Please try again.",
+      "zh": "下载更新失败，请重试。"
+    },
+    "desktop.update.downloadNetworkFailed": {
+      "en": "Could not download the update. Please try again. The connection was interrupted. Check your network and try again.",
+      "zh": "下载更新失败，请重试。网络连接异常，请检查网络后重试。"
+    },
+    "desktop.update.installFailed": {
+      "en": "Could not install the update. Please try again later.",
+      "zh": "安装更新失败，请稍后重试。"
+    },
+    "desktop.update.installNetworkFailed": {
+      "en": "Could not install the update. Please try again later. The connection was interrupted. Check your network and try again.",
+      "zh": "安装更新失败，请稍后重试。网络连接异常，请检查网络后重试。"
+    },
+    "desktop.update.installing": {
+      "en": "Preparing to restart…",
+      "zh": "正在准备重启…"
+    },
+    "desktop.update.progress": {
+      "en": "{percent}%",
+      "zh": "{percent}%"
+    },
+    "desktop.update.ready": {
+      "en": "Install and Restart",
+      "zh": "安装并重启"
+    },
+    "desktop.update.retry": {
+      "en": "Retry update",
+      "zh": "重试更新"
+    },
+    "desktop.update.stopFailed": {
+      "en": "Tasks could not be stopped safely. The update was not installed. Please try again later.",
+      "zh": "未能安全停止任务，更新未安装。请稍后重试。"
+    },
+    "desktop.update.tasksChanged": {
+      "en": "New tasks started. Review the update confirmation again.",
+      "zh": "有新任务开始，请重新确认更新。"
+    },
+    "desktop.update.tasksUnavailable": {
+      "en": "Task status is unavailable. Try updating again when the workspace is ready.",
+      "zh": "无法确认任务状态，请在工作区就绪后重试更新。"
+    },
+    "desktop.update.verifying": {
+      "en": "Verifying update files…",
+      "zh": "正在校验更新文件…"
+    },
+    "desktop.update.versionDetail": {
+      "en": "{label} — V{version}",
+      "zh": "{label} — V{version}"
+    },
+    "developerTools.description": {
+      "en": "Shows trajectory, code diffs, and Agent preset switching in new chats",
+      "zh": "开启后显示轨迹、本轮代码差异，新对话中的 Agent 预设切换"
+    },
+    "developerTools.error": {
+      "en": "Could not save. Please try again.",
+      "zh": "保存失败，请重试"
+    },
+    "developerTools.title": {
+      "en": "Coding Tools",
+      "zh": "代码工作工具"
+    },
+    "general.currentVersion": {
+      "en": "Current version: {version}",
+      "zh": "当前版本：{version}"
+    },
+    "general.nav": {
+      "en": "General",
+      "zh": "通用设置"
+    },
+    "openDocument": {
+      "en": "Open configuration file",
+      "zh": "打开配置文件"
+    },
+    "openDocument.error": {
+      "en": "Could not open configuration file",
+      "zh": "无法打开配置文件"
+    },
+    "shortcut.open": {
+      "en": "Open settings",
+      "zh": "打开设置"
+    },
+    "title": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "trigger": {
+      "en": "Settings",
+      "zh": "设置"
+    }
+  }
+}

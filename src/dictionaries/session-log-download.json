@@ -1,0 +1,58 @@
+{
+  "ns": "session-log-download",
+  "pkg": "dsh-session-log-export",
+  "tr": {
+    "dialog.close": "Kapat",
+    "dialog.commandFailed": "Oturum dışa aktarma işlemi başlatılamadı.",
+    "dialog.errorTitle": "Oturum dışa aktarılamadı",
+    "dialog.preparingDescription": "Bu oturumu, alt oturumlarını ve ekleri içeren bir ZIP hazırlanıyor.",
+    "dialog.preparingTitle": "Oturum dışa aktarılıyor",
+    "dialog.successDescription": "Tarayıcı, oturumun ZIP dosyasını indiriyor.",
+    "dialog.successTitle": "Oturum indirmesi başladı",
+    "header.more": "Diğer işlemler",
+    "menu.download": "Oturum günlüğünü indir",
+    "menu.feedback": "Geri bildirim"
+  },
+  "rows": {
+    "dialog.close": {
+      "en": "Close",
+      "zh": "关闭"
+    },
+    "dialog.commandFailed": {
+      "en": "Could not start the Session export.",
+      "zh": "无法启动 Session 导出。"
+    },
+    "dialog.errorTitle": {
+      "en": "Session export failed",
+      "zh": "Session 导出失败"
+    },
+    "dialog.preparingDescription": {
+      "en": "Preparing a ZIP containing this Session, its sub-Sessions, and attachments.",
+      "zh": "正在准备包含当前 Session、子 Session 和附件的 ZIP 文件。"
+    },
+    "dialog.preparingTitle": {
+      "en": "Exporting Session",
+      "zh": "正在导出 Session"
+    },
+    "dialog.successDescription": {
+      "en": "The browser is downloading the Session ZIP.",
+      "zh": "浏览器正在下载 Session ZIP 文件。"
+    },
+    "dialog.successTitle": {
+      "en": "Session download started",
+      "zh": "Session 导出已开始下载"
+    },
+    "header.more": {
+      "en": "More actions",
+      "zh": "更多操作"
+    },
+    "menu.download": {
+      "en": "Download session log",
+      "zh": "下载 Session 日志"
+    },
+    "menu.feedback": {
+      "en": "Feedback",
+      "zh": "反馈"
+    }
+  }
+}

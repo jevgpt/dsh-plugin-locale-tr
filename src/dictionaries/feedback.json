@@ -1,0 +1,108 @@
+{
+  "ns": "feedback",
+  "pkg": "dsh-client-ui-message-feedback",
+  "tr": {
+    "action.dislike": "Kötü yanıt",
+    "action.dislikeActive": "Değerlendirmeyi kaldır",
+    "action.like": "İyi yanıt",
+    "action.likeActive": "Değerlendirmeyi kaldır",
+    "category.instruction-following": "Talimatları anlama ve uygulama",
+    "category.other": "Diğer",
+    "category.product-interaction": "Ürün özellikleri ve etkileşim",
+    "category.resource-cost": "Kaynak kullanımı ve maliyet",
+    "category.security-privacy-permission": "Güvenlik, gizlilik ve izinler",
+    "category.service-stability": "Kararlılık ve hız",
+    "category.task-result": "Görev sonucu",
+    "dialog.categories": "Geri bildirim kategorisi",
+    "dialog.detail": "Geri bildirim ayrıntıları",
+    "dialog.hint": "Bize yardımcı olmak için ayrıntı ekleyin. Gönderiminiz mevcut sohbet günlüğünü içerecek.",
+    "dialog.title": "Geri bildirim gönder",
+    "error.conflict": "Bu geri bildirim başka bir yerde değiştirildi; en son durum gösteriliyor",
+    "error.generic": "Geri bildirim kaydedilemedi",
+    "error.load": "Geri bildirim yüklenemedi",
+    "error.noteTooLarge": "Açıklama çok uzun; kısaltıp yeniden gönderin",
+    "toast.recorded": "Geri bildiriminiz için teşekkürler"
+  },
+  "rows": {
+    "action.dislike": {
+      "en": "Bad response",
+      "zh": "有问题的回答"
+    },
+    "action.dislikeActive": {
+      "en": "Remove rating",
+      "zh": "取消标记"
+    },
+    "action.like": {
+      "en": "Good response",
+      "zh": "好的回答"
+    },
+    "action.likeActive": {
+      "en": "Remove rating",
+      "zh": "取消标记"
+    },
+    "category.instruction-following": {
+      "en": "Instruction understanding and following",
+      "zh": "指令理解与遵循"
+    },
+    "category.other": {
+      "en": "Other",
+      "zh": "其他"
+    },
+    "category.product-interaction": {
+      "en": "Product features and interaction",
+      "zh": "产品功能与交互"
+    },
+    "category.resource-cost": {
+      "en": "Resource usage and cost",
+      "zh": "资源使用与费用"
+    },
+    "category.security-privacy-permission": {
+      "en": "Security, privacy, and permissions",
+      "zh": "安全隐私与权限"
+    },
+    "category.service-stability": {
+      "en": "Stability and speed",
+      "zh": "稳定性和速度"
+    },
+    "category.task-result": {
+      "en": "Task result",
+      "zh": "任务结果"
+    },
+    "dialog.categories": {
+      "en": "Feedback category",
+      "zh": "反馈分类"
+    },
+    "dialog.detail": {
+      "en": "Feedback details",
+      "zh": "反馈详情"
+    },
+    "dialog.hint": {
+      "en": "Add details to help us improve. Your submission will include the current conversation log.",
+      "zh": "填写详情以帮助我们改进体验，提交内容会包括当前对话的日志"
+    },
+    "dialog.title": {
+      "en": "Submit feedback",
+      "zh": "提交反馈"
+    },
+    "error.conflict": {
+      "en": "This feedback changed elsewhere; the latest state is shown",
+      "zh": "这条反馈已在别处改动，已显示最新状态"
+    },
+    "error.generic": {
+      "en": "Could not save feedback",
+      "zh": "反馈保存失败"
+    },
+    "error.load": {
+      "en": "Could not load feedback",
+      "zh": "反馈状态加载失败"
+    },
+    "error.noteTooLarge": {
+      "en": "The description is too long; shorten it and submit again",
+      "zh": "描述太长，请缩短后再提交"
+    },
+    "toast.recorded": {
+      "en": "Thanks for your feedback",
+      "zh": "感谢你的反馈"
+    }
+  }
+}

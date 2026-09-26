@@ -1,0 +1,93 @@
+{
+  "ns": "plan",
+  "pkg": "dsh-client-ui-plan",
+  "tr": {
+    "chip.exitFailed": "Plan modundan çıkılamadı",
+    "chip.label": "Plan",
+    "chip.on.aria": "Plan modu açık, kapatmak için basın",
+    "chip.on.title": "Plan modu açık — kapatmak için tıklayın (/plan off)",
+    "preview.action": "Aç",
+    "preview.document": "Plan · Markdown",
+    "preview.expired": "Bu geçici plan önizlemesinin süresi doldu. Bekleyen inceleme kartından yeniden açın.",
+    "preview.failed": "Plan yüklenemedi",
+    "preview.full": "Tam planı görüntüle",
+    "preview.historyUnavailable": "Oturum geçmişi kullanılamıyor",
+    "preview.invalidAddress": "Geçersiz plan adresi",
+    "preview.loading": "Plan yükleniyor…",
+    "preview.notFound": "Bu plan bulunamadı",
+    "preview.open": "Planı kenar çubuğunda aç",
+    "preview.openNamed": "Planı aç: {title}",
+    "preview.title": "Plan",
+    "preview.unavailable": "Plan önizlemesi kullanılamıyor"
+  },
+  "rows": {
+    "chip.exitFailed": {
+      "en": "Failed to exit plan mode",
+      "zh": "退出计划模式失败"
+    },
+    "chip.label": {
+      "en": "Plan",
+      "zh": "计划"
+    },
+    "chip.on.aria": {
+      "en": "Plan mode on, press to turn off",
+      "zh": "计划模式已开启，按下关闭"
+    },
+    "chip.on.title": {
+      "en": "Plan mode on — click to turn off (/plan off)",
+      "zh": "计划模式已开启 — 点击关闭（/plan off）"
+    },
+    "preview.action": {
+      "en": "Open",
+      "zh": "打开"
+    },
+    "preview.document": {
+      "en": "Plan · Markdown",
+      "zh": "计划 · Markdown"
+    },
+    "preview.expired": {
+      "en": "This temporary plan preview has expired. Reopen it from the pending review card.",
+      "zh": "临时计划预览已失效，请从仍在等待审批的卡片重新打开。"
+    },
+    "preview.failed": {
+      "en": "Could not load plan",
+      "zh": "无法读取计划"
+    },
+    "preview.full": {
+      "en": "View full plan",
+      "zh": "查看全文"
+    },
+    "preview.historyUnavailable": {
+      "en": "Session history is unavailable",
+      "zh": "无法读取会话历史"
+    },
+    "preview.invalidAddress": {
+      "en": "Invalid plan address",
+      "zh": "计划地址无效"
+    },
+    "preview.loading": {
+      "en": "Loading plan…",
+      "zh": "正在读取计划…"
+    },
+    "preview.notFound": {
+      "en": "This plan was not found",
+      "zh": "未找到这份计划"
+    },
+    "preview.open": {
+      "en": "Open plan in sidebar",
+      "zh": "在侧边栏打开计划"
+    },
+    "preview.openNamed": {
+      "en": "Open plan: {title}",
+      "zh": "打开计划：{title}"
+    },
+    "preview.title": {
+      "en": "Plan",
+      "zh": "计划"
+    },
+    "preview.unavailable": {
+      "en": "Plan preview is unavailable",
+      "zh": "计划预览不可用"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ns": "settings.locale",
+  "pkg": "dsh-client-locale",
+  "tr": {
+    "language.title": "Dil"
+  },
+  "rows": {
+    "language.title": {
+      "en": "Language",
+      "zh": "语言"
+    }
+  }
+}

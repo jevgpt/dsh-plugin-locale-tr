@@ -1,0 +1,83 @@
+{
+  "ns": "question",
+  "pkg": "dsh-client-ui-user-questions",
+  "tr": {
+    "action.next": "İleri",
+    "action.skip": "Atla",
+    "custom.placeholder": "Yanıtınızı yazın",
+    "error.incomplete": "Lütfen önce bu soruyu yanıtlayın.",
+    "error.unanswered": "Lütfen bir seçenek belirleyin veya özel bir yanıt girin.",
+    "nav.cancel": "Tüm soruları kapat",
+    "nav.maximize": "Soru kartını genişlet",
+    "nav.minimize": "Soru kartını daralt",
+    "nav.next": "Sonraki soru",
+    "nav.prev": "Önceki soru",
+    "option.recommended": "Önerilen",
+    "plan.approve": "Onayla",
+    "plan.decline": "Reddet",
+    "plan.discuss": "Değişiklik iste",
+    "plan.header": "Plan incelemesi"
+  },
+  "rows": {
+    "action.next": {
+      "en": "Next",
+      "zh": "下一题"
+    },
+    "action.skip": {
+      "en": "Skip",
+      "zh": "跳过"
+    },
+    "custom.placeholder": {
+      "en": "Type your answer",
+      "zh": "输入你的答案"
+    },
+    "error.incomplete": {
+      "en": "Please complete this question first.",
+      "zh": "请先完成这道问题。"
+    },
+    "error.unanswered": {
+      "en": "Please select an option or enter a custom answer.",
+      "zh": "请选择一个选项或填写自定义答案。"
+    },
+    "nav.cancel": {
+      "en": "Dismiss all questions",
+      "zh": "放弃整组问题"
+    },
+    "nav.maximize": {
+      "en": "Expand the question card",
+      "zh": "展开问题卡片"
+    },
+    "nav.minimize": {
+      "en": "Collapse the question card",
+      "zh": "收起问题卡片"
+    },
+    "nav.next": {
+      "en": "Next question",
+      "zh": "下一题"
+    },
+    "nav.prev": {
+      "en": "Previous question",
+      "zh": "上一题"
+    },
+    "option.recommended": {
+      "en": "Recommended",
+      "zh": "推荐"
+    },
+    "plan.approve": {
+      "en": "Approve",
+      "zh": "同意执行"
+    },
+    "plan.decline": {
+      "en": "Refuse",
+      "zh": "拒绝"
+    },
+    "plan.discuss": {
+      "en": "Request changes",
+      "zh": "要求修改"
+    },
+    "plan.header": {
+      "en": "Plan review",
+      "zh": "计划待审"
+    }
+  }
+}

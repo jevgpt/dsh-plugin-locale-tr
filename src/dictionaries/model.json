@@ -1,0 +1,118 @@
+{
+  "ns": "model",
+  "pkg": "dsh-client-ui-model-selection",
+  "tr": {
+    "action.reload": "Yeniden yükle",
+    "command.description": "Bu konuşma için model seçin",
+    "command.label": "Model",
+    "effort.providerDefault": "Varsayılan",
+    "empty.efforts": "Bu model akıl yürütme çabası düzeyi sunmuyor.",
+    "empty.models": "Kullanılabilir model yok.",
+    "error.action": "Model işlemi başarısız oldu: {message}",
+    "error.sessionInUse": "Bu oturum zaten kullanımda; başka bir çalışan DSH örneği (ör. dsh web veya masaüstü uygulaması) tarafından kullanılıyor olabilir. Diğer çalışan DSH örneklerini kapatıp yeniden deneyin.",
+    "menu.aria": "Model ve akıl yürütme çabası",
+    "menu.effort": "Çaba",
+    "menu.model": "Model",
+    "option.deepseekV4Flash.description": "Hızlı, verimli ve ekonomik; odaklanmış, rutin veya paralel görevler için uygundur.",
+    "option.deepseekV4Pro.description": "Daha güçlü ajan tabanlı kodlama, bilgi ve zorlu akıl yürütme; daha yüksek maliyetle karmaşık veya kalite açısından kritik görevler için uygundur.",
+    "option.loadError": "Katalog yüklenemedi: {message}",
+    "provider.account": "DeepSeek Hesabı",
+    "status.loading": "Model listesi yenileniyor…",
+    "trigger.aria": "Model seçin, geçerli {model}",
+    "trigger.ariaEffort": "Model seçin, geçerli {model}, akıl yürütme çabası {effort}",
+    "trigger.fallback": "Model seçin",
+    "trigger.loading": "Modeller yükleniyor…",
+    "trigger.selectAria": "Model seçin",
+    "warning.groupLoad": "{name} yüklenemedi: {message}"
+  },
+  "rows": {
+    "action.reload": {
+      "en": "Reload",
+      "zh": "重新加载"
+    },
+    "command.description": {
+      "en": "Select the model for this conversation",
+      "zh": "选择本会话使用的模型"
+    },
+    "command.label": {
+      "en": "Model",
+      "zh": "模型"
+    },
+    "effort.providerDefault": {
+      "en": "Default",
+      "zh": "Default"
+    },
+    "empty.efforts": {
+      "en": "This model provides no reasoning effort levels.",
+      "zh": "当前模型未提供推理等级。"
+    },
+    "empty.models": {
+      "en": "No models available.",
+      "zh": "没有可用的模型。"
+    },
+    "error.action": {
+      "en": "Model operation failed: {message}",
+      "zh": "模型操作失败：{message}"
+    },
+    "error.sessionInUse": {
+      "en": "This session is already in use, possibly by another running DSH instance (such as dsh web or the desktop app). Quit other running DSH instances and try again.",
+      "zh": "当前会话已被占用，可能是其他正在运行的 DSH 导致的（如其他 dsh web、桌面端），请退出其他正在运行的 DSH 后重试。"
+    },
+    "menu.aria": {
+      "en": "Model and reasoning effort",
+      "zh": "模型与推理等级"
+    },
+    "menu.effort": {
+      "en": "Effort",
+      "zh": "推理等级"
+    },
+    "menu.model": {
+      "en": "Model",
+      "zh": "模型"
+    },
+    "option.deepseekV4Flash.description": {
+      "en": "Fast, efficient, and economical; suited to focused, routine, or parallel tasks.",
+      "zh": "快速、高效且经济；适合目标明确、常规或并行任务。"
+    },
+    "option.deepseekV4Pro.description": {
+      "en": "Stronger agentic coding, knowledge, and difficult reasoning; suited to complex or quality-critical tasks at higher cost.",
+      "zh": "更强的自主编码、知识与复杂推理能力；适合复杂或质量优先的任务，但成本更高。"
+    },
+    "option.loadError": {
+      "en": "Catalog failed to load: {message}",
+      "zh": "目录加载失败：{message}"
+    },
+    "provider.account": {
+      "en": "DeepSeek Account",
+      "zh": "DeepSeek 账号"
+    },
+    "status.loading": {
+      "en": "Refreshing model list…",
+      "zh": "正在刷新模型列表…"
+    },
+    "trigger.aria": {
+      "en": "Select model, current {model}",
+      "zh": "选择模型，当前 {model}"
+    },
+    "trigger.ariaEffort": {
+      "en": "Select model, current {model}, reasoning effort {effort}",
+      "zh": "选择模型，当前 {model}，推理等级 {effort}"
+    },
+    "trigger.fallback": {
+      "en": "Select model",
+      "zh": "请选择模型"
+    },
+    "trigger.loading": {
+      "en": "Loading models…",
+      "zh": "正在加载模型…"
+    },
+    "trigger.selectAria": {
+      "en": "Select model",
+      "zh": "请选择模型"
+    },
+    "warning.groupLoad": {
+      "en": "{name} failed to load: {message}",
+      "zh": "{name} 加载失败：{message}"
+    }
+  }
+}

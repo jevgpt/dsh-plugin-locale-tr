@@ -1,0 +1,57 @@
+{
+  "name": "dsh-plugin-locale-tr",
+  "version": "1.0.0",
+  "description": "Turkish (tr) language pack for the DeepSeek Harness web GUI — registers the tr locale and 45 namespace dictionaries through the dsh-client-locale language-pack API",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "locale",
+    "language-pack",
+    "i18n",
+    "turkish",
+    "tr",
+    "translation"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "verify": "node scripts/verify.mjs",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "test:e2e": "node --test \"tests/integration.test.mjs\"",
+    "test:all": "npm run verify && npm test",
+    "extract": "node scripts/extract.mjs",
+    "check:drift": "node scripts/check-drift.mjs"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.0.4"
+  }
+}

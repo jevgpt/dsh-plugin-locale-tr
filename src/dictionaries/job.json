@@ -1,0 +1,203 @@
+{
+  "ns": "job",
+  "pkg": "dsh-client-ui-jobs",
+  "tr": {
+    "count.idle.one": "{count} arka plan işi",
+    "count.idle.other": "{count} arka plan işi",
+    "count.live.one": "{count} arka plan işi çalışıyor",
+    "count.live.other": "{count} arka plan işi çalışıyor",
+    "duration.hours": "{hours} sa {minutes} dk",
+    "duration.minutes": "{minutes} dk {seconds} sn",
+    "duration.seconds": "{seconds} sn",
+    "duration.title.done": "Süre: {duration}",
+    "duration.title.live": "{duration} süredir çalışıyor",
+    "kill.confirm": "Onaylamak için tekrar tıklayın",
+    "kill.confirmAction": "Durdurmayı onayla",
+    "kill.failed": "Durdurulamadı",
+    "kill.stop": "{label} görevini durdur",
+    "list.aria": "Arka plan işleri",
+    "output.error": "canlı çıktı akışı kesildi: {error}",
+    "output.gap": "… önceki çıktılar kaldırıldı …",
+    "row.collapseAria": "{label} canlı çıktısını gizle",
+    "row.expandAria": "{label} canlı çıktısını göster",
+    "section.clear": "Temizle",
+    "section.live": "Çalışıyor",
+    "section.settledCount": "{count} tamamlandı",
+    "status.completed": "tamamlandı",
+    "status.failed": "başarısız",
+    "status.killed": "iptal edildi",
+    "status.running": "çalışıyor",
+    "status.stopping": "durduruluyor",
+    "terminal.collapse": "Daralt",
+    "terminal.collapseAria": "Çıktıyı daralt",
+    "terminal.copied": "Kopyalandı",
+    "terminal.copy": "Kopyala",
+    "terminal.done": "tamamlandı",
+    "terminal.exitCode": "çıkış {code}",
+    "terminal.expand": "{n} satır daha göster",
+    "terminal.expandAria": "Daraltılmış {n} çıktı satırını genişlet",
+    "terminal.failed": "başarısız",
+    "terminal.noExitCode": "çıkış kodu yok",
+    "terminal.noOutput": "(çıktı yok)",
+    "terminal.running": "çalışıyor",
+    "terminal.signal": "sinyal {signal}"
+  },
+  "rows": {
+    "count.idle.one": {
+      "en": "{count} background job",
+      "zh": "{count} 个后台任务"
+    },
+    "count.idle.other": {
+      "en": "{count} background jobs",
+      "zh": "{count} 个后台任务"
+    },
+    "count.live.one": {
+      "en": "{count} background job running",
+      "zh": "{count} 个后台任务运行中"
+    },
+    "count.live.other": {
+      "en": "{count} background jobs running",
+      "zh": "{count} 个后台任务运行中"
+    },
+    "duration.hours": {
+      "en": "{hours}h {minutes}m",
+      "zh": "{hours}小时{minutes}分"
+    },
+    "duration.minutes": {
+      "en": "{minutes}m {seconds}s",
+      "zh": "{minutes}分{seconds}秒"
+    },
+    "duration.seconds": {
+      "en": "{seconds}s",
+      "zh": "{seconds}秒"
+    },
+    "duration.title.done": {
+      "en": "Took {duration}",
+      "zh": "耗时 {duration}"
+    },
+    "duration.title.live": {
+      "en": "Running for {duration}",
+      "zh": "已运行 {duration}"
+    },
+    "kill.confirm": {
+      "en": "Click again to confirm",
+      "zh": "再次点击确认停止"
+    },
+    "kill.confirmAction": {
+      "en": "Confirm stop",
+      "zh": "确认停止"
+    },
+    "kill.failed": {
+      "en": "Stop failed",
+      "zh": "停止失败"
+    },
+    "kill.stop": {
+      "en": "Stop task {label}",
+      "zh": "停止任务 {label}"
+    },
+    "list.aria": {
+      "en": "Background jobs",
+      "zh": "后台任务"
+    },
+    "output.error": {
+      "en": "live output stream interrupted: {error}",
+      "zh": "实时输出流中断：{error}"
+    },
+    "output.gap": {
+      "en": "… earlier output dropped …",
+      "zh": "……较早的输出已丢弃……"
+    },
+    "row.collapseAria": {
+      "en": "Hide live output of {label}",
+      "zh": "收起 {label} 的实时输出"
+    },
+    "row.expandAria": {
+      "en": "Show live output of {label}",
+      "zh": "展开 {label} 的实时输出"
+    },
+    "section.clear": {
+      "en": "Clear",
+      "zh": "清空"
+    },
+    "section.live": {
+      "en": "Running",
+      "zh": "进行中"
+    },
+    "section.settledCount": {
+      "en": "Finished {count}",
+      "zh": "已结束 {count}"
+    },
+    "status.completed": {
+      "en": "completed",
+      "zh": "已完成"
+    },
+    "status.failed": {
+      "en": "failed",
+      "zh": "已失败"
+    },
+    "status.killed": {
+      "en": "cancelled",
+      "zh": "已取消"
+    },
+    "status.running": {
+      "en": "running",
+      "zh": "运行中"
+    },
+    "status.stopping": {
+      "en": "stopping",
+      "zh": "正在停止"
+    },
+    "terminal.collapse": {
+      "en": "Collapse",
+      "zh": "收起"
+    },
+    "terminal.collapseAria": {
+      "en": "Collapse output",
+      "zh": "收起输出"
+    },
+    "terminal.copied": {
+      "en": "Copied",
+      "zh": "已复制"
+    },
+    "terminal.copy": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "terminal.done": {
+      "en": "done",
+      "zh": "已完成"
+    },
+    "terminal.exitCode": {
+      "en": "exit {code}",
+      "zh": "退出码 {code}"
+    },
+    "terminal.expand": {
+      "en": "Show {n} more lines",
+      "zh": "展开其余 {n} 行"
+    },
+    "terminal.expandAria": {
+      "en": "Expand {n} collapsed output lines",
+      "zh": "展开被折叠的 {n} 行输出"
+    },
+    "terminal.failed": {
+      "en": "failed",
+      "zh": "已失败"
+    },
+    "terminal.noExitCode": {
+      "en": "no exit code",
+      "zh": "未正常退出"
+    },
+    "terminal.noOutput": {
+      "en": "(no output)",
+      "zh": "（无输出）"
+    },
+    "terminal.running": {
+      "en": "running",
+      "zh": "运行中"
+    },
+    "terminal.signal": {
+      "en": "signal {signal}",
+      "zh": "信号 {signal}"
+    }
+  }
+}

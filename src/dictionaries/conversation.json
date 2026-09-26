@@ -1,0 +1,1813 @@
+{
+  "ns": "conversation",
+  "pkg": "dsh-client-ui-conversation",
+  "tr": {
+    "ask.answered": "{answered}/{total} yanıtlandı",
+    "ask.cancelled": "iptal edildi",
+    "ask.cancelledDetail": "Bu soru grubu, yanıtlar gönderilmeden iptal edildi.",
+    "ask.interrupted": "kesintiye uğradı",
+    "ask.interruptedDetail": "Bu soru grubu, yanıtlar gönderilmeden kesintiye uğradı.",
+    "ask.rowTitle": "Soru sor",
+    "ask.skipped": "Yanıtlanmadı",
+    "ask.waiting": "bekleniyor",
+    "attachment.directoryDesktopOnly": "Klasörler yalnızca masaüstü uygulamasında eklenebilir; tarayıcıda tek tek dosya ekleyin",
+    "attachment.dropBlocked": "Şu anda dosya ve görsel eklenemiyor",
+    "attachment.dropDesc": "Görsel sınırı: en fazla {count} görsel, her biri {size}",
+    "attachment.dropTitle": "Eklemek için dosyaları veya görselleri buraya sürükleyin",
+    "attachment.pathUnavailable": "Klasör yolu alınamadı; yeniden sürükleyin",
+    "attachment.pathUnsupported": "Yol, başvurunun taşıyamayacağı karakterler içeriyor; adını değiştirip yeniden deneyin",
+    "attachment.pending": "Bekleyen ekler",
+    "attachment.scrollLeft": "Ekleri sola kaydır",
+    "attachment.scrollRight": "Ekleri sağa kaydır",
+    "bash.failed": "Başarısız",
+    "bash.running": "Çalışıyor",
+    "bash.stopped": "Durduruldu",
+    "command.attachmentsUnsupported": "/{command} ek kabul etmiyor; önce ekleri kaldırın",
+    "context.aria": "Bağlamın {percent} kadarı kullanıldı",
+    "context.messages": "Mesajlar",
+    "context.system": "Sistem istemi",
+    "context.tools": "Araç tanımları",
+    "context.used": "bağlam kullanıldı",
+    "detail.agent.reply": "Ajan yanıtı",
+    "detail.agents.count": "{count} ajan",
+    "detail.days": "{count} g",
+    "detail.empty": "Sonuç yok",
+    "detail.event.neighbors": "Çevredeki olaylar",
+    "detail.field.agent": "Ajan kimliği",
+    "detail.field.agents": "Başlatılan ajan",
+    "detail.field.availability": "Kullanılabilirlik",
+    "detail.field.bestMatch": "En iyi eşleşme",
+    "detail.field.callId": "Çağrı kimliği",
+    "detail.field.content": "İçerik",
+    "detail.field.context": "Bağlam",
+    "detail.field.currentPackage": "Geçerli paket",
+    "detail.field.data": "Veri",
+    "detail.field.dependencies": "Bağımlılıklar",
+    "detail.field.depth": "Derinlik",
+    "detail.field.diagnostics": "Tanılama",
+    "detail.field.exitCode": "Çıkış kodu",
+    "detail.field.id": "Kimlik",
+    "detail.field.inputSchema": "Giriş şeması",
+    "detail.field.job": "İş kimliği",
+    "detail.field.latestRun": "Son çalıştırma",
+    "detail.field.message": "Mesaj",
+    "detail.field.messageId": "Mesaj kimliği",
+    "detail.field.methods": "Yöntemler",
+    "detail.field.model": "Model",
+    "detail.field.nextPackage": "Sonraki paket",
+    "detail.field.outputSchema": "Çıkış şeması",
+    "detail.field.owner": "Sahip",
+    "detail.field.packages": "Paketler",
+    "detail.field.parent": "Üst",
+    "detail.field.pid": "İşlem kimliği",
+    "detail.field.platform": "Platform",
+    "detail.field.previousStatus": "Önceki durum",
+    "detail.field.processGroup": "İşlem grubu",
+    "detail.field.props": "Özellikler",
+    "detail.field.provider": "Sağlayıcı",
+    "detail.field.ready": "Hazır",
+    "detail.field.registrations": "Kayıtlar",
+    "detail.field.result": "Sonuç",
+    "detail.field.revision": "Revizyon",
+    "detail.field.role": "Rol",
+    "detail.field.root": "Kök",
+    "detail.field.seq": "Olay sırası",
+    "detail.field.signal": "Sinyal",
+    "detail.field.source": "Kaynak",
+    "detail.field.step": "Adım",
+    "detail.field.surface": "Kayıt durumu",
+    "detail.field.target": "Hedef olay",
+    "detail.field.task": "Görev",
+    "detail.field.time": "Zaman",
+    "detail.field.turn": "Tur",
+    "detail.field.type": "Tür",
+    "detail.field.warnings": "Uyarılar",
+    "detail.field.writeScopes": "Yazma kapsamları",
+    "detail.goal.active": "Etkin",
+    "detail.goal.blocked": "Engellendi",
+    "detail.goal.complete": "Tamamlandı",
+    "detail.goal.disarmed": "Devam bekleniyor",
+    "detail.goal.empty": "Hedef yok",
+    "detail.goal.paused": "Duraklatıldı",
+    "detail.goal.reason": "Engel",
+    "detail.goal.rounds": "Turlar",
+    "detail.hours": "{count} sa",
+    "detail.jobs.count": "{count} arka plan işi",
+    "detail.location": "Satır {line}, sütun {column}",
+    "detail.locations.count": "{count} konum",
+    "detail.matches.capped": "Sonuç sınırına ulaşıldı; daha fazlası için aramayı daraltın",
+    "detail.matches.count": "{count} eşleşme",
+    "detail.minutes": "{count} dk",
+    "detail.models.title": "Kullanılabilir modeller",
+    "detail.moreInInspect": "İncele'de {count} öğe daha var",
+    "detail.no": "Hayır",
+    "detail.none": "Yok",
+    "detail.output.lines": "{total} satırın {begin}–{end} arası",
+    "detail.output.truncated": "Çıktı kısaltıldı",
+    "detail.plugins.count": "{count} dinamik eklenti",
+    "detail.providers.count": "{count} inceleme sağlayıcısı",
+    "detail.ralph.limit": "Tur sınırına ulaşıldı",
+    "detail.ralph.reportedBlocker": "Çalışan bir engel bildirdi",
+    "detail.ralph.reportedComplete": "Çalışan tamamlandığını bildirdi",
+    "detail.receipt.alreadyFinished": "Zaten bitti",
+    "detail.receipt.cancel": "İptal istendi",
+    "detail.receipt.closed": "Kapatıldı",
+    "detail.receipt.closing": "Kapatılıyor",
+    "detail.receipt.delivered": "Mesaj iletildi",
+    "detail.receipt.interrupt": "Kesme istendi",
+    "detail.receipt.signal": "Sinyal iletildi",
+    "detail.receipt.started": "Başlatıldı",
+    "detail.recordedResult": "Kaydedilen sonuç",
+    "detail.report.nextSteps": "Kalan işler",
+    "detail.schedule.count": "{count} hatırlatıcı",
+    "detail.schedule.cron": "Cron {expression} ({zone})",
+    "detail.schedule.daily": "Her gün {time} ({zone})",
+    "detail.schedule.deleted": "Silindi",
+    "detail.schedule.empty": "Hatırlatıcı yok",
+    "detail.schedule.every": "Her {interval}",
+    "detail.schedule.frequency": "Yineleme",
+    "detail.schedule.once": "Tek seferlik",
+    "detail.schedule.overdue": "Süresi geçti; oturumun devam ettirilmesi bekleniyor",
+    "detail.schedule.scheduled": "Zamanlandı",
+    "detail.schedule.weekly": "Her hafta {days} {time} ({zone})",
+    "detail.schedule.when": "Planlanan zaman",
+    "detail.seconds": "{count} sn",
+    "detail.state": "Durum",
+    "detail.status.accepted": "Kabul edildi",
+    "detail.status.completed": "Tamamlandı",
+    "detail.status.deleted": "Silindi",
+    "detail.status.exited": "Çıkış yaptı",
+    "detail.status.failed": "Başarısız",
+    "detail.status.idle": "Boşta",
+    "detail.status.inactive": "Etkin değil",
+    "detail.status.killed": "İptal edildi",
+    "detail.status.provisioning": "Hazırlanıyor",
+    "detail.status.queued": "Kuyruğa alındı",
+    "detail.status.ready": "Hazır",
+    "detail.status.running": "Çalışıyor",
+    "detail.tasks.count": "{count} ekip görevi",
+    "detail.tasks.nextPage": "Daha fazla görev var; sonraki imleç {cursor}",
+    "detail.terminals.count": "{count} terminal",
+    "detail.todo.completed": "Tamamlandı",
+    "detail.todo.empty": "Yapılacaklar listesi boş",
+    "detail.todo.in_progress": "Devam ediyor",
+    "detail.todo.pending": "Beklemede",
+    "detail.trace.ancestors": "Üst oturumlar",
+    "detail.trace.derived": "Türetilmiş olaylar",
+    "detail.trace.descendants": "Alt oturumlar",
+    "detail.trace.replacedBy": "Yerine geçen",
+    "detail.trace.replacementChain": "Değiştirme zinciri",
+    "detail.trace.replaces": "Değiştirilen olaylar",
+    "detail.trace.sources": "Kaynak olaylar",
+    "detail.wait.changed": "Değişiklik algılandı",
+    "detail.wait.noProgress": "Etkin alt ajan yok",
+    "detail.wait.timeout": "Bekleme zaman aşımına uğradı",
+    "detail.wait.title": "Alt ajan etkinliği",
+    "detail.weekday.1": "Pzt",
+    "detail.weekday.2": "Sal",
+    "detail.weekday.3": "Çar",
+    "detail.weekday.4": "Per",
+    "detail.weekday.5": "Cum",
+    "detail.weekday.6": "Cmt",
+    "detail.weekday.7": "Paz",
+    "detail.weekday.join": ", ",
+    "detail.workflow.script": "İş akışı betiği",
+    "detail.yes": "Evet",
+    "details.running": "Çalışıyor…",
+    "diff.collapseAria": "Farkı daralt",
+    "diff.expandAria": "{count} fark satırı daha göster",
+    "diff.expandRest": "… {count} satır daha",
+    "error.sessionInUse": "Bu oturum zaten kullanımda; başka bir çalışan DSH örneği (ör. dsh web veya masaüstü uygulaması) tarafından kullanılıyor olabilir. Diğer çalışan DSH örneklerini kapatıp yeniden deneyin.",
+    "file.label": "Dosya",
+    "file.notStaged": "Dosyanın yüklemesi tamamlanmadı; yeniden ekleyip tekrar deneyin",
+    "file.pending": "Bekleyen dosyalar",
+    "file.remove": "{name} dosyasını kaldır",
+    "file.retry": "{name} dosyasını yeniden yükle",
+    "file.sessionUnavailable": "Oturum kullanılamıyor; dosya yüklenemez",
+    "file.stillUploading": "Dosyalar hâlâ yükleniyor; yükleme bitince gönderin",
+    "file.uploadFailed": "Yükleme başarısız; yeniden denemek için tıklayın",
+    "file.uploading": "Yükleniyor…",
+    "hero.chooseWorkspace": "Çalışma alanı seç",
+    "hero.headline": "Bilinmeyene Doğru",
+    "hero.preview": "Önizleme",
+    "hint.goal": "uzun süreli bir görev için hedefi tanımlayın",
+    "hint.goal.active": "hedef etkin — edit / pause / resume / clear",
+    "image.closePreview": "Orijinal görsel önizlemesini kapat",
+    "image.dimensionTooLarge": "Görsel kenarları en fazla {size}px olabilir; küçültüp yeniden deneyin",
+    "image.fileTooLarge": "Her görsel {size} değerinden küçük olmalı",
+    "image.label": "Görsel",
+    "image.loadFailed": "Görsel yüklenemedi; yeniden denemek için tıklayın",
+    "image.loading": "Görsel yükleniyor…",
+    "image.modelUnsupported": "Geçerli model görselleri desteklemiyor; destekleyen bir modele geçin",
+    "image.openOriginal": "Orijinali görüntüle",
+    "image.openOriginalLabel": "{label}, orijinali görüntülemek için tıklayın",
+    "image.original": "Orijinal görsel",
+    "image.pending": "Bekleyen görseller",
+    "image.preview": "Orijinal görsel önizlemesi",
+    "image.remove": "{name} görselini kaldır",
+    "image.sendFailed": "Görseller gönderilemedi ({reason}); yeniden ekleyip tekrar deneyin",
+    "image.tooMany": "Bir mesaja en fazla {count} görsel eklenebilir",
+    "image.tooManyPixels": "Görsel çözünürlüğü çok yüksek; sıkıştırıp yeniden deneyin",
+    "image.totalTooLarge": "Görseller toplamda {size} sınırını aşıyor; bazılarını kaldırıp yeniden deneyin",
+    "image.unsupportedType": "Yalnızca PNG, JPG, WebP ve GIF görselleri desteklenir",
+    "input.commands": "Dosya ekle veya komut çalıştır",
+    "input.file": "Dosya",
+    "input.send": "Mesaj gönder",
+    "input.send.queue": "Mesajı kuyruğa al",
+    "input.send.steer": "Mesajı yönlendir",
+    "input.stop": "Üretmeyi durdur",
+    "placeholder.default": "Mesaj gönderin veya görev çalıştırın, / komutlar, @ dosyalar veya oturumlar",
+    "placeholder.hero": "Oluşturmak istediğinizi anlatın, / komutlar, @ dosyalar veya oturumlar",
+    "placeholder.parentOffline": "Üst oturum çevrimdışı; gönderim yapılamaz ama çalıştırmayı yine de durdurabilirsiniz",
+    "placeholder.steerQueue": "Cmd/Ctrl+Enter tüm kuyruktaki mesajları yönlendirir",
+    "placeholder.unavailable": "Oturum kullanılamıyor",
+    "placeholder.workspace": "Başlamak için bir çalışma alanı seçin",
+    "queue.cancelEdit": "Düzenlemeyi iptal et",
+    "queue.count": "Kuyrukta {n} mesaj",
+    "queue.edit": "Kuyruktaki mesajı düzenle",
+    "queue.edit.unsupported": "Metin dışı içerik var; düzenleme henüz desteklenmiyor",
+    "queue.editFailed": "Düzenleme başarısız: bu mesaj gönderilmeye başlanmış olabilir.",
+    "queue.file": "Kuyruktaki dosya {name}",
+    "queue.image": "Kuyruktaki mesaj görseli",
+    "queue.remove": "Kuyruktaki mesajı kaldır",
+    "queue.removeFailed": "Kaldırma başarısız: bu mesaj gönderilmeye başlanmış olabilir.",
+    "queue.save": "Kuyruktaki mesajı kaydet",
+    "queue.sending": "Gönderiliyor…",
+    "queue.steer": "Kuyruktaki mesajı yönlendir",
+    "queue.steer.unavailable": "Yönlendirme yalnızca ajan çalışırken kullanılabilir",
+    "queue.steerFailed": "Yönlendirme başarısız. Yeniden deneyin.",
+    "read.collapseAria": "İçeriği daralt",
+    "read.expandAria": "{count} satır daha göster",
+    "read.expandRest": "… {count} satır daha",
+    "read.window": "{total} satırın {shown} tanesi gösteriliyor",
+    "row.failed": "Başarısız",
+    "row.input": "GİRİŞ",
+    "row.inspect": "İncele",
+    "row.output": "ÇIKIŞ",
+    "row.preparing": "Araç çağrısı hazırlanıyor",
+    "row.running": "Çalışıyor",
+    "row.stopped": "Durduruldu",
+    "search.collapseAria": "Sonuçları daralt",
+    "search.expandAria": "{count} sonuç satırı daha göster",
+    "search.expandRest": "… {count} satır daha",
+    "search.matches": "{shown} eşleşme · {files} dosya",
+    "search.matches.truncated": "{total} eşleşmeden {shown} tanesi · {files} dosya",
+    "search.noResults": "Sonuç yok",
+    "search.paths": "{shown} yol",
+    "search.paths.truncated": "{total} yoldan {shown} tanesi gösteriliyor",
+    "session.hierarchy": "Oturum hiyerarşisi",
+    "settings.enter.description": "Ajan çalışırken Enter ve Gönder düğmesinin ne yapacağını belirler; Cmd/Ctrl+Enter diğer davranışı kullanır",
+    "settings.enter.queue": "Kuyruk",
+    "settings.enter.steer": "Yönlendir",
+    "settings.enter.title": "Meşgulken gönderme davranışı",
+    "shortcut.complementary": "Tamamlayıcı Kuyruk / Yönlendir eylemini kullan",
+    "shortcut.mention": "Başvuru menüsünü aç",
+    "shortcut.newline": "Yeni satır",
+    "shortcut.slash": "Komut menüsünü aç",
+    "terminal.collapseAria": "Çıktıyı daralt",
+    "terminal.done": "Tamamlandı",
+    "terminal.exitCode": "çıkış kodu {code}",
+    "terminal.expandAria": "Kalan {n} çıktı satırını göster",
+    "terminal.expandRest": "… {n} satır daha",
+    "terminal.failed": "Başarısız",
+    "terminal.noExitCode": "çıkış kodu yok",
+    "terminal.noOutput": "Çıktı yok",
+    "terminal.running": "Çalışıyor",
+    "terminal.sendInput": "(girdi gönder)",
+    "terminal.session": "Terminal {sessionId}",
+    "terminal.signal": "sinyal {signal}",
+    "todo.completed": "{done}/{total} tamamlandı",
+    "todo.diff.added": "{count} eklendi",
+    "todo.diff.addedItem": "Eklendi",
+    "todo.diff.compare": "Önceki listeye göre değişiklikler",
+    "todo.diff.initial": "İlk liste",
+    "todo.diff.movedItem": "Yeniden sıralandı",
+    "todo.diff.noChanges": "Listede değişiklik yok",
+    "todo.diff.removed": "{count} kaldırıldı",
+    "todo.diff.removedItem": "Kaldırıldı",
+    "todo.diff.unavailable": "Önceki liste kullanılamıyor",
+    "todo.diff.unchanged": "{count} değişmedi",
+    "todo.diff.updated": "{count} güncellendi",
+    "todo.diff.updatedItem": "Durum değişti",
+    "todo.progress.active": "{active} devam ediyor",
+    "todo.progress.done": "{done} tamamlandı",
+    "todo.progress.pending": "{pending} beklemede",
+    "todo.rowTitle": "Yapılacaklar listesini güncelle",
+    "todo.status.completed": "Tamamlandı",
+    "todo.status.inProgress": "Devam ediyor",
+    "todo.status.pending": "Beklemede",
+    "todo.title": "Yapılacaklar",
+    "tool.autoReviewNotExecuted": "Araç çalıştırılmadı. Neden: {reason}",
+    "tool.autoReviewReasonFallback": "Otomatik inceleme bu eyleme izin vermedi",
+    "tool.autoReviewRejected": "Otomatik inceleme tarafından reddedildi",
+    "tool.preparing.content": "İçerik hazırlanıyor {kilobytes}KB",
+    "tool.title.bash": "Bash",
+    "tool.title.closeTerminal": "Terminali kapat",
+    "tool.title.code": "Kod",
+    "tool.title.createGoal": "Hedef oluştur",
+    "tool.title.createSchedule": "Hatırlatıcı oluştur",
+    "tool.title.createTeamTask": "Ekip görevi oluştur",
+    "tool.title.deleteSchedule": "Hatırlatıcıyı sil",
+    "tool.title.edit": "Düzenle",
+    "tool.title.findDefinition": "Tanımı bul",
+    "tool.title.findImplementation": "Uygulamayı bul",
+    "tool.title.findReferences": "Başvuruları bul",
+    "tool.title.generic": "Araç çağrısı",
+    "tool.title.getGoal": "Hedefi görüntüle",
+    "tool.title.getTeamTask": "Ekip görevini oku",
+    "tool.title.glob": "Glob",
+    "tool.title.grep": "Grep",
+    "tool.title.hoverSymbol": "Sembolü incele",
+    "tool.title.inspect": "Cordis ortamını sorgula",
+    "tool.title.inspectPlugins": "Eklentileri incele",
+    "tool.title.inspectProviders": "Sağlayıcıları incele",
+    "tool.title.interruptAgent": "Ajanı kes",
+    "tool.title.killJob": "Arka plan işini iptal et",
+    "tool.title.listAgents": "Alt ajanları listele",
+    "tool.title.listJobs": "Arka plan işlerini listele",
+    "tool.title.listModels": "Modelleri listele",
+    "tool.title.listSchedules": "Hatırlatıcıları listele",
+    "tool.title.listTeamTasks": "Ekip görevlerini listele",
+    "tool.title.listTerminals": "Terminalleri listele",
+    "tool.title.lsp": "Kod sembollerini sorgula",
+    "tool.title.openTerminal": "Terminal aç",
+    "tool.title.pwsh": "Pwsh",
+    "tool.title.queryRuntime": "Çalışma zamanını sorgula",
+    "tool.title.ralph": "Ralph döngüsünü çalıştır",
+    "tool.title.read": "Oku",
+    "tool.title.readEvent": "Olayı oku",
+    "tool.title.readImage": "Görseli oku",
+    "tool.title.readJob": "İş çıktısını oku",
+    "tool.title.readTerminal": "Terminali oku",
+    "tool.title.removeCordis": "Cordis Eklentisini Kaldır",
+    "tool.title.runCordis": "Cordis Eklentisini Çalıştır",
+    "tool.title.search": "Ara",
+    "tool.title.searchEvents": "Olaylarda ara",
+    "tool.title.searchSessions": "Oturumlarda ara",
+    "tool.title.sendMessage": "Mesaj gönder",
+    "tool.title.signalTerminal": "Terminale sinyal gönder",
+    "tool.title.spawnTeammate": "Ekip arkadaşı oluştur",
+    "tool.title.stopCordis": "Cordis Eklentisini Durdur",
+    "tool.title.subagent": "Alt ajan oluştur",
+    "tool.title.traceEvent": "Olayı izle",
+    "tool.title.traceSession": "Oturumu izle",
+    "tool.title.updateGoal": "Hedefi güncelle",
+    "tool.title.updateSchedule": "Hatırlatıcıyı güncelle",
+    "tool.title.updateTeamTask": "Ekip görevini güncelle",
+    "tool.title.waitAgent": "Alt ajanı bekle",
+    "tool.title.webFetch": "Getir",
+    "tool.title.webSearch": "Web'de ara",
+    "tool.title.workflow": "İş akışını çalıştır",
+    "tool.title.write": "Yaz",
+    "web.contentTruncated": "İçerik kısaltıldı",
+    "web.http": "HTTP",
+    "web.noResults": "Sonuç bulunamadı",
+    "web.sourcesTruncated": "Kaynak listesi kısaltıldı"
+  },
+  "rows": {
+    "ask.answered": {
+      "en": "{answered}/{total} answered",
+      "zh": "{answered}/{total} 已回答"
+    },
+    "ask.cancelled": {
+      "en": "cancelled",
+      "zh": "已取消"
+    },
+    "ask.cancelledDetail": {
+      "en": "This question set was cancelled before answers were submitted.",
+      "zh": "本轮已取消，未提交回答"
+    },
+    "ask.interrupted": {
+      "en": "interrupted",
+      "zh": "已中断"
+    },
+    "ask.interruptedDetail": {
+      "en": "This question set was interrupted before answers were submitted.",
+      "zh": "本轮已中断，未提交回答"
+    },
+    "ask.rowTitle": {
+      "en": "Ask question",
+      "zh": "提问"
+    },
+    "ask.skipped": {
+      "en": "Not answered",
+      "zh": "未回答"
+    },
+    "ask.waiting": {
+      "en": "waiting",
+      "zh": "等待回答"
+    },
+    "attachment.directoryDesktopOnly": {
+      "en": "Folders can only be added in the desktop app; add individual files in the browser",
+      "zh": "只有桌面端支持添加文件夹，浏览器里请添加单个文件"
+    },
+    "attachment.dropBlocked": {
+      "en": "Files and images cannot be added right now",
+      "zh": "当前无法添加文件或图片"
+    },
+    "attachment.dropDesc": {
+      "en": "Image limit: up to {count} images, {size} each",
+      "zh": "图片限制：最多 {count} 张，每张 {size}"
+    },
+    "attachment.dropTitle": {
+      "en": "Drag files or images here to add them",
+      "zh": "文件或图片拖动到此处即可添加"
+    },
+    "attachment.pathUnavailable": {
+      "en": "Could not obtain the folder path; drag it in again",
+      "zh": "无法获取文件夹路径，请重新拖入"
+    },
+    "attachment.pathUnsupported": {
+      "en": "The path contains characters a reference cannot carry; rename it and try again",
+      "zh": "路径含有无法引用的字符，请改名后再试"
+    },
+    "attachment.pending": {
+      "en": "Pending attachments",
+      "zh": "待发送附件"
+    },
+    "attachment.scrollLeft": {
+      "en": "Scroll attachments left",
+      "zh": "向左滚动附件"
+    },
+    "attachment.scrollRight": {
+      "en": "Scroll attachments right",
+      "zh": "向右滚动附件"
+    },
+    "bash.failed": {
+      "en": "Failed",
+      "zh": "失败"
+    },
+    "bash.running": {
+      "en": "Running",
+      "zh": "运行中"
+    },
+    "bash.stopped": {
+      "en": "Stopped",
+      "zh": "已停止"
+    },
+    "command.attachmentsUnsupported": {
+      "en": "/{command} does not accept attachments; remove them first",
+      "zh": "/{command} 不接受附件，请先移除附件"
+    },
+    "context.aria": {
+      "en": "{percent} of context used",
+      "zh": "上下文已用 {percent}"
+    },
+    "context.messages": {
+      "en": "Messages",
+      "zh": "对话消息"
+    },
+    "context.system": {
+      "en": "System prompt",
+      "zh": "系统提示词"
+    },
+    "context.tools": {
+      "en": "Tool definitions",
+      "zh": "工具定义"
+    },
+    "context.used": {
+      "en": "of context used",
+      "zh": "上下文已用"
+    },
+    "detail.agent.reply": {
+      "en": "Agent response",
+      "zh": "代理回复"
+    },
+    "detail.agents.count": {
+      "en": "{count} agents",
+      "zh": "{count} 个代理"
+    },
+    "detail.days": {
+      "en": "{count} d",
+      "zh": "{count} 天"
+    },
+    "detail.empty": {
+      "en": "No results",
+      "zh": "暂无结果"
+    },
+    "detail.event.neighbors": {
+      "en": "Surrounding events",
+      "zh": "前后事件"
+    },
+    "detail.field.agent": {
+      "en": "Agent ID",
+      "zh": "代理 ID"
+    },
+    "detail.field.agents": {
+      "en": "Agents started",
+      "zh": "启动代理数"
+    },
+    "detail.field.availability": {
+      "en": "Availability",
+      "zh": "可用状态"
+    },
+    "detail.field.bestMatch": {
+      "en": "Best match",
+      "zh": "最相关事件"
+    },
+    "detail.field.callId": {
+      "en": "Call ID",
+      "zh": "调用 ID"
+    },
+    "detail.field.content": {
+      "en": "Content",
+      "zh": "内容"
+    },
+    "detail.field.context": {
+      "en": "Context",
+      "zh": "上下文"
+    },
+    "detail.field.currentPackage": {
+      "en": "Current package",
+      "zh": "当前包"
+    },
+    "detail.field.data": {
+      "en": "Data",
+      "zh": "数据"
+    },
+    "detail.field.dependencies": {
+      "en": "Dependencies",
+      "zh": "前置任务"
+    },
+    "detail.field.depth": {
+      "en": "Depth",
+      "zh": "层级"
+    },
+    "detail.field.diagnostics": {
+      "en": "Diagnostics",
+      "zh": "诊断"
+    },
+    "detail.field.exitCode": {
+      "en": "Exit code",
+      "zh": "退出码"
+    },
+    "detail.field.id": {
+      "en": "ID",
+      "zh": "ID"
+    },
+    "detail.field.inputSchema": {
+      "en": "Input schema",
+      "zh": "输入 Schema"
+    },
+    "detail.field.job": {
+      "en": "Job ID",
+      "zh": "任务 ID"
+    },
+    "detail.field.latestRun": {
+      "en": "Latest run",
+      "zh": "最近运行"
+    },
+    "detail.field.message": {
+      "en": "Message",
+      "zh": "消息"
+    },
+    "detail.field.messageId": {
+      "en": "Message ID",
+      "zh": "消息 ID"
+    },
+    "detail.field.methods": {
+      "en": "Methods",
+      "zh": "方法"
+    },
+    "detail.field.model": {
+      "en": "Model",
+      "zh": "模型"
+    },
+    "detail.field.nextPackage": {
+      "en": "Next package",
+      "zh": "待运行的包"
+    },
+    "detail.field.outputSchema": {
+      "en": "Output schema",
+      "zh": "输出 Schema"
+    },
+    "detail.field.owner": {
+      "en": "Owner",
+      "zh": "负责人"
+    },
+    "detail.field.packages": {
+      "en": "Packages",
+      "zh": "版本包"
+    },
+    "detail.field.parent": {
+      "en": "Parent",
+      "zh": "父级"
+    },
+    "detail.field.pid": {
+      "en": "Process ID",
+      "zh": "进程 ID"
+    },
+    "detail.field.platform": {
+      "en": "Platform",
+      "zh": "平台"
+    },
+    "detail.field.previousStatus": {
+      "en": "Previous status",
+      "zh": "中断前状态"
+    },
+    "detail.field.processGroup": {
+      "en": "Process group",
+      "zh": "进程组"
+    },
+    "detail.field.props": {
+      "en": "Props",
+      "zh": "属性"
+    },
+    "detail.field.provider": {
+      "en": "Provider",
+      "zh": "提供方"
+    },
+    "detail.field.ready": {
+      "en": "Ready",
+      "zh": "可开始"
+    },
+    "detail.field.registrations": {
+      "en": "Registrations",
+      "zh": "注册项"
+    },
+    "detail.field.result": {
+      "en": "Result",
+      "zh": "结果"
+    },
+    "detail.field.revision": {
+      "en": "Revision",
+      "zh": "版本"
+    },
+    "detail.field.role": {
+      "en": "Role",
+      "zh": "角色"
+    },
+    "detail.field.root": {
+      "en": "Root",
+      "zh": "根节点"
+    },
+    "detail.field.seq": {
+      "en": "Event sequence",
+      "zh": "事件序号"
+    },
+    "detail.field.signal": {
+      "en": "Signal",
+      "zh": "信号"
+    },
+    "detail.field.source": {
+      "en": "Source",
+      "zh": "来源"
+    },
+    "detail.field.step": {
+      "en": "Step",
+      "zh": "步骤"
+    },
+    "detail.field.surface": {
+      "en": "Record status",
+      "zh": "记录状态"
+    },
+    "detail.field.target": {
+      "en": "Target event",
+      "zh": "目标事件"
+    },
+    "detail.field.task": {
+      "en": "Task",
+      "zh": "任务内容"
+    },
+    "detail.field.time": {
+      "en": "Time",
+      "zh": "时间"
+    },
+    "detail.field.turn": {
+      "en": "Turn",
+      "zh": "轮次"
+    },
+    "detail.field.type": {
+      "en": "Type",
+      "zh": "类型"
+    },
+    "detail.field.warnings": {
+      "en": "Warnings",
+      "zh": "提示"
+    },
+    "detail.field.writeScopes": {
+      "en": "Write scopes",
+      "zh": "文件范围"
+    },
+    "detail.goal.active": {
+      "en": "Active",
+      "zh": "进行中"
+    },
+    "detail.goal.blocked": {
+      "en": "Blocked",
+      "zh": "受阻"
+    },
+    "detail.goal.complete": {
+      "en": "Completed",
+      "zh": "已完成"
+    },
+    "detail.goal.disarmed": {
+      "en": "Awaiting continuation",
+      "zh": "等待继续"
+    },
+    "detail.goal.empty": {
+      "en": "No goal",
+      "zh": "没有目标"
+    },
+    "detail.goal.paused": {
+      "en": "Paused",
+      "zh": "已暂停"
+    },
+    "detail.goal.reason": {
+      "en": "Blocker",
+      "zh": "受阻原因"
+    },
+    "detail.goal.rounds": {
+      "en": "Rounds",
+      "zh": "执行轮次"
+    },
+    "detail.hours": {
+      "en": "{count} h",
+      "zh": "{count} 小时"
+    },
+    "detail.jobs.count": {
+      "en": "{count} background jobs",
+      "zh": "{count} 个后台任务"
+    },
+    "detail.location": {
+      "en": "Line {line}, column {column}",
+      "zh": "第 {line} 行，第 {column} 列"
+    },
+    "detail.locations.count": {
+      "en": "{count} locations",
+      "zh": "{count} 个位置"
+    },
+    "detail.matches.capped": {
+      "en": "Result limit reached; narrow the search for more",
+      "zh": "已达到结果上限，可缩小搜索范围"
+    },
+    "detail.matches.count": {
+      "en": "{count} matches",
+      "zh": "{count} 条匹配"
+    },
+    "detail.minutes": {
+      "en": "{count} min",
+      "zh": "{count} 分钟"
+    },
+    "detail.models.title": {
+      "en": "Available models",
+      "zh": "可用模型"
+    },
+    "detail.moreInInspect": {
+      "en": "{count} more items available in Inspect",
+      "zh": "另有 {count} 项，可在「查看」中读取"
+    },
+    "detail.no": {
+      "en": "No",
+      "zh": "否"
+    },
+    "detail.none": {
+      "en": "None",
+      "zh": "无"
+    },
+    "detail.output.lines": {
+      "en": "Lines {begin}–{end} of {total}",
+      "zh": "第 {begin}–{end} 行，共 {total} 行"
+    },
+    "detail.output.truncated": {
+      "en": "Output truncated",
+      "zh": "输出已截断"
+    },
+    "detail.plugins.count": {
+      "en": "{count} dynamic plugins",
+      "zh": "{count} 个动态插件"
+    },
+    "detail.providers.count": {
+      "en": "{count} inspect providers",
+      "zh": "{count} 个检查提供方"
+    },
+    "detail.ralph.limit": {
+      "en": "Round limit reached",
+      "zh": "已达到轮次上限"
+    },
+    "detail.ralph.reportedBlocker": {
+      "en": "Worker reported a blocker",
+      "zh": "代理报告受阻"
+    },
+    "detail.ralph.reportedComplete": {
+      "en": "Worker reported completion",
+      "zh": "代理报告完成"
+    },
+    "detail.receipt.alreadyFinished": {
+      "en": "Already finished",
+      "zh": "任务已结束"
+    },
+    "detail.receipt.cancel": {
+      "en": "Cancellation requested",
+      "zh": "已请求取消"
+    },
+    "detail.receipt.closed": {
+      "en": "Closed",
+      "zh": "已关闭"
+    },
+    "detail.receipt.closing": {
+      "en": "Closing",
+      "zh": "关闭中"
+    },
+    "detail.receipt.delivered": {
+      "en": "Message delivered",
+      "zh": "消息已送达"
+    },
+    "detail.receipt.interrupt": {
+      "en": "Interrupt requested",
+      "zh": "已请求中断"
+    },
+    "detail.receipt.signal": {
+      "en": "Signal delivered",
+      "zh": "信号已发送"
+    },
+    "detail.receipt.started": {
+      "en": "Started",
+      "zh": "已启动"
+    },
+    "detail.recordedResult": {
+      "en": "Recorded result",
+      "zh": "调用结果"
+    },
+    "detail.report.nextSteps": {
+      "en": "Remaining work",
+      "zh": "待完成事项"
+    },
+    "detail.schedule.count": {
+      "en": "{count} reminders",
+      "zh": "{count} 个定时任务"
+    },
+    "detail.schedule.cron": {
+      "en": "Cron {expression} ({zone})",
+      "zh": "Cron {expression}（{zone}）"
+    },
+    "detail.schedule.daily": {
+      "en": "Every day at {time} ({zone})",
+      "zh": "每天 {time}（{zone}）"
+    },
+    "detail.schedule.deleted": {
+      "en": "Deleted",
+      "zh": "已删除"
+    },
+    "detail.schedule.empty": {
+      "en": "No reminders",
+      "zh": "没有定时任务"
+    },
+    "detail.schedule.every": {
+      "en": "Every {interval}",
+      "zh": "每 {interval}"
+    },
+    "detail.schedule.frequency": {
+      "en": "Repeat",
+      "zh": "重复"
+    },
+    "detail.schedule.once": {
+      "en": "Once",
+      "zh": "单次"
+    },
+    "detail.schedule.overdue": {
+      "en": "Overdue, awaiting session resume",
+      "zh": "已到期，等待会话恢复"
+    },
+    "detail.schedule.scheduled": {
+      "en": "Scheduled",
+      "zh": "等待触发"
+    },
+    "detail.schedule.weekly": {
+      "en": "Weekly on {days} at {time} ({zone})",
+      "zh": "每周 {days} {time}（{zone}）"
+    },
+    "detail.schedule.when": {
+      "en": "Scheduled for",
+      "zh": "计划时间"
+    },
+    "detail.seconds": {
+      "en": "{count} s",
+      "zh": "{count} 秒"
+    },
+    "detail.state": {
+      "en": "Status",
+      "zh": "状态"
+    },
+    "detail.status.accepted": {
+      "en": "Accepted",
+      "zh": "已接收"
+    },
+    "detail.status.completed": {
+      "en": "Completed",
+      "zh": "已完成"
+    },
+    "detail.status.deleted": {
+      "en": "Deleted",
+      "zh": "已删除"
+    },
+    "detail.status.exited": {
+      "en": "Exited",
+      "zh": "已退出"
+    },
+    "detail.status.failed": {
+      "en": "Failed",
+      "zh": "失败"
+    },
+    "detail.status.idle": {
+      "en": "Idle",
+      "zh": "空闲"
+    },
+    "detail.status.inactive": {
+      "en": "Inactive",
+      "zh": "未运行"
+    },
+    "detail.status.killed": {
+      "en": "Cancelled",
+      "zh": "已取消"
+    },
+    "detail.status.provisioning": {
+      "en": "Provisioning",
+      "zh": "准备中"
+    },
+    "detail.status.queued": {
+      "en": "Queued",
+      "zh": "已入队"
+    },
+    "detail.status.ready": {
+      "en": "Ready",
+      "zh": "就绪"
+    },
+    "detail.status.running": {
+      "en": "Running",
+      "zh": "运行中"
+    },
+    "detail.tasks.count": {
+      "en": "{count} team tasks",
+      "zh": "{count} 个团队任务"
+    },
+    "detail.tasks.nextPage": {
+      "en": "More tasks available; next cursor is {cursor}",
+      "zh": "后面还有任务；下一页位置为 {cursor}"
+    },
+    "detail.terminals.count": {
+      "en": "{count} terminals",
+      "zh": "{count} 个终端"
+    },
+    "detail.todo.completed": {
+      "en": "Completed",
+      "zh": "已完成"
+    },
+    "detail.todo.empty": {
+      "en": "The to-do list is empty",
+      "zh": "任务清单为空"
+    },
+    "detail.todo.in_progress": {
+      "en": "In progress",
+      "zh": "进行中"
+    },
+    "detail.todo.pending": {
+      "en": "Pending",
+      "zh": "待处理"
+    },
+    "detail.trace.ancestors": {
+      "en": "Ancestor sessions",
+      "zh": "祖先会话"
+    },
+    "detail.trace.derived": {
+      "en": "Derived events",
+      "zh": "派生事件"
+    },
+    "detail.trace.descendants": {
+      "en": "Descendant sessions",
+      "zh": "后代会话"
+    },
+    "detail.trace.replacedBy": {
+      "en": "Replaced by",
+      "zh": "被替换为"
+    },
+    "detail.trace.replacementChain": {
+      "en": "Replacement chain",
+      "zh": "替换链"
+    },
+    "detail.trace.replaces": {
+      "en": "Replaced events",
+      "zh": "替换的事件"
+    },
+    "detail.trace.sources": {
+      "en": "Source events",
+      "zh": "引用来源"
+    },
+    "detail.wait.changed": {
+      "en": "Change detected",
+      "zh": "检测到变化"
+    },
+    "detail.wait.noProgress": {
+      "en": "No active subagents",
+      "zh": "没有正在运行的子智能体"
+    },
+    "detail.wait.timeout": {
+      "en": "Wait timed out",
+      "zh": "等待超时"
+    },
+    "detail.wait.title": {
+      "en": "Subagent activity",
+      "zh": "子智能体状态"
+    },
+    "detail.weekday.1": {
+      "en": "Mon",
+      "zh": "周一"
+    },
+    "detail.weekday.2": {
+      "en": "Tue",
+      "zh": "周二"
+    },
+    "detail.weekday.3": {
+      "en": "Wed",
+      "zh": "周三"
+    },
+    "detail.weekday.4": {
+      "en": "Thu",
+      "zh": "周四"
+    },
+    "detail.weekday.5": {
+      "en": "Fri",
+      "zh": "周五"
+    },
+    "detail.weekday.6": {
+      "en": "Sat",
+      "zh": "周六"
+    },
+    "detail.weekday.7": {
+      "en": "Sun",
+      "zh": "周日"
+    },
+    "detail.weekday.join": {
+      "en": ", ",
+      "zh": "、"
+    },
+    "detail.workflow.script": {
+      "en": "Workflow script",
+      "zh": "工作流脚本"
+    },
+    "detail.yes": {
+      "en": "Yes",
+      "zh": "是"
+    },
+    "details.running": {
+      "en": "Running…",
+      "zh": "运行中…"
+    },
+    "diff.collapseAria": {
+      "en": "Collapse diff",
+      "zh": "收起差异"
+    },
+    "diff.expandAria": {
+      "en": "Expand {count} more diff lines",
+      "zh": "展开其余 {count} 行差异"
+    },
+    "diff.expandRest": {
+      "en": "… {count} more lines",
+      "zh": "… 其余 {count} 行"
+    },
+    "error.sessionInUse": {
+      "en": "This session is already in use, possibly by another running DSH instance (such as dsh web or the desktop app). Quit other running DSH instances and try again.",
+      "zh": "当前会话已被占用，可能是其他正在运行的 DSH 导致的（如其他 dsh web、桌面端），请退出其他正在运行的 DSH 后重试。"
+    },
+    "file.label": {
+      "en": "File",
+      "zh": "文件"
+    },
+    "file.notStaged": {
+      "en": "The file has not finished uploading; re-add it and try again",
+      "zh": "文件尚未上传成功，请重新添加后再试"
+    },
+    "file.pending": {
+      "en": "Pending files",
+      "zh": "待发送文件"
+    },
+    "file.remove": {
+      "en": "Remove file {name}",
+      "zh": "移除文件 {name}"
+    },
+    "file.retry": {
+      "en": "Retry uploading {name}",
+      "zh": "重试上传 {name}"
+    },
+    "file.sessionUnavailable": {
+      "en": "Session unavailable; files cannot be uploaded",
+      "zh": "会话不可用，无法上传文件"
+    },
+    "file.stillUploading": {
+      "en": "Files are still uploading; send after they finish",
+      "zh": "文件还在上传，请等待上传完成后发送"
+    },
+    "file.uploadFailed": {
+      "en": "Upload failed; click to retry",
+      "zh": "上传失败，点击重试"
+    },
+    "file.uploading": {
+      "en": "Uploading…",
+      "zh": "上传中…"
+    },
+    "hero.chooseWorkspace": {
+      "en": "Choose workspace",
+      "zh": "选择工作区"
+    },
+    "hero.headline": {
+      "en": "Into the Unknown",
+      "zh": "探索未至之境"
+    },
+    "hero.preview": {
+      "en": "Preview",
+      "zh": "预览版"
+    },
+    "hint.goal": {
+      "en": "describe the objective for a long-running task",
+      "zh": "输入目标，智能体将持续执行"
+    },
+    "hint.goal.active": {
+      "en": "goal active — edit / pause / resume / clear",
+      "zh": "当前目标进行中。可输入 edit 修改 / pause 暂停 / resume 继续 / clear 清除"
+    },
+    "image.closePreview": {
+      "en": "Close original image preview",
+      "zh": "关闭原图预览"
+    },
+    "image.dimensionTooLarge": {
+      "en": "Image sides must be at most {size}px; downscale it and try again",
+      "zh": "图片宽高不能超过 {size}px，请缩小后重试"
+    },
+    "image.fileTooLarge": {
+      "en": "Each image must be smaller than {size}",
+      "zh": "单张图片不能超过 {size}"
+    },
+    "image.label": {
+      "en": "Image",
+      "zh": "图片"
+    },
+    "image.loadFailed": {
+      "en": "Image failed to load; click to retry",
+      "zh": "图片加载失败，点击重试"
+    },
+    "image.loading": {
+      "en": "Loading image…",
+      "zh": "图片加载中…"
+    },
+    "image.modelUnsupported": {
+      "en": "The current model does not support images; switch to a model that does",
+      "zh": "当前模型不支持图片，请切换支持图片的模型"
+    },
+    "image.openOriginal": {
+      "en": "View original",
+      "zh": "查看原图"
+    },
+    "image.openOriginalLabel": {
+      "en": "{label}, click to view original",
+      "zh": "{label}，点击查看原图"
+    },
+    "image.original": {
+      "en": "Original image",
+      "zh": "原图"
+    },
+    "image.pending": {
+      "en": "Pending images",
+      "zh": "待发送图片"
+    },
+    "image.preview": {
+      "en": "Original image preview",
+      "zh": "原图预览"
+    },
+    "image.remove": {
+      "en": "Remove image {name}",
+      "zh": "移除图片 {name}"
+    },
+    "image.sendFailed": {
+      "en": "Sending images failed ({reason}); re-add them and try again",
+      "zh": "图片发送失败（{reason}），请重新添加图片后再试"
+    },
+    "image.tooMany": {
+      "en": "A message can include up to {count} images",
+      "zh": "一条消息最多添加 {count} 张图片"
+    },
+    "image.tooManyPixels": {
+      "en": "Image resolution is too high; compress it and try again",
+      "zh": "图片分辨率过大，请压缩后重试"
+    },
+    "image.totalTooLarge": {
+      "en": "Images exceed {size} in total; remove some and try again",
+      "zh": "图片总大小超过 {size}，请移除部分图片"
+    },
+    "image.unsupportedType": {
+      "en": "Only PNG, JPG, WebP, and GIF images are supported",
+      "zh": "仅支持 PNG、JPG、WebP、GIF 格式的图片"
+    },
+    "input.commands": {
+      "en": "Add files or run commands",
+      "zh": "添加文件或调用指令"
+    },
+    "input.file": {
+      "en": "File",
+      "zh": "文件"
+    },
+    "input.send": {
+      "en": "Send message",
+      "zh": "发送消息"
+    },
+    "input.send.queue": {
+      "en": "Queue message",
+      "zh": "排队发送"
+    },
+    "input.send.steer": {
+      "en": "Steer message",
+      "zh": "插话发送"
+    },
+    "input.stop": {
+      "en": "Stop generating",
+      "zh": "停止生成"
+    },
+    "placeholder.default": {
+      "en": "Message or run a task, / commands, @ files or sessions",
+      "zh": "发消息或创建任务, / 调用指令, @ 文件或对话"
+    },
+    "placeholder.hero": {
+      "en": "Describe what you want to build, / commands, @ files or sessions",
+      "zh": "描述你想要构建的内容, / 调用指令, @ 文件或对话"
+    },
+    "placeholder.parentOffline": {
+      "en": "Parent session offline; sending is unavailable but you can still stop the run",
+      "zh": "父会话已离线，无法继续发送；仍可停止当前运行"
+    },
+    "placeholder.steerQueue": {
+      "en": "Cmd/Ctrl+Enter steers all queued messages",
+      "zh": "Cmd/Ctrl+Enter 插话发送全部排队消息"
+    },
+    "placeholder.unavailable": {
+      "en": "Session unavailable",
+      "zh": "会话不可用"
+    },
+    "placeholder.workspace": {
+      "en": "Choose a workspace to start",
+      "zh": "选择一个工作区开始"
+    },
+    "queue.cancelEdit": {
+      "en": "Cancel editing",
+      "zh": "取消编辑"
+    },
+    "queue.count": {
+      "en": "{n} queued messages",
+      "zh": "{n} 条排队消息"
+    },
+    "queue.edit": {
+      "en": "Edit queued message",
+      "zh": "编辑排队消息"
+    },
+    "queue.edit.unsupported": {
+      "en": "Contains non-text content; editing is not supported yet",
+      "zh": "包含非文本内容，暂不支持编辑"
+    },
+    "queue.editFailed": {
+      "en": "Edit failed: this message may have already started sending.",
+      "zh": "编辑失败：这条消息可能已经开始发送。"
+    },
+    "queue.file": {
+      "en": "Queued file {name}",
+      "zh": "排队文件 {name}"
+    },
+    "queue.image": {
+      "en": "Queued message image",
+      "zh": "排队消息图片"
+    },
+    "queue.remove": {
+      "en": "Remove queued message",
+      "zh": "删除排队消息"
+    },
+    "queue.removeFailed": {
+      "en": "Removal failed: this message may have already started sending.",
+      "zh": "删除失败：这条消息可能已经开始发送。"
+    },
+    "queue.save": {
+      "en": "Save queued message",
+      "zh": "保存排队消息"
+    },
+    "queue.sending": {
+      "en": "Sending…",
+      "zh": "发送中…"
+    },
+    "queue.steer": {
+      "en": "Steer queued message",
+      "zh": "插话发送"
+    },
+    "queue.steer.unavailable": {
+      "en": "Steering is available only while the agent is running",
+      "zh": "仅运行中可插话发送"
+    },
+    "queue.steerFailed": {
+      "en": "Steering failed. Try again.",
+      "zh": "插话发送失败，请重试。"
+    },
+    "read.collapseAria": {
+      "en": "Collapse content",
+      "zh": "收起内容"
+    },
+    "read.expandAria": {
+      "en": "Expand {count} more lines",
+      "zh": "展开其余 {count} 行"
+    },
+    "read.expandRest": {
+      "en": "… {count} more lines",
+      "zh": "… 其余 {count} 行"
+    },
+    "read.window": {
+      "en": "Showing {shown} of {total} lines",
+      "zh": "显示 {shown} / {total} 行"
+    },
+    "row.failed": {
+      "en": "Failed",
+      "zh": "失败"
+    },
+    "row.input": {
+      "en": "IN",
+      "zh": "输入"
+    },
+    "row.inspect": {
+      "en": "Inspect",
+      "zh": "查看"
+    },
+    "row.output": {
+      "en": "OUT",
+      "zh": "输出"
+    },
+    "row.preparing": {
+      "en": "Preparing tool call",
+      "zh": "正在准备调用"
+    },
+    "row.running": {
+      "en": "Running",
+      "zh": "运行中"
+    },
+    "row.stopped": {
+      "en": "Stopped",
+      "zh": "已停止"
+    },
+    "search.collapseAria": {
+      "en": "Collapse results",
+      "zh": "收起结果"
+    },
+    "search.expandAria": {
+      "en": "Expand {count} more result lines",
+      "zh": "展开其余 {count} 行结果"
+    },
+    "search.expandRest": {
+      "en": "… {count} more lines",
+      "zh": "… 其余 {count} 行"
+    },
+    "search.matches": {
+      "en": "{shown} matches · {files} files",
+      "zh": "{shown} 处匹配 · {files} 个文件"
+    },
+    "search.matches.truncated": {
+      "en": "Showing {shown} of {total} matches · {files} files",
+      "zh": "显示 {shown} / 共 {total} 处匹配 · {files} 个文件"
+    },
+    "search.noResults": {
+      "en": "No results",
+      "zh": "无结果"
+    },
+    "search.paths": {
+      "en": "{shown} paths",
+      "zh": "{shown} 个路径"
+    },
+    "search.paths.truncated": {
+      "en": "Showing {shown} of {total} paths",
+      "zh": "显示 {shown} / 共 {total} 个路径"
+    },
+    "session.hierarchy": {
+      "en": "Session hierarchy",
+      "zh": "会话层级"
+    },
+    "settings.enter.description": {
+      "en": "What Enter and the Send button do while the agent is running; Cmd/Ctrl+Enter uses the other behavior",
+      "zh": "智能体运行时 Enter 键和发送按钮的行为；Cmd/Ctrl+Enter 使用另一行为"
+    },
+    "settings.enter.queue": {
+      "en": "Queue",
+      "zh": "排队发送"
+    },
+    "settings.enter.steer": {
+      "en": "Steer",
+      "zh": "插话发送"
+    },
+    "settings.enter.title": {
+      "en": "Send behavior while busy",
+      "zh": "繁忙时的发送行为"
+    },
+    "shortcut.complementary": {
+      "en": "Use the complementary Queue / Steer action",
+      "zh": "使用互补的 Queue／Steer 方式"
+    },
+    "shortcut.mention": {
+      "en": "Open reference menu",
+      "zh": "打开引用菜单"
+    },
+    "shortcut.newline": {
+      "en": "New line",
+      "zh": "换行"
+    },
+    "shortcut.slash": {
+      "en": "Open command menu",
+      "zh": "打开命令菜单"
+    },
+    "terminal.collapseAria": {
+      "en": "Collapse output",
+      "zh": "收起输出"
+    },
+    "terminal.done": {
+      "en": "Done",
+      "zh": "已完成"
+    },
+    "terminal.exitCode": {
+      "en": "exit code {code}",
+      "zh": "退出码 {code}"
+    },
+    "terminal.expandAria": {
+      "en": "Expand the remaining {n} output lines",
+      "zh": "展开其余 {n} 行输出"
+    },
+    "terminal.expandRest": {
+      "en": "… {n} more lines",
+      "zh": "… 其余 {n} 行"
+    },
+    "terminal.failed": {
+      "en": "Failed",
+      "zh": "失败"
+    },
+    "terminal.noExitCode": {
+      "en": "no exit code",
+      "zh": "未正常退出"
+    },
+    "terminal.noOutput": {
+      "en": "No output",
+      "zh": "无输出"
+    },
+    "terminal.running": {
+      "en": "Running",
+      "zh": "运行中"
+    },
+    "terminal.sendInput": {
+      "en": "(send input)",
+      "zh": "（发送输入）"
+    },
+    "terminal.session": {
+      "en": "Terminal {sessionId}",
+      "zh": "终端 {sessionId}"
+    },
+    "terminal.signal": {
+      "en": "signal {signal}",
+      "zh": "信号 {signal}"
+    },
+    "todo.completed": {
+      "en": "{done}/{total} completed",
+      "zh": "{done}/{total} 已完成"
+    },
+    "todo.diff.added": {
+      "en": "{count} added",
+      "zh": "新增 {count}"
+    },
+    "todo.diff.addedItem": {
+      "en": "Added",
+      "zh": "新增"
+    },
+    "todo.diff.compare": {
+      "en": "Changes since the previous list",
+      "zh": "与上次清单相比"
+    },
+    "todo.diff.initial": {
+      "en": "Initial list",
+      "zh": "首次记录"
+    },
+    "todo.diff.movedItem": {
+      "en": "Reordered",
+      "zh": "顺序调整"
+    },
+    "todo.diff.noChanges": {
+      "en": "No changes to the list",
+      "zh": "清单没有变化"
+    },
+    "todo.diff.removed": {
+      "en": "{count} removed",
+      "zh": "移除 {count}"
+    },
+    "todo.diff.removedItem": {
+      "en": "Removed",
+      "zh": "移除"
+    },
+    "todo.diff.unavailable": {
+      "en": "Previous list unavailable",
+      "zh": "旧清单不可用"
+    },
+    "todo.diff.unchanged": {
+      "en": "{count} unchanged",
+      "zh": "{count} 项未变化"
+    },
+    "todo.diff.updated": {
+      "en": "{count} updated",
+      "zh": "更新 {count}"
+    },
+    "todo.diff.updatedItem": {
+      "en": "Status changed",
+      "zh": "状态变化"
+    },
+    "todo.progress.active": {
+      "en": "{active} in progress",
+      "zh": "{active} 进行中"
+    },
+    "todo.progress.done": {
+      "en": "{done} completed",
+      "zh": "{done} 已完成"
+    },
+    "todo.progress.pending": {
+      "en": "{pending} pending",
+      "zh": "{pending} 待处理"
+    },
+    "todo.rowTitle": {
+      "en": "Update to-do list",
+      "zh": "更新任务清单"
+    },
+    "todo.status.completed": {
+      "en": "Completed",
+      "zh": "已完成"
+    },
+    "todo.status.inProgress": {
+      "en": "In progress",
+      "zh": "进行中"
+    },
+    "todo.status.pending": {
+      "en": "Pending",
+      "zh": "待处理"
+    },
+    "todo.title": {
+      "en": "To-dos",
+      "zh": "任务"
+    },
+    "tool.autoReviewNotExecuted": {
+      "en": "Tool was not executed. Reason: {reason}",
+      "zh": "工具未执行。原因：{reason}"
+    },
+    "tool.autoReviewReasonFallback": {
+      "en": "Auto review did not authorize this action",
+      "zh": "Auto review 未授权此次操作"
+    },
+    "tool.autoReviewRejected": {
+      "en": "Rejected by Auto review",
+      "zh": "Auto review 已拒绝"
+    },
+    "tool.preparing.content": {
+      "en": "Preparing content {kilobytes}KB",
+      "zh": "正在准备内容 {kilobytes}KB"
+    },
+    "tool.title.bash": {
+      "en": "Bash",
+      "zh": "运行命令"
+    },
+    "tool.title.closeTerminal": {
+      "en": "Close terminal",
+      "zh": "关闭终端"
+    },
+    "tool.title.code": {
+      "en": "Code",
+      "zh": "代码"
+    },
+    "tool.title.createGoal": {
+      "en": "Create goal",
+      "zh": "创建目标"
+    },
+    "tool.title.createSchedule": {
+      "en": "Create reminder",
+      "zh": "创建定时任务"
+    },
+    "tool.title.createTeamTask": {
+      "en": "Create team task",
+      "zh": "创建团队任务"
+    },
+    "tool.title.deleteSchedule": {
+      "en": "Delete reminder",
+      "zh": "删除定时任务"
+    },
+    "tool.title.edit": {
+      "en": "Edit",
+      "zh": "编辑"
+    },
+    "tool.title.findDefinition": {
+      "en": "Find definition",
+      "zh": "查找定义"
+    },
+    "tool.title.findImplementation": {
+      "en": "Find implementation",
+      "zh": "查找实现"
+    },
+    "tool.title.findReferences": {
+      "en": "Find references",
+      "zh": "查找引用"
+    },
+    "tool.title.generic": {
+      "en": "Tool call",
+      "zh": "工具调用"
+    },
+    "tool.title.getGoal": {
+      "en": "View goal",
+      "zh": "查看目标"
+    },
+    "tool.title.getTeamTask": {
+      "en": "Read team task",
+      "zh": "读取团队任务"
+    },
+    "tool.title.glob": {
+      "en": "Glob",
+      "zh": "查找文件"
+    },
+    "tool.title.grep": {
+      "en": "Grep",
+      "zh": "搜索文件内容"
+    },
+    "tool.title.hoverSymbol": {
+      "en": "Inspect symbol",
+      "zh": "查看符号信息"
+    },
+    "tool.title.inspect": {
+      "en": "Query Cordis environment",
+      "zh": "查询 Cordis 环境"
+    },
+    "tool.title.inspectPlugins": {
+      "en": "Inspect plugins",
+      "zh": "检查动态插件"
+    },
+    "tool.title.inspectProviders": {
+      "en": "Inspect providers",
+      "zh": "检查提供方"
+    },
+    "tool.title.interruptAgent": {
+      "en": "Interrupt agent",
+      "zh": "中断代理"
+    },
+    "tool.title.killJob": {
+      "en": "Cancel background job",
+      "zh": "取消后台任务"
+    },
+    "tool.title.listAgents": {
+      "en": "List subagents",
+      "zh": "查看代理"
+    },
+    "tool.title.listJobs": {
+      "en": "List background jobs",
+      "zh": "查看后台任务"
+    },
+    "tool.title.listModels": {
+      "en": "List models",
+      "zh": "查看可用模型"
+    },
+    "tool.title.listSchedules": {
+      "en": "List reminders",
+      "zh": "查看定时任务"
+    },
+    "tool.title.listTeamTasks": {
+      "en": "List team tasks",
+      "zh": "查看团队任务"
+    },
+    "tool.title.listTerminals": {
+      "en": "List terminals",
+      "zh": "查看终端"
+    },
+    "tool.title.lsp": {
+      "en": "Query code symbols",
+      "zh": "查询代码符号"
+    },
+    "tool.title.openTerminal": {
+      "en": "Open terminal",
+      "zh": "创建终端"
+    },
+    "tool.title.pwsh": {
+      "en": "Pwsh",
+      "zh": "运行命令"
+    },
+    "tool.title.queryRuntime": {
+      "en": "Query runtime",
+      "zh": "查询运行时"
+    },
+    "tool.title.ralph": {
+      "en": "Run ralph loop",
+      "zh": "运行循环工作流"
+    },
+    "tool.title.read": {
+      "en": "Read",
+      "zh": "读取"
+    },
+    "tool.title.readEvent": {
+      "en": "Read event",
+      "zh": "读取事件"
+    },
+    "tool.title.readImage": {
+      "en": "Read image",
+      "zh": "读取图片"
+    },
+    "tool.title.readJob": {
+      "en": "Read job output",
+      "zh": "读取任务输出"
+    },
+    "tool.title.readTerminal": {
+      "en": "Read terminal",
+      "zh": "读取终端"
+    },
+    "tool.title.removeCordis": {
+      "en": "Remove Cordis Plugin",
+      "zh": "移除 Cordis 插件"
+    },
+    "tool.title.runCordis": {
+      "en": "Run Cordis Plugin",
+      "zh": "运行 Cordis 插件"
+    },
+    "tool.title.search": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "tool.title.searchEvents": {
+      "en": "Search events",
+      "zh": "搜索事件"
+    },
+    "tool.title.searchSessions": {
+      "en": "Search sessions",
+      "zh": "搜索会话"
+    },
+    "tool.title.sendMessage": {
+      "en": "Send message",
+      "zh": "发送消息"
+    },
+    "tool.title.signalTerminal": {
+      "en": "Signal terminal",
+      "zh": "发送终端信号"
+    },
+    "tool.title.spawnTeammate": {
+      "en": "Create teammate",
+      "zh": "创建队友"
+    },
+    "tool.title.stopCordis": {
+      "en": "Stop Cordis Plugin",
+      "zh": "停止 Cordis 插件"
+    },
+    "tool.title.subagent": {
+      "en": "Create subagent",
+      "zh": "创建代理"
+    },
+    "tool.title.traceEvent": {
+      "en": "Trace event",
+      "zh": "追踪事件"
+    },
+    "tool.title.traceSession": {
+      "en": "Trace session",
+      "zh": "追踪会话"
+    },
+    "tool.title.updateGoal": {
+      "en": "Update goal",
+      "zh": "更新目标"
+    },
+    "tool.title.updateSchedule": {
+      "en": "Update reminder",
+      "zh": "修改定时任务"
+    },
+    "tool.title.updateTeamTask": {
+      "en": "Update team task",
+      "zh": "更新团队任务"
+    },
+    "tool.title.waitAgent": {
+      "en": "Wait for subagent",
+      "zh": "等待子智能体"
+    },
+    "tool.title.webFetch": {
+      "en": "Fetch",
+      "zh": "网页获取"
+    },
+    "tool.title.webSearch": {
+      "en": "Search",
+      "zh": "网页搜索"
+    },
+    "tool.title.workflow": {
+      "en": "Run workflow",
+      "zh": "运行工作流"
+    },
+    "tool.title.write": {
+      "en": "Write",
+      "zh": "写入"
+    },
+    "web.contentTruncated": {
+      "en": "Content truncated",
+      "zh": "内容已截断"
+    },
+    "web.http": {
+      "en": "HTTP",
+      "zh": "HTTP"
+    },
+    "web.noResults": {
+      "en": "No results found",
+      "zh": "未找到结果"
+    },
+    "web.sourcesTruncated": {
+      "en": "Source list truncated",
+      "zh": "来源列表已截断"
+    }
+  }
+}

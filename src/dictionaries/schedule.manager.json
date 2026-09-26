@@ -1,0 +1,673 @@
+{
+  "ns": "schedule.manager",
+  "pkg": "dsh-client-ui-schedule",
+  "tr": {
+    "card.deleted": "Silindi",
+    "card.open": "Aç",
+    "card.openLabel": "Görev ayrıntılarını aç: {title}",
+    "cronForm.atMinute": "Dakika",
+    "cronForm.daily": "Her gün",
+    "cronForm.dateOption": "{day}. gün",
+    "cronForm.dates": "Belirli günlerde",
+    "cronForm.frequency": "Sıklık",
+    "cronForm.minuteDecrease": "Dakikayı azalt",
+    "cronForm.minuteIncrease": "Dakikayı artır",
+    "cronForm.monthly": "Aylık",
+    "cronForm.weekly": "Haftalık",
+    "delete.action": "Görevi sil",
+    "delete.cancel": "İptal",
+    "delete.close": "Silme onayını kapat",
+    "delete.confirm": "Silmeyi onayla",
+    "delete.description": "Bu işlem görevin tetiklenmesini durdurur ve görevi kayıtlı çalıştırma kayıtlarıyla birlikte siler. Özgün oturum ve iletileri korunur; kuyruktaki iletiler geri çekilmez.",
+    "delete.pending": "Siliniyor…",
+    "delete.title": "Bu görev silinsin mi?",
+    "delivery.collapse": "Daralt",
+    "delivery.cursorError": "Kayıtlar güncellendi.",
+    "delivery.empty": "Çalıştırma kaydı yok",
+    "delivery.error": "Çalıştırma kayıtları yüklenemedi.",
+    "delivery.expand": "Genişlet",
+    "delivery.label": "Kayıtlı çalıştırma kaydı",
+    "delivery.loadMore": "Daha fazla yükle",
+    "delivery.loading": "Çalıştırma kayıtları yükleniyor…",
+    "delivery.notFound": "Bu görev artık kullanılamıyor.",
+    "delivery.pruned": "Daha eski çalıştırma kayıtları temizlendi",
+    "delivery.refresh": "Yenile",
+    "delivery.retention": "Saklama kuralları",
+    "delivery.retentionBounds": "Her görev, son {days} gün içindeki en fazla {records} çalıştırma kaydını saklar.",
+    "delivery.retentionExplanation": "Yeni bir kayıt oluşturulduğunda, bu sınırların dışında kalan eski kayıtlar otomatik olarak temizlenir. Kayıtların temizlenmesi görevi durdurmaz.",
+    "delivery.retry": "Yeniden dene",
+    "detail.close": "Ayrıntıları kapat",
+    "detail.frequency": "Sıklık",
+    "detail.id": "Görev kimliği",
+    "detail.instruction": "Otomasyon görevi talimatı",
+    "detail.label": "Görev ayrıntıları",
+    "detail.missing": "Görev kullanılamıyor. Silinmiş olabilir.",
+    "detail.more": "Otomasyon görevi işlemleri",
+    "detail.name": "Otomasyon görevi adı",
+    "detail.next": "Sonraki planlanan zaman",
+    "detail.nextRun": "Sonraki çalıştırma",
+    "detail.openSession": "Bağlantılı oturum: özgün oturumu aç",
+    "detail.openSessionTitle": "Bağlantılı oturum {title}: özgün oturumu aç",
+    "detail.records": "Çalıştırma kayıtları",
+    "detail.rule": "Kurallar",
+    "detail.session": "Bağlantılı oturum",
+    "detail.sessionArchived": "Özgün oturum arşivlenmiş.",
+    "detail.sessionLoading": "Özgün oturum bilgileri yükleniyor.",
+    "detail.sessionUnavailable": "Özgün oturum kullanılamıyor.",
+    "detail.status": "Durum",
+    "detail.tabs": "Görev ayrıntısı görünümleri",
+    "empty.action": "Yeni otomasyon görevi",
+    "frequency.every": "Her {value} {unit}",
+    "frequency.once": "Tek seferlik",
+    "list.empty": "Henüz görev yok. Oturumlarınızda oluşturulan görevler burada görünür.",
+    "list.emptyInactive": "Pasif otomasyon görevi yok",
+    "list.error": "Görevler yüklenemedi.",
+    "list.label": "Görev kataloğu",
+    "list.loading": "Görevler yükleniyor…",
+    "list.nextPrefix": "Sonraki planlanan zaman: ",
+    "list.noMatches": "Eşleşen görev yok",
+    "list.retry": "Yeniden dene",
+    "new.action": "Yeni",
+    "panel": "Otomasyon görevleri",
+    "rule.cancel": "İptal",
+    "rule.cron": "Özel",
+    "rule.cronInvalid": "Beş alanlı bir cron ifadesi girin, örneğin 0 9 * * 1-5.",
+    "rule.cronLabel": "Cron ifadesi",
+    "rule.daily": "Her gün",
+    "rule.error.conflict": "Bu görev, güncelleme kaydedilmeden önce değişti. Satırda kayıtlı kural gösteriliyor; yeniden deneyin.",
+    "rule.error.notFound": "Bu görev artık kullanılamıyor.",
+    "rule.error.unknown": "Kural güncellemesi doğrulanamadı. Satırda kayıtlı kural gösteriliyor.",
+    "rule.everyHours": "Her N saatte bir",
+    "rule.everyMinutes": "Her N dakikada bir",
+    "rule.everySeconds": "Her N saniyede bir",
+    "rule.invalidPrompt": "Bir görev talimatı girin.",
+    "rule.invalidTitle": "En fazla 120 karakterlik bir görev adı girin.",
+    "rule.once": "Tek seferlik",
+    "rule.repeat": "Yineleme",
+    "rule.save": "Değişiklikleri kaydet",
+    "rule.saving": "Kaydediliyor…",
+    "rule.title": "Çalışma zamanı",
+    "rule.unsaved": "Kaydedilmemiş değişiklikler",
+    "rule.weekday": "Haftanın günü",
+    "rule.weekdayOption": "{weekday} günü",
+    "rule.weekdays": "Hafta içi",
+    "rule.weekly": "Haftalık",
+    "rule.zone.system": " (sistem)",
+    "search.clear": "Aramayı temizle",
+    "search.label": "Görevlerde ara",
+    "search.placeholder": "Otomasyon görevlerinde ara",
+    "status.active": "Etkin",
+    "status.inactive": "Pasif",
+    "statusFilter.all": "Tümü",
+    "statusFilter.label": "Görev durumu",
+    "timing.conflict": "Siz düzenlerken bu görev değişti. Taslağınız korundu. En güncel kuralı düzenlemek için yeniledikten sonra iptal edip yeniden açın.",
+    "timing.date": "Tarih",
+    "timing.error": "Zamanlama güncellemesi doğrulanamadı. Taslağınız korundu. Yeniden denemeden önce görevi kontrol edin.",
+    "timing.hour": "Saat",
+    "timing.inactive": "Pasif görevler salt okunurdur. Zamanlamaları düzenlenemez.",
+    "timing.interval": "Yineleme aralığı",
+    "timing.intervalDecrease": "Aralığı azalt",
+    "timing.intervalHint.hour": "En az 1 saat. Aralık, görevin oluşturulmasından veya son kural değişikliğinden itibaren sayılır ve saat dilimlerinden bağımsızdır.",
+    "timing.intervalHint.minute": "En az 1 dakika. Aralık, görevin oluşturulmasından veya son kural değişikliğinden itibaren sayılır ve saat dilimlerinden bağımsızdır.",
+    "timing.intervalHint.second": "En az 60 saniye. Aralık, görevin oluşturulmasından veya son kural değişikliğinden itibaren sayılır ve saat dilimlerinden bağımsızdır.",
+    "timing.intervalIncrease": "Aralığı artır",
+    "timing.invalid": "Geçerli bir tarih ve saat girin veya zamanlama alanlarını kontrol edin.",
+    "timing.invalidInterval": "En az 1 dakikalık bir aralık girin.",
+    "timing.invalidInterval.hour": "En az 1 saatlik bir aralık girin.",
+    "timing.invalidInterval.minute": "En az 1 dakikalık bir aralık girin.",
+    "timing.invalidInterval.second": "En az 60 saniyelik bir aralık girin.",
+    "timing.invalidZone": "Geçerli bir IANA saat dilimi girin, örneğin Asia/Shanghai.",
+    "timing.minute": "Dakika",
+    "timing.nextMonth": "Sonraki ay",
+    "timing.notFound": "Bu görev artık kullanılamıyor. Taslağınız korundu; düzenleyiciyi kapatmak için iptal edin.",
+    "timing.notFuture": "Gelecekte bir tarih ve saat seçin.",
+    "timing.prevMonth": "Önceki ay",
+    "timing.second": "Saniye",
+    "timing.time": "Saat",
+    "timing.unit.hour": "saat",
+    "timing.unit.minute": "dakika",
+    "timing.unit.second": "saniye",
+    "timing.zone": "Saat dilimi",
+    "timing.zoneNoResults": "Eşleşen saat dilimi yok",
+    "timing.zoneNoStored": "Tek seferlik görev yalnızca hedef anını saklar, saat dilimini saklamaz. Tarih ve saat, seçilen saat dilimine göre yorumlanır.",
+    "timing.zoneSearch": "UTC farkı, IANA kimliği veya şehre göre ara",
+    "title": "Otomasyon görevleri",
+    "toast.deleteFailed": "Görev silinemedi.",
+    "toast.deleted": "Görev silindi.",
+    "tool.invoked": "{name} çağrıldı"
+  },
+  "rows": {
+    "card.deleted": {
+      "en": "Deleted",
+      "zh": "已删除"
+    },
+    "card.open": {
+      "en": "Open",
+      "zh": "打开"
+    },
+    "card.openLabel": {
+      "en": "Open task details: {title}",
+      "zh": "打开任务详情：{title}"
+    },
+    "cronForm.atMinute": {
+      "en": "At minute",
+      "zh": "在第几分钟"
+    },
+    "cronForm.daily": {
+      "en": "Every day",
+      "zh": "每天"
+    },
+    "cronForm.dateOption": {
+      "en": "Day {day}",
+      "zh": "{day} 日"
+    },
+    "cronForm.dates": {
+      "en": "On dates",
+      "zh": "在以下日期"
+    },
+    "cronForm.frequency": {
+      "en": "Frequency",
+      "zh": "频率"
+    },
+    "cronForm.minuteDecrease": {
+      "en": "Decrease minute",
+      "zh": "减小分钟"
+    },
+    "cronForm.minuteIncrease": {
+      "en": "Increase minute",
+      "zh": "增大分钟"
+    },
+    "cronForm.monthly": {
+      "en": "Monthly",
+      "zh": "每月"
+    },
+    "cronForm.weekly": {
+      "en": "Weekly",
+      "zh": "每周"
+    },
+    "delete.action": {
+      "en": "Delete task",
+      "zh": "删除任务"
+    },
+    "delete.cancel": {
+      "en": "Cancel",
+      "zh": "取消"
+    },
+    "delete.close": {
+      "en": "Close deletion confirmation",
+      "zh": "关闭删除确认"
+    },
+    "delete.confirm": {
+      "en": "Confirm deletion",
+      "zh": "确认删除"
+    },
+    "delete.description": {
+      "en": "This stops the task from triggering and deletes it together with its saved delivery records. The original session and its messages remain; queued messages are not withdrawn.",
+      "zh": "任务将停止触发，并连同其已保存的任务运行记录一并删除。原会话及其消息仍然保留；已排队的消息不会被撤回。"
+    },
+    "delete.pending": {
+      "en": "Deleting…",
+      "zh": "正在删除…"
+    },
+    "delete.title": {
+      "en": "Delete this task?",
+      "zh": "删除此任务？"
+    },
+    "delivery.collapse": {
+      "en": "Collapse",
+      "zh": "收起"
+    },
+    "delivery.cursorError": {
+      "en": "Records were updated.",
+      "zh": "记录已更新"
+    },
+    "delivery.empty": {
+      "en": "No delivery record available",
+      "zh": "暂无任务运行记录"
+    },
+    "delivery.error": {
+      "en": "Could not load delivery records.",
+      "zh": "无法加载任务运行记录"
+    },
+    "delivery.expand": {
+      "en": "Expand",
+      "zh": "展开"
+    },
+    "delivery.label": {
+      "en": "Saved delivery record",
+      "zh": "已保存的任务运行记录"
+    },
+    "delivery.loadMore": {
+      "en": "Load more",
+      "zh": "加载更多"
+    },
+    "delivery.loading": {
+      "en": "Loading delivery records…",
+      "zh": "正在加载任务运行记录…"
+    },
+    "delivery.notFound": {
+      "en": "This task is no longer available.",
+      "zh": "任务已不可用"
+    },
+    "delivery.pruned": {
+      "en": "Earlier delivery records have been cleared",
+      "zh": "更早的运行记录已清理"
+    },
+    "delivery.refresh": {
+      "en": "Refresh",
+      "zh": "刷新"
+    },
+    "delivery.retention": {
+      "en": "Retention rules",
+      "zh": "保留规则"
+    },
+    "delivery.retentionBounds": {
+      "en": "Each task keeps up to {records} delivery records from the last {days} days.",
+      "zh": "每个任务最多保留近 {days} 天内的 {records} 条运行记录。"
+    },
+    "delivery.retentionExplanation": {
+      "en": "When a new record is saved, older records outside these limits are cleared automatically. Clearing records does not stop the task.",
+      "zh": "产生新记录时，超出范围的旧记录会自动清理。清理记录不影响任务继续运行。"
+    },
+    "delivery.retry": {
+      "en": "Retry",
+      "zh": "重试"
+    },
+    "detail.close": {
+      "en": "Close details",
+      "zh": "关闭详情"
+    },
+    "detail.frequency": {
+      "en": "Frequency",
+      "zh": "提醒频率"
+    },
+    "detail.id": {
+      "en": "Task ID",
+      "zh": "任务 ID"
+    },
+    "detail.instruction": {
+      "en": "Automation task instruction",
+      "zh": "自动化任务内容"
+    },
+    "detail.label": {
+      "en": "Task details",
+      "zh": "任务详情"
+    },
+    "detail.missing": {
+      "en": "Task unavailable. It may have been deleted.",
+      "zh": "任务已不可用，可能已被删除"
+    },
+    "detail.more": {
+      "en": "Automation task actions",
+      "zh": "自动化任务操作"
+    },
+    "detail.name": {
+      "en": "Automation task name",
+      "zh": "自动化任务名称"
+    },
+    "detail.next": {
+      "en": "Next scheduled time",
+      "zh": "下次计划时间"
+    },
+    "detail.nextRun": {
+      "en": "Next run",
+      "zh": "下次运行"
+    },
+    "detail.openSession": {
+      "en": "Linked session: open original session",
+      "zh": "关联会话：打开原会话"
+    },
+    "detail.openSessionTitle": {
+      "en": "Linked session {title}: open original session",
+      "zh": "关联会话 {title}：打开原会话"
+    },
+    "detail.records": {
+      "en": "Delivery records",
+      "zh": "任务运行记录"
+    },
+    "detail.rule": {
+      "en": "Rules",
+      "zh": "规则"
+    },
+    "detail.session": {
+      "en": "Linked session",
+      "zh": "关联会话"
+    },
+    "detail.sessionArchived": {
+      "en": "The original session is archived.",
+      "zh": "原会话已归档"
+    },
+    "detail.sessionLoading": {
+      "en": "Loading original session information.",
+      "zh": "正在加载原会话信息"
+    },
+    "detail.sessionUnavailable": {
+      "en": "The original session is unavailable.",
+      "zh": "原会话当前不可用"
+    },
+    "detail.status": {
+      "en": "Status",
+      "zh": "状态"
+    },
+    "detail.tabs": {
+      "en": "Task detail views",
+      "zh": "任务详情视图"
+    },
+    "empty.action": {
+      "en": "New automation task",
+      "zh": "新建自动化任务"
+    },
+    "frequency.every": {
+      "en": "Every {value} {unit}",
+      "zh": "每 {value} {unit}"
+    },
+    "frequency.once": {
+      "en": "Once",
+      "zh": "仅一次"
+    },
+    "list.empty": {
+      "en": "No tasks yet. Tasks created in your sessions appear here.",
+      "zh": "还没有自动化任务，在会话中创建的任务会显示在这里"
+    },
+    "list.emptyInactive": {
+      "en": "No inactive automation tasks",
+      "zh": "没有已结束的自动化任务"
+    },
+    "list.error": {
+      "en": "Could not load tasks.",
+      "zh": "无法加载任务"
+    },
+    "list.label": {
+      "en": "Task catalog",
+      "zh": "任务列表"
+    },
+    "list.loading": {
+      "en": "Loading tasks…",
+      "zh": "正在加载任务…"
+    },
+    "list.nextPrefix": {
+      "en": "Next scheduled time: ",
+      "zh": "下次计划时间："
+    },
+    "list.noMatches": {
+      "en": "No matching tasks",
+      "zh": "没有匹配的自动化任务"
+    },
+    "list.retry": {
+      "en": "Retry",
+      "zh": "重试"
+    },
+    "new.action": {
+      "en": "New",
+      "zh": "新建"
+    },
+    "panel": {
+      "en": "Automation tasks",
+      "zh": "自动化任务"
+    },
+    "rule.cancel": {
+      "en": "Cancel",
+      "zh": "取消"
+    },
+    "rule.cron": {
+      "en": "Custom",
+      "zh": "自定义"
+    },
+    "rule.cronInvalid": {
+      "en": "Enter a five-field cron expression, for example 0 9 * * 1-5.",
+      "zh": "请输入 5 字段的 cron 表达式，例如 0 9 * * 1-5"
+    },
+    "rule.cronLabel": {
+      "en": "Cron expression",
+      "zh": "Cron 表达式"
+    },
+    "rule.daily": {
+      "en": "Every day",
+      "zh": "每天"
+    },
+    "rule.error.conflict": {
+      "en": "This task changed before the update was saved. The row shows the saved rule; try again.",
+      "zh": "任务在保存前已发生变化。当前显示已保存的规则，请重试"
+    },
+    "rule.error.notFound": {
+      "en": "This task is no longer available.",
+      "zh": "此任务当前不可用"
+    },
+    "rule.error.unknown": {
+      "en": "Could not confirm the rule update. The row shows the saved rule.",
+      "zh": "无法确认规则是否已更新。当前显示已保存的规则"
+    },
+    "rule.everyHours": {
+      "en": "Every N hours",
+      "zh": "每 N 小时"
+    },
+    "rule.everyMinutes": {
+      "en": "Every N minutes",
+      "zh": "每 N 分钟"
+    },
+    "rule.everySeconds": {
+      "en": "Every N seconds",
+      "zh": "每 N 秒"
+    },
+    "rule.invalidPrompt": {
+      "en": "Enter a task instruction.",
+      "zh": "请输入任务内容"
+    },
+    "rule.invalidTitle": {
+      "en": "Enter a task name of at most 120 characters.",
+      "zh": "请输入不超过 120 个字符的任务名称"
+    },
+    "rule.once": {
+      "en": "Once",
+      "zh": "仅一次"
+    },
+    "rule.repeat": {
+      "en": "Repeat",
+      "zh": "重复"
+    },
+    "rule.save": {
+      "en": "Save changes",
+      "zh": "保存修改"
+    },
+    "rule.saving": {
+      "en": "Saving…",
+      "zh": "保存中…"
+    },
+    "rule.title": {
+      "en": "Run time",
+      "zh": "运行时间"
+    },
+    "rule.unsaved": {
+      "en": "Unsaved changes",
+      "zh": "有未保存的修改"
+    },
+    "rule.weekday": {
+      "en": "Weekday",
+      "zh": "星期"
+    },
+    "rule.weekdayOption": {
+      "en": "Weekday {weekday}",
+      "zh": "星期{weekday}"
+    },
+    "rule.weekdays": {
+      "en": "Monday to Friday",
+      "zh": "周一至周五"
+    },
+    "rule.weekly": {
+      "en": "Weekly",
+      "zh": "每周"
+    },
+    "rule.zone.system": {
+      "en": " (system)",
+      "zh": "（系统）"
+    },
+    "search.clear": {
+      "en": "Clear search",
+      "zh": "清空搜索"
+    },
+    "search.label": {
+      "en": "Search tasks",
+      "zh": "搜索任务"
+    },
+    "search.placeholder": {
+      "en": "Search automation tasks",
+      "zh": "搜索自动化任务"
+    },
+    "status.active": {
+      "en": "Enabled",
+      "zh": "已开启"
+    },
+    "status.inactive": {
+      "en": "Inactive",
+      "zh": "已结束"
+    },
+    "statusFilter.all": {
+      "en": "All",
+      "zh": "全部"
+    },
+    "statusFilter.label": {
+      "en": "Task status",
+      "zh": "任务状态"
+    },
+    "timing.conflict": {
+      "en": "This task changed while you were editing. Your draft is retained. Cancel and reopen after refresh to edit the latest rule.",
+      "zh": "编辑期间任务已变化，草稿已保留。请在刷新后取消并重新打开编辑器，以修改最新规则"
+    },
+    "timing.date": {
+      "en": "Date",
+      "zh": "日期"
+    },
+    "timing.error": {
+      "en": "Could not confirm the timing update. Your draft is retained. Check the task before retrying.",
+      "zh": "无法确认时间修改是否已保存。草稿已保留，请在重试前检查任务"
+    },
+    "timing.hour": {
+      "en": "Hour",
+      "zh": "时"
+    },
+    "timing.inactive": {
+      "en": "Inactive tasks are read-only. Their timing cannot be edited.",
+      "zh": "已结束的任务为只读，无法修改时间"
+    },
+    "timing.interval": {
+      "en": "Repeat every",
+      "zh": "重复间隔"
+    },
+    "timing.intervalDecrease": {
+      "en": "Decrease interval",
+      "zh": "减小间隔"
+    },
+    "timing.intervalHint.hour": {
+      "en": "At least 1 hour. The interval counts from task creation or the last rule change and is independent of time zones.",
+      "zh": "至少 1 小时。间隔自任务创建或上次修改规则时起计，不受时区影响"
+    },
+    "timing.intervalHint.minute": {
+      "en": "At least 1 minute. The interval counts from task creation or the last rule change and is independent of time zones.",
+      "zh": "至少 1 分钟。间隔自任务创建或上次修改规则时起计，不受时区影响"
+    },
+    "timing.intervalHint.second": {
+      "en": "At least 60 seconds. The interval counts from task creation or the last rule change and is independent of time zones.",
+      "zh": "至少 60 秒。间隔自任务创建或上次修改规则时起计，不受时区影响"
+    },
+    "timing.intervalIncrease": {
+      "en": "Increase interval",
+      "zh": "增大间隔"
+    },
+    "timing.invalid": {
+      "en": "Enter a valid date and time, or check the timing fields.",
+      "zh": "请输入有效的日期和时间，或检查时间字段"
+    },
+    "timing.invalidInterval": {
+      "en": "Enter an interval of at least 1 minute.",
+      "zh": "请输入至少 1 分钟的间隔"
+    },
+    "timing.invalidInterval.hour": {
+      "en": "Enter an interval of at least 1 hour.",
+      "zh": "请输入至少 1 小时的间隔"
+    },
+    "timing.invalidInterval.minute": {
+      "en": "Enter an interval of at least 1 minute.",
+      "zh": "请输入至少 1 分钟的间隔"
+    },
+    "timing.invalidInterval.second": {
+      "en": "Enter an interval of at least 60 seconds.",
+      "zh": "请输入至少 60 秒的间隔"
+    },
+    "timing.invalidZone": {
+      "en": "Enter a valid IANA time zone, for example Asia/Shanghai.",
+      "zh": "请输入有效的 IANA 时区，例如 Asia/Shanghai"
+    },
+    "timing.minute": {
+      "en": "Minute",
+      "zh": "分"
+    },
+    "timing.nextMonth": {
+      "en": "Next month",
+      "zh": "下个月"
+    },
+    "timing.notFound": {
+      "en": "This task is no longer available. Your draft is retained; cancel to close the editor.",
+      "zh": "此任务当前不可用，草稿已保留。请取消以关闭编辑器"
+    },
+    "timing.notFuture": {
+      "en": "Choose a date and time in the future.",
+      "zh": "请选择未来的日期和时间"
+    },
+    "timing.prevMonth": {
+      "en": "Previous month",
+      "zh": "上个月"
+    },
+    "timing.second": {
+      "en": "Second",
+      "zh": "秒"
+    },
+    "timing.time": {
+      "en": "Time",
+      "zh": "时间"
+    },
+    "timing.unit.hour": {
+      "en": "hours",
+      "zh": "小时"
+    },
+    "timing.unit.minute": {
+      "en": "minutes",
+      "zh": "分钟"
+    },
+    "timing.unit.second": {
+      "en": "seconds",
+      "zh": "秒"
+    },
+    "timing.zone": {
+      "en": "Time zone",
+      "zh": "时区"
+    },
+    "timing.zoneNoResults": {
+      "en": "No matching time zones",
+      "zh": "没有匹配的时区"
+    },
+    "timing.zoneNoStored": {
+      "en": "A one-time task stores only its target moment, not a time zone. The date and time are interpreted in the selected time zone.",
+      "zh": "单次任务只保存触发时刻，不保存时区；日期和时间按所选时区换算"
+    },
+    "timing.zoneSearch": {
+      "en": "Search by UTC offset, IANA ID, or city",
+      "zh": "搜索 UTC 偏移、IANA 标识或城市"
+    },
+    "title": {
+      "en": "Automation tasks",
+      "zh": "自动化任务"
+    },
+    "toast.deleteFailed": {
+      "en": "Could not delete the task.",
+      "zh": "无法删除任务"
+    },
+    "toast.deleted": {
+      "en": "Task deleted.",
+      "zh": "任务已删除"
+    },
+    "tool.invoked": {
+      "en": "Invoked {name}",
+      "zh": "已调用 {name}"
+    }
+  }
+}

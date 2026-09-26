@@ -1,0 +1,563 @@
+{
+  "ns": "workspace",
+  "pkg": "dsh-client-ui-workspace",
+  "tr": {
+    "actions.archive": "Arşivle",
+    "actions.newSession": "Yeni oturum",
+    "actions.newSession.aria": "{name} içinde yeni oturum",
+    "actions.pin": "Sabitle",
+    "actions.session.aria": "{name} oturum işlemleri",
+    "actions.unarchive": "Arşivden çıkar",
+    "actions.unpin": "Sabitlemeyi kaldır",
+    "actions.workspace.aria": "{name} çalışma alanı işlemleri",
+    "archive.confirm.action": "Durdur ve arşivle",
+    "archive.confirm.activity": "Durdurulacak çalışmalar",
+    "archive.confirm.desc": "“{title}” oturumunda hâlâ süren çalışmalar var. Arşivleme önce bunları durdurur; oturumu daha sonra kenar çubuğundaki “Tüm konuşmalar (arşivlenenleri göster)” filtresinden geri getirebilirsiniz ve durdurulan çalışmalar kendiliğinden devam etmez.",
+    "archive.confirm.jobs.one": "{n} arka plan görevi: {names}",
+    "archive.confirm.jobs.other": "{n} arka plan görevi: {names}",
+    "archive.confirm.listSeparator": ", ",
+    "archive.confirm.other.one": "{n} diğer çalışma öğesi ({kind})",
+    "archive.confirm.other.other": "{n} diğer çalışma öğesi ({kind})",
+    "archive.confirm.pending": "Durduruluyor ve arşivleniyor…",
+    "archive.confirm.schedules.one": "{n} zamanlanmış hatırlatıcı: {names}",
+    "archive.confirm.schedules.other": "{n} zamanlanmış hatırlatıcı: {names}",
+    "archive.confirm.subagents.one": "{n} çalışan alt ajan: {names}",
+    "archive.confirm.subagents.other": "{n} çalışan alt ajan: {names}",
+    "archive.confirm.title": "Bu oturum durdurulup arşivlensin mi?",
+    "archive.confirm.turn": "Süren tur",
+    "conflict.named": "“{name}” adlı bir çalışma alanı zaten var.",
+    "date.ymd": "{d}.{m}.{y}",
+    "defaultWorkspace.failed": "Varsayılan çalışma alanı oluşturulamadı. Bir klasör seçmek için Çalışma alanı seç'i kullanın.",
+    "delete.desc": "Bu işlem “{name}” öğesini çalışma alanı listesinden kaldırır. Klasör ve oturum kayıtları korunur. Oturumları Gruplanmamış altında görünür.",
+    "delete.pending": "Çalışma alanı siliniyor…",
+    "delete.workspace": "Çalışma alanını sil",
+    "empty.noMatches": "Eşleşme yok",
+    "empty.none": "Henüz oturum yok",
+    "empty.noneArchived": "Henüz arşivlenmiş oturum yok",
+    "empty.viewOthers": "Diğer oturumları görüntüle",
+    "field.sessionName": "Oturum adı",
+    "field.workspaceName": "Çalışma alanı adı",
+    "filterBy.label": "Oturumları filtrele",
+    "folderError.retry": "Yeniden seç",
+    "folderError.title": "Klasör açılamadı",
+    "group.ungrouped": "Gruplanmamış",
+    "groupBy.flat": "Tek listede",
+    "groupBy.label": "Gruplama ölçütü",
+    "groupBy.workspace": "Çalışma alanı",
+    "groupBy.workspaceTree": "Çalışma alanı ağacı",
+    "hover.copied": "Kopyalandı",
+    "hover.created": "Oluşturulma: {time}",
+    "menu.addWorkspace": "Çalışma alanı ekle…",
+    "menu.archiveSession": "Oturumu arşivle",
+    "menu.fork": "Oturumu çatalla",
+    "menu.pinSession": "Oturumu sabitle",
+    "menu.unarchiveSession": "Oturumu arşivden çıkar",
+    "menu.unpinSession": "Oturumun sabitlemesini kaldır",
+    "orderBy.label": "Sıralama ölçütü",
+    "orderBy.manual": "Manuel",
+    "orderBy.updated": "Son güncelleme",
+    "picker.loading": "Çalışma alanları yükleniyor…",
+    "rename": "Yeniden adlandır",
+    "rename.session.title": "Oturumu yeniden adlandır",
+    "rename.workspace.title": "Çalışma alanını yeniden adlandır",
+    "row.archived": "Arşivlendi",
+    "row.pinned": "Sabitlendi",
+    "search.clear": "Aramayı temizle",
+    "search.hasMore": "İlk {n} sonuç gösteriliyor. Aramanızı daraltın.",
+    "search.noMatches": "Eşleşen oturum yok",
+    "search.pending": "Oturum geçmişi aranıyor…",
+    "search.placeholder": "Oturum adlarında ara",
+    "search.results.aria": "Arama sonuçları",
+    "search.sessions.aria": "Oturumlarda ara",
+    "section.sessions": "Oturumlar",
+    "section.workspaces": "Çalışma alanları",
+    "session.new": "Yeni oturum",
+    "sessions.collapse": "Daha az göster",
+    "sessions.count.one": "{n} oturum",
+    "sessions.count.other": "{n} oturum",
+    "sessions.expand": "{n} oturum daha göster",
+    "shortcut.directoryBusy": "Çalışma alanı seçiliyor veya ekleniyor",
+    "shortcut.forkFailed": "Oturum çatallanamadı. Yeniden deneyin.",
+    "shortcut.noCompletedTurn": "Bu oturumda tamamlanmış tur yok",
+    "shortcut.noPicker": "Klasör seçici kullanılamıyor",
+    "shortcut.noSession": "Önce bir oturum seçin",
+    "status.compact.answer": "Yanıt",
+    "status.compact.approval": "Onay",
+    "status.compact.planReview": "Plan incelemesi",
+    "status.completed": "Tamamlandı",
+    "status.idle": "Boşta",
+    "status.planReview": "Plan incelemesi bekliyor",
+    "status.running": "Çalışıyor",
+    "status.subagentsRunning.one": "{n} alt ajan çalışıyor",
+    "status.subagentsRunning.other": "{n} alt ajan çalışıyor",
+    "status.waitingAnswer": "Yanıt bekleniyor",
+    "status.waitingApproval": "Onay bekleniyor",
+    "time.ago": "{t} önce",
+    "time.days": "{n} g",
+    "time.hours": "{n} sa",
+    "time.minutes": "{n} dk",
+    "time.months": "{n} ay",
+    "time.now": "şimdi",
+    "time.years": "{n} yıl",
+    "toast.archived": "Oturum arşivlendi. ",
+    "toast.archivedFilter": "arşivlenmiş oturumları filtreleyebilirsiniz",
+    "toast.archivedNotOpenable": "Arşivlenmiş oturumlar açılamaz. Görüntülemek için arşivden çıkarın.",
+    "toast.archivedOr": " veya ",
+    "toast.archivedUndo": "Geri alabilirsiniz",
+    "toast.createFailed": "Yeni oturum oluşturulamadı: {message}",
+    "toast.pinFailed": "Sabitleme başarısız oldu. Daha sonra yeniden deneyin.",
+    "toast.stoppedAndArchived": "Oturum durduruldu ve arşivlendi. ",
+    "toast.unpinFailed": "Sabitlemeyi kaldırma başarısız oldu. Daha sonra yeniden deneyin.",
+    "viewOptions.hideArchived": "Arşivlenenleri gizle",
+    "viewOptions.label": "Görünüm seçenekleri",
+    "viewOptions.onlyArchived": "Yalnızca arşivlenenler",
+    "viewOptions.showArchived": "Tüm konuşmalar (arşivlenenleri göster)",
+    "workspace.add": "Çalışma alanı ekle"
+  },
+  "rows": {
+    "actions.archive": {
+      "en": "Archive",
+      "zh": "归档会话"
+    },
+    "actions.newSession": {
+      "en": "New session",
+      "zh": "新会话"
+    },
+    "actions.newSession.aria": {
+      "en": "New session in {name}",
+      "zh": "在“{name}”中新建会话"
+    },
+    "actions.pin": {
+      "en": "Pin",
+      "zh": "置顶会话"
+    },
+    "actions.session.aria": {
+      "en": "Session actions for {name}",
+      "zh": "会话“{name}”的操作"
+    },
+    "actions.unarchive": {
+      "en": "Unarchive",
+      "zh": "取消归档"
+    },
+    "actions.unpin": {
+      "en": "Unpin",
+      "zh": "取消置顶"
+    },
+    "actions.workspace.aria": {
+      "en": "Workspace actions for {name}",
+      "zh": "工作区“{name}”的操作"
+    },
+    "archive.confirm.action": {
+      "en": "Stop and archive",
+      "zh": "停止并归档"
+    },
+    "archive.confirm.activity": {
+      "en": "Work that will be stopped",
+      "zh": "将被停止的工作"
+    },
+    "archive.confirm.desc": {
+      "en": "“{title}” still has work in progress. Archiving stops it first; you can restore the session later from the “All conversations (show archived)” filter in the sidebar, and the stopped work will not resume on its own.",
+      "zh": "“{title}”仍有正在进行的工作。归档会先停止这些工作；之后可在侧栏筛选“全部对话（显示已归档）”中恢复会话，被停止的工作不会自动继续。"
+    },
+    "archive.confirm.jobs.one": {
+      "en": "{n} background job: {names}",
+      "zh": "{n} 个后台任务：{names}"
+    },
+    "archive.confirm.jobs.other": {
+      "en": "{n} background jobs: {names}",
+      "zh": "{n} 个后台任务：{names}"
+    },
+    "archive.confirm.listSeparator": {
+      "en": ", ",
+      "zh": "、"
+    },
+    "archive.confirm.other.one": {
+      "en": "{n} other item of work ({kind})",
+      "zh": "{n} 项其他工作（{kind}）"
+    },
+    "archive.confirm.other.other": {
+      "en": "{n} other items of work ({kind})",
+      "zh": "{n} 项其他工作（{kind}）"
+    },
+    "archive.confirm.pending": {
+      "en": "Stopping and archiving…",
+      "zh": "正在停止并归档…"
+    },
+    "archive.confirm.schedules.one": {
+      "en": "{n} scheduled reminder: {names}",
+      "zh": "{n} 条定时提醒：{names}"
+    },
+    "archive.confirm.schedules.other": {
+      "en": "{n} scheduled reminders: {names}",
+      "zh": "{n} 条定时提醒：{names}"
+    },
+    "archive.confirm.subagents.one": {
+      "en": "{n} running subagent: {names}",
+      "zh": "{n} 个运行中的子智能体：{names}"
+    },
+    "archive.confirm.subagents.other": {
+      "en": "{n} running subagents: {names}",
+      "zh": "{n} 个运行中的子智能体：{names}"
+    },
+    "archive.confirm.title": {
+      "en": "Stop and archive this session?",
+      "zh": "停止并归档此会话？"
+    },
+    "archive.confirm.turn": {
+      "en": "The turn in progress",
+      "zh": "进行中的回合"
+    },
+    "conflict.named": {
+      "en": "A workspace named “{name}” already exists.",
+      "zh": "已存在名为“{name}”的工作区。"
+    },
+    "date.ymd": {
+      "en": "{y}-{m}-{d}",
+      "zh": "{y}年{m}月{d}日"
+    },
+    "defaultWorkspace.failed": {
+      "en": "Unable to create default workspace. Use Choose workspace to select a folder.",
+      "zh": "无法创建默认工作区，请通过“选择工作区”选择文件夹"
+    },
+    "delete.desc": {
+      "en": "This removes “{name}” from the workspace list. The folder and session logs will be kept. Its sessions will appear under Ungrouped.",
+      "zh": "将把“{name}”从工作区列表中移除。文件夹与会话记录会保留，其会话将显示在“未分组”下。"
+    },
+    "delete.pending": {
+      "en": "Deleting workspace…",
+      "zh": "正在删除工作区…"
+    },
+    "delete.workspace": {
+      "en": "Delete workspace",
+      "zh": "删除工作区"
+    },
+    "empty.noMatches": {
+      "en": "No matches",
+      "zh": "无匹配结果"
+    },
+    "empty.none": {
+      "en": "No sessions yet",
+      "zh": "暂无会话"
+    },
+    "empty.noneArchived": {
+      "en": "No archived sessions yet",
+      "zh": "暂无已归档会话"
+    },
+    "empty.viewOthers": {
+      "en": "View other sessions",
+      "zh": "查看其他会话"
+    },
+    "field.sessionName": {
+      "en": "Session name",
+      "zh": "会话名称"
+    },
+    "field.workspaceName": {
+      "en": "Workspace name",
+      "zh": "工作区名称"
+    },
+    "filterBy.label": {
+      "en": "Filter sessions",
+      "zh": "筛选会话"
+    },
+    "folderError.retry": {
+      "en": "Choose again",
+      "zh": "重新选择"
+    },
+    "folderError.title": {
+      "en": "Couldn’t open folder",
+      "zh": "无法打开文件夹"
+    },
+    "group.ungrouped": {
+      "en": "Ungrouped",
+      "zh": "未分组"
+    },
+    "groupBy.flat": {
+      "en": "In one list",
+      "zh": "单列表"
+    },
+    "groupBy.label": {
+      "en": "Group by",
+      "zh": "分组方式"
+    },
+    "groupBy.workspace": {
+      "en": "WorkSpace",
+      "zh": "按工作区"
+    },
+    "groupBy.workspaceTree": {
+      "en": "Workspace Tree",
+      "zh": "按工作区树"
+    },
+    "hover.copied": {
+      "en": "Copied",
+      "zh": "已复制"
+    },
+    "hover.created": {
+      "en": "Created {time}",
+      "zh": "创建于 {time}"
+    },
+    "menu.addWorkspace": {
+      "en": "Add workspace…",
+      "zh": "添加工作区…"
+    },
+    "menu.archiveSession": {
+      "en": "Archive session",
+      "zh": "归档会话"
+    },
+    "menu.fork": {
+      "en": "Fork session",
+      "zh": "分叉会话"
+    },
+    "menu.pinSession": {
+      "en": "Pin session",
+      "zh": "置顶会话"
+    },
+    "menu.unarchiveSession": {
+      "en": "Unarchive session",
+      "zh": "取消归档"
+    },
+    "menu.unpinSession": {
+      "en": "Unpin session",
+      "zh": "取消置顶"
+    },
+    "orderBy.label": {
+      "en": "Order by",
+      "zh": "排序方式"
+    },
+    "orderBy.manual": {
+      "en": "Manual",
+      "zh": "手动排序"
+    },
+    "orderBy.updated": {
+      "en": "Last updated",
+      "zh": "最近更新"
+    },
+    "picker.loading": {
+      "en": "Loading workspaces…",
+      "zh": "正在加载工作区…"
+    },
+    "rename": {
+      "en": "Rename",
+      "zh": "重命名"
+    },
+    "rename.session.title": {
+      "en": "Rename session",
+      "zh": "重命名会话"
+    },
+    "rename.workspace.title": {
+      "en": "Rename workspace",
+      "zh": "重命名工作区"
+    },
+    "row.archived": {
+      "en": "Archived",
+      "zh": "已归档"
+    },
+    "row.pinned": {
+      "en": "Pinned",
+      "zh": "已置顶"
+    },
+    "search.clear": {
+      "en": "Clear search",
+      "zh": "清除搜索"
+    },
+    "search.hasMore": {
+      "en": "Showing the first {n} results. Narrow your search.",
+      "zh": "仅显示前 {n} 条结果，请缩小搜索范围。"
+    },
+    "search.noMatches": {
+      "en": "No matching sessions",
+      "zh": "无匹配会话"
+    },
+    "search.pending": {
+      "en": "Searching session history…",
+      "zh": "正在搜索会话历史…"
+    },
+    "search.placeholder": {
+      "en": "Search session names",
+      "zh": "搜索会话名称"
+    },
+    "search.results.aria": {
+      "en": "Search results",
+      "zh": "搜索结果"
+    },
+    "search.sessions.aria": {
+      "en": "Search sessions",
+      "zh": "搜索会话"
+    },
+    "section.sessions": {
+      "en": "Sessions",
+      "zh": "会话"
+    },
+    "section.workspaces": {
+      "en": "Workspaces",
+      "zh": "工作区"
+    },
+    "session.new": {
+      "en": "New Session",
+      "zh": "新会话"
+    },
+    "sessions.collapse": {
+      "en": "Show less",
+      "zh": "收起"
+    },
+    "sessions.count.one": {
+      "en": "{n} session",
+      "zh": "{n} 个会话"
+    },
+    "sessions.count.other": {
+      "en": "{n} sessions",
+      "zh": "{n} 个会话"
+    },
+    "sessions.expand": {
+      "en": "Show {n} more sessions",
+      "zh": "展开其余 {n} 个会话"
+    },
+    "shortcut.directoryBusy": {
+      "en": "Selecting or adding a workspace",
+      "zh": "正在选择或添加工作区"
+    },
+    "shortcut.forkFailed": {
+      "en": "Could not fork the session. Try again.",
+      "zh": "无法分叉会话，请重试"
+    },
+    "shortcut.noCompletedTurn": {
+      "en": "This session has no completed turn",
+      "zh": "当前会话没有已结束的轮次"
+    },
+    "shortcut.noPicker": {
+      "en": "Directory picker unavailable",
+      "zh": "目录选择器不可用"
+    },
+    "shortcut.noSession": {
+      "en": "Select a session first",
+      "zh": "请先选择一个会话"
+    },
+    "status.compact.answer": {
+      "en": "Answer",
+      "zh": "待回答"
+    },
+    "status.compact.approval": {
+      "en": "Approval",
+      "zh": "待审批"
+    },
+    "status.compact.planReview": {
+      "en": "Plan review",
+      "zh": "计划待审"
+    },
+    "status.completed": {
+      "en": "Completed",
+      "zh": "已完成"
+    },
+    "status.idle": {
+      "en": "Idle",
+      "zh": "空闲"
+    },
+    "status.planReview": {
+      "en": "Plan awaiting review",
+      "zh": "计划待审"
+    },
+    "status.running": {
+      "en": "Running",
+      "zh": "进行中"
+    },
+    "status.subagentsRunning.one": {
+      "en": "{n} subagent running",
+      "zh": "{n} 个子智能体运行中"
+    },
+    "status.subagentsRunning.other": {
+      "en": "{n} subagents running",
+      "zh": "{n} 个子智能体运行中"
+    },
+    "status.waitingAnswer": {
+      "en": "Waiting for answer",
+      "zh": "等待回答"
+    },
+    "status.waitingApproval": {
+      "en": "Waiting for approval",
+      "zh": "等待审批"
+    },
+    "time.ago": {
+      "en": "{t} ago",
+      "zh": "{t}前"
+    },
+    "time.days": {
+      "en": "{n}d",
+      "zh": "{n}天"
+    },
+    "time.hours": {
+      "en": "{n}h",
+      "zh": "{n}小时"
+    },
+    "time.minutes": {
+      "en": "{n}min",
+      "zh": "{n}分钟"
+    },
+    "time.months": {
+      "en": "{n}mo",
+      "zh": "{n}个月"
+    },
+    "time.now": {
+      "en": "now",
+      "zh": "刚刚"
+    },
+    "time.years": {
+      "en": "{n}y",
+      "zh": "{n}年"
+    },
+    "toast.archived": {
+      "en": "Session archived. You can ",
+      "zh": "会话已归档，可"
+    },
+    "toast.archivedFilter": {
+      "en": "filter archived sessions",
+      "zh": "筛选已归档会话"
+    },
+    "toast.archivedNotOpenable": {
+      "en": "Archived sessions cannot be opened. Unarchive it to view.",
+      "zh": "已归档对话暂时无法查看，请取消归档后查看"
+    },
+    "toast.archivedOr": {
+      "en": " or ",
+      "zh": "或"
+    },
+    "toast.archivedUndo": {
+      "en": "undo",
+      "zh": "撤销"
+    },
+    "toast.createFailed": {
+      "en": "New session failed: {message}",
+      "zh": "新建会话失败：{message}"
+    },
+    "toast.pinFailed": {
+      "en": "Pin failed. Try again later.",
+      "zh": "置顶失败，请稍后重试"
+    },
+    "toast.stoppedAndArchived": {
+      "en": "Session stopped and archived. You can ",
+      "zh": "已停止并归档，可"
+    },
+    "toast.unpinFailed": {
+      "en": "Unpin failed. Try again later.",
+      "zh": "取消置顶失败，请稍后重试"
+    },
+    "viewOptions.hideArchived": {
+      "en": "Hide archived",
+      "zh": "隐藏已归档"
+    },
+    "viewOptions.label": {
+      "en": "View options",
+      "zh": "视图选项"
+    },
+    "viewOptions.onlyArchived": {
+      "en": "Archived only",
+      "zh": "仅显示已归档"
+    },
+    "viewOptions.showArchived": {
+      "en": "All conversations (show archived)",
+      "zh": "全部对话（显示已归档）"
+    },
+    "workspace.add": {
+      "en": "Add workspace",
+      "zh": "添加工作区"
+    }
+  }
+}

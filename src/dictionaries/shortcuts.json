@@ -1,0 +1,148 @@
+{
+  "ns": "shortcuts",
+  "pkg": "dsh-client-ui-shortcuts",
+  "tr": {
+    "clear-search": "Aramayı temizle",
+    "close-confirmation": "Onayı kapat",
+    "desktop-document": "userData/keybindings.json",
+    "desktop-reload": "Harness'i yeniden başlat",
+    "edit-label": "{command} için kısayolu düzenle",
+    "global-hint": "Her yerden aç",
+    "macos-web-help": "Command+/, Command+,, Command+Ters Bölü, Control+Ters Tik, Command+Option+tuş veya Command+Shift+tuş kullanın. Üç ya da dört farklı değiştirici tuş içeren kombinasyonlar da desteklenir. Tarayıcı veya sistem kısayolları sayfaya ulaşmayabilir.",
+    "modified-count": "{count} özelleştirildi",
+    "modifier-required": "Kombinasyona Command, Ctrl veya Alt ekleyin.",
+    "native-failed": "Masaüstü tuş kaydı korunamadı. Kaydı durdurup yeniden deneyin.",
+    "not-ready": "Kısayollar henüz hazır değil. Lütfen yeniden deneyin.",
+    "record-help": "Kaydetmek için tuşları bırakın. Tab işlemler arasında geçiş yapar; Esc iptal eder.",
+    "reset-all": "Tüm varsayılanları geri yükle",
+    "reset-description": "Bu platformun varsayılan kısayollarını geri yükler. Değiştirdiğiniz veya kaldırdığınız tüm kısayollar geri yüklenir. Diğer platformlar etkilenmez.",
+    "reset-failed": "Varsayılanlar geri yüklenemedi. Kısayollarınız değişmedi. Lütfen yeniden deneyin.",
+    "reset-saved": "Varsayılan kısayollar geri yüklendi",
+    "reset-title": "Tüm varsayılan kısayollar geri yüklensin mi?",
+    "retry-save": "Kaydetmeyi yeniden dene",
+    "too-many-keys": "En fazla iki değiştirici olmayan tuşu basılı tutun. Yeniden denemek için tuşları bırakın.",
+    "unsupported-browser": "Bu tarayıcı bu kombinasyonu henüz desteklemiyor.",
+    "unsupported-key": "Bu tuş desteklenmiyor.",
+    "using-accepted": "Son başarıyla okunan tuş atamaları etkin kalır.",
+    "using-defaults": "Varsayılan tuş atamaları etkin.",
+    "web-document": "bu sitenin localStorage kaydı dsh.keybindings.v1",
+    "web-help": "Tarayıcı kombinasyonları: Mod+/, Mod+Shift+,, Mod+Shift+.. Mod, Mac'te Command, diğer sistemlerde Ctrl'dir.",
+    "web-reload": "sayfayı yeniden yükle",
+    "windows-web-help": "Ctrl+/, Ctrl+,, Ctrl+Alt+tuş veya Ctrl+Shift+tuş kullanın. Üç ya da dört farklı değiştirici tuş içeren kombinasyonlar da desteklenir. Tarayıcı veya sistem kısayolları sayfaya ulaşmayabilir.",
+    "write-failed": "Kaydedilemedi. Önceki kısayollarınız ve geçerli taslağınız korundu. Lütfen yeniden deneyin."
+  },
+  "rows": {
+    "clear-search": {
+      "en": "Clear search",
+      "zh": "清空搜索"
+    },
+    "close-confirmation": {
+      "en": "Close confirmation",
+      "zh": "关闭确认"
+    },
+    "desktop-document": {
+      "en": "userData/keybindings.json",
+      "zh": "userData/keybindings.json"
+    },
+    "desktop-reload": {
+      "en": "restart Harness",
+      "zh": "重新启动 Harness"
+    },
+    "edit-label": {
+      "en": "Edit shortcut for {command}",
+      "zh": "修改{command}快捷键"
+    },
+    "global-hint": {
+      "en": "Open from anywhere",
+      "zh": "全局唤起查看"
+    },
+    "macos-web-help": {
+      "en": "Use Command+/, Command+,, Command+Backslash, Control+Backquote, Command+Option+key, or Command+Shift+key. Combinations with three or four distinct modifiers are also supported. Browser or system shortcuts may not reach the page.",
+      "zh": "可设置 Command+/、Command+,、Command+反斜杠、Control+反引号、Command+Option+按键或 Command+Shift+按键。也支持三个或四个不同修饰键的组合。浏览器或系统占用的组合可能无法送达页面。"
+    },
+    "modified-count": {
+      "en": "{count} customized",
+      "zh": "{count} 项已自定义"
+    },
+    "modifier-required": {
+      "en": "Include Command, Ctrl, or Alt in the combination.",
+      "zh": "请同时按下 Command、Ctrl 或 Alt 修饰键。"
+    },
+    "native-failed": {
+      "en": "Could not protect desktop key recording. Exit recording and try again.",
+      "zh": "无法启用桌面录键保护，请关闭后重试。"
+    },
+    "not-ready": {
+      "en": "Shortcuts are not ready. Please try again.",
+      "zh": "快捷键尚未准备好，请稍后重试。"
+    },
+    "record-help": {
+      "en": "Release the keys to save. Tab moves between actions; Esc cancels.",
+      "zh": "松开组合键即保存。Tab 切换操作，Esc 退出录键。"
+    },
+    "reset-all": {
+      "en": "Restore all defaults",
+      "zh": "恢复全部默认"
+    },
+    "reset-description": {
+      "en": "Restore the default shortcuts for this platform. All modified or removed shortcuts will be restored. Other platforms are unaffected.",
+      "zh": "将恢复当前平台的默认快捷键。你修改或移除的快捷键都会恢复，其他平台不受影响。"
+    },
+    "reset-failed": {
+      "en": "Could not restore defaults. Your shortcuts are unchanged. Please retry.",
+      "zh": "恢复默认失败。原快捷键已保留，请重试。"
+    },
+    "reset-saved": {
+      "en": "Default shortcuts restored",
+      "zh": "已恢复默认快捷键"
+    },
+    "reset-title": {
+      "en": "Restore all default shortcuts?",
+      "zh": "恢复全部默认快捷键？"
+    },
+    "retry-save": {
+      "en": "Retry save",
+      "zh": "重试保存"
+    },
+    "too-many-keys": {
+      "en": "Hold at most two non-modifier keys. Release the keys to try again.",
+      "zh": "最多同时按下两个非修饰键。请松开后重试。"
+    },
+    "unsupported-browser": {
+      "en": "This browser does not support this combination yet.",
+      "zh": "此浏览器暂不支持该组合。"
+    },
+    "unsupported-key": {
+      "en": "This key is not supported.",
+      "zh": "暂不支持这个按键。"
+    },
+    "using-accepted": {
+      "en": "The last successfully read bindings remain active.",
+      "zh": "当前继续使用上次读取成功的键位。"
+    },
+    "using-defaults": {
+      "en": "Default bindings are active.",
+      "zh": "当前使用默认键位。"
+    },
+    "web-document": {
+      "en": "this site’s localStorage entry dsh.keybindings.v1",
+      "zh": "当前网站本地存储中的 dsh.keybindings.v1"
+    },
+    "web-help": {
+      "en": "Browser combinations: Mod+/, Mod+Shift+,, Mod+Shift+.. Mod is Command on Mac and Ctrl elsewhere.",
+      "zh": "浏览器可用组合：Mod+/、Mod+Shift+,、Mod+Shift+.。Mod 在 Mac 上为 Command，其他系统为 Ctrl。"
+    },
+    "web-reload": {
+      "en": "reload the page",
+      "zh": "刷新页面"
+    },
+    "windows-web-help": {
+      "en": "Use Ctrl+/, Ctrl+,, Ctrl+Alt+key, or Ctrl+Shift+key. Combinations with three or four distinct modifiers are also supported. Browser or system shortcuts may not reach the page.",
+      "zh": "可设置 Ctrl+/、Ctrl+,、Ctrl+Alt+按键或 Ctrl+Shift+按键。也支持三个或四个不同修饰键的组合。浏览器或系统占用的组合可能无法送达页面。"
+    },
+    "write-failed": {
+      "en": "Could not save. Your previous shortcuts and current draft are preserved. Please retry.",
+      "zh": "保存失败。原快捷键和当前草稿已保留，请重试。"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "ns": "settings.theme",
+  "pkg": "dsh-client-ui-theme",
+  "tr": {
+    "appearance.dark": "Koyu",
+    "appearance.light": "Açık",
+    "appearance.system": "Sistem",
+    "appearance.title": "Görünüm",
+    "fontSize.decrease": "Yazı tipi boyutunu küçült",
+    "fontSize.description": "Yalnızca sohbet içeriğini etkiler",
+    "fontSize.increase": "Yazı tipi boyutunu büyüt",
+    "fontSize.title": "Yazı tipi boyutu",
+    "fontSize.unit": "px"
+  },
+  "rows": {
+    "appearance.dark": {
+      "en": "Dark",
+      "zh": "深色"
+    },
+    "appearance.light": {
+      "en": "Light",
+      "zh": "浅色"
+    },
+    "appearance.system": {
+      "en": "System",
+      "zh": "跟随系统"
+    },
+    "appearance.title": {
+      "en": "Appearance",
+      "zh": "外观"
+    },
+    "fontSize.decrease": {
+      "en": "Decrease font size",
+      "zh": "减小字号"
+    },
+    "fontSize.description": {
+      "en": "Only affects conversation content",
+      "zh": "仅影响会话内容的字号"
+    },
+    "fontSize.increase": {
+      "en": "Increase font size",
+      "zh": "增大字号"
+    },
+    "fontSize.title": {
+      "en": "Font size",
+      "zh": "字号大小"
+    },
+    "fontSize.unit": {
+      "en": "px",
+      "zh": "px"
+    }
+  }
+}

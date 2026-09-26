@@ -1,0 +1,16 @@
+# The published bundle is committed: dsh loads lib/client.js straight from the
+# installed package, and npm consumers run no build step.
+
+# dependencies
+node_modules/
+
+# a full app.asar extraction used for the drift check and the integration suite
+.dsh-extract/
+
+# npm pack output
+*.tgz
+
+# editor and OS noise
+.DS_Store
+Thumbs.db
+*.log

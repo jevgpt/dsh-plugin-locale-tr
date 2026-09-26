@@ -1,0 +1,13 @@
+{
+  "ns": "approval",
+  "pkg": "dsh-client-ui-approval",
+  "tr": {
+    "detail.aria": "Onay ayrıntıları"
+  },
+  "rows": {
+    "detail.aria": {
+      "en": "Approval details",
+      "zh": "审批详情"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "ns": "skill",
+  "pkg": "dsh-client-ui-skill",
+  "tr": {
+    "menu.userOnly": "yalnızca kullanıcı",
+    "row.failed": "Yetenek yüklenemedi",
+    "row.inspect": "İncele",
+    "row.instructions": "Talimatlar",
+    "row.preparing": "Yetenek yüklemeye hazırlanıyor",
+    "row.running": "Yetenek yükleniyor",
+    "row.stopped": "Yetenek yükleme durduruldu",
+    "row.title": "Yetenek"
+  },
+  "rows": {
+    "menu.userOnly": {
+      "en": "user-only",
+      "zh": "仅用户"
+    },
+    "row.failed": {
+      "en": "Skill load failed",
+      "zh": "skill 加载失败"
+    },
+    "row.inspect": {
+      "en": "Inspect",
+      "zh": "查看"
+    },
+    "row.instructions": {
+      "en": "Instructions",
+      "zh": "说明"
+    },
+    "row.preparing": {
+      "en": "Preparing to load a skill",
+      "zh": "准备加载技能"
+    },
+    "row.running": {
+      "en": "Loading skill",
+      "zh": "正在加载 skill"
+    },
+    "row.stopped": {
+      "en": "Skill load stopped",
+      "zh": "skill 加载已中止"
+    },
+    "row.title": {
+      "en": "Skill",
+      "zh": "加载技能"
+    }
+  }
+}

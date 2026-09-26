@@ -1,0 +1,83 @@
+{
+  "ns": "open-in-app",
+  "pkg": "dsh-client-ui-open-in-app",
+  "tr": {
+    "app.explorer": "Dosya Gezgini",
+    "app.filemanager": "Dosyalar",
+    "app.finder": "Finder",
+    "app.terminal": "Terminal",
+    "open.title": "{app} ile aç",
+    "open.tooltip": "Yerel olarak aç",
+    "path.appDefault": "{app} (varsayılan)",
+    "path.appsError": "Uygulamalar yüklenemedi",
+    "path.more": "Diğer açma yöntemleri",
+    "path.open": "Aç",
+    "path.openError": "Açılamadı. Yeniden deneyin.",
+    "path.reveal": "Dosya konumunu göster",
+    "path.revealError": "Dosya konumu gösterilemedi. Yeniden deneyin.",
+    "shortcut.busy": "Çalışma alanı açılıyor",
+    "shortcut.unavailable": "Geçerli çalışma alanı veya yerel uygulama kullanılamıyor"
+  },
+  "rows": {
+    "app.explorer": {
+      "en": "File Explorer",
+      "zh": "文件资源管理器"
+    },
+    "app.filemanager": {
+      "en": "Files",
+      "zh": "文件管理器"
+    },
+    "app.finder": {
+      "en": "Finder",
+      "zh": "访达"
+    },
+    "app.terminal": {
+      "en": "Terminal",
+      "zh": "终端"
+    },
+    "open.title": {
+      "en": "Open in {app}",
+      "zh": "用 {app} 打开"
+    },
+    "open.tooltip": {
+      "en": "Open locally",
+      "zh": "在本地打开"
+    },
+    "path.appDefault": {
+      "en": "{app} (default)",
+      "zh": "{app}（默认）"
+    },
+    "path.appsError": {
+      "en": "Could not load applications",
+      "zh": "无法获取应用列表"
+    },
+    "path.more": {
+      "en": "More ways to open",
+      "zh": "更多打开方式"
+    },
+    "path.open": {
+      "en": "Open",
+      "zh": "打开"
+    },
+    "path.openError": {
+      "en": "Could not open. Try again.",
+      "zh": "打开失败，请重试"
+    },
+    "path.reveal": {
+      "en": "Show file location",
+      "zh": "显示文件位置"
+    },
+    "path.revealError": {
+      "en": "Could not show the file location. Try again.",
+      "zh": "无法显示文件位置，请重试"
+    },
+    "shortcut.busy": {
+      "en": "Opening workspace",
+      "zh": "正在打开工作区"
+    },
+    "shortcut.unavailable": {
+      "en": "Current workspace or local application unavailable",
+      "zh": "当前工作区或本地应用不可用"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ns": "sidebarTerminal",
+  "pkg": "dsh-client-ui-sidebar-terminal",
+  "tr": {
+    "shortcut.noSession": "Önce bir oturum seçin"
+  },
+  "rows": {
+    "shortcut.noSession": {
+      "en": "Select a session first",
+      "zh": "请先选择会话"
+    }
+  }
+}

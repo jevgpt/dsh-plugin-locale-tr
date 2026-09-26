@@ -1,0 +1,313 @@
+{
+  "ns": "voice-input",
+  "pkg": "dsh-experimental-client-ui-voice-input",
+  "tr": {
+    "cancelPrepare": "Hazırlığı iptal et",
+    "download.certificate": "{resource} indirilemiyor: sertifika doğrulaması başarısız oldu.",
+    "download.dns": "{resource} indirilemiyor: indirme adresi çözümlenemedi.",
+    "download.http": "{resource} indirilemiyor: indirme servisi HTTP {status} döndürdü.",
+    "download.integrity": "{resource} indirmesi tamamlanmadı veya doğrulamadan geçemedi.",
+    "download.network": "{resource} indirilemiyor: indirme servisine bağlanılamadı.",
+    "download.storage": "{resource} kaydedilemiyor: disk alanı yetersiz veya yazma izni yok.",
+    "download.timeout": "{resource} indirmesi zaman aşımına uğradı.",
+    "download.unknown": "{resource} hazırlanamadı.",
+    "downloadAdvice.certificate": "DSH'yi çalıştıran makinede sistem saatini, güvenilen sertifikaları ve proxy ayarlarını kontrol edip yeniden deneyin.",
+    "downloadAdvice.dns": "DSH'yi çalıştıran makinede DNS ve proxy ayarlarını kontrol edin. İndirme kaynağının alan adının çözümlenebildiğinden emin olup yeniden deneyin.",
+    "downloadAdvice.http": "İndirme adresinin erişilebilir olduğunu ve proxy'nin indirme servisine ulaşabildiğini doğrulayın ya da daha sonra yeniden deneyin.",
+    "downloadAdvice.integrity": "İndirmeyi yeniden deneyin. Tamamlanmış ve doğrulanmış diğer dosyalar korunur.",
+    "downloadAdvice.network": "DSH'yi çalıştıran makinenin indirme kaynağına ve model indirme servislerine erişebildiğini kontrol edin. Gerekirse o makinede proxy yapılandırıp yeniden deneyin.",
+    "downloadAdvice.storage": "DSH'yi çalıştıran makinede boş disk alanını ve model dizininin yazma iznini kontrol edip yeniden deneyin.",
+    "downloadAdvice.timeout": "DSH'yi çalıştıran makinede ağ veya proxy bağlantısını kontrol edip daha sonra yeniden deneyin. İndirilen ve doğrulanmış dosyalar korunur.",
+    "downloadAdvice.unknown": "DSH'yi çalıştıran makinede ağı, disk alanını ve model dizini izinlerini kontrol edip yeniden deneyin.",
+    "downloadBytes": "İndirme: {completed} / {total} MB, %{percent}",
+    "downloadProgress": "İndirme ilerlemesi",
+    "downloadUnknown": "{completed} MB indirildi",
+    "elapsed": "{seconds} saniye bekleniyor",
+    "preparation.cancelled": "Hazırlık iptal edildi. Tamamlanan indirmeler korunur.",
+    "preparation.cancelling": "Hazırlık iptal ediliyor…",
+    "preparation.checking": "Yerel kaynaklar kontrol ediliyor…",
+    "preparation.loading": "{name} yükleniyor…",
+    "preparation.ready": "Yerel konuşma tanıma hazır.",
+    "preparation.standby": "Yerel kaynaklar hazır. Kayıt, tanıma motorunu uyandırır.",
+    "preparation.unprepared": "İlk kullanımda yerel tanıma modelleri indirilir.",
+    "preparation.waking": "Yerel konuşma tanıma uyandırılıyor…",
+    "preparationFailed": "Hazırlık başarısız oldu: {message}",
+    "prepare": "İndir ve hazırla",
+    "reconnecting": "Konuşma tanımaya bağlanılıyor…",
+    "retryPrepare": "Hazırlığı yeniden dene",
+    "setup.disk": "Disk alanı",
+    "setup.diskValue": "Modeller, çalışma zamanı ve indirme önbelleği için yaklaşık {gb} GB ayırın",
+    "setup.estimateNote": "Bunlar tahmini değerlerdir; yavaş ağlarda daha uzun sürebilir. İndirilenler yeniden kullanılır; boştaki modeller varsayılan olarak belleği serbest bırakır.",
+    "setup.local": "Yerel modeller DSH'yi çalıştıran makineye indirilir. Python veya derleyici gerekmez.",
+    "setup.memory": "Bellek",
+    "setup.memoryValue": "Model yüklüyken yaklaşık {gb} GB; tanıma sırasında daha fazla bellek kullanabilir",
+    "setup.time": "İlk kurulum",
+    "setup.timeValue": "Ağa ve makineye bağlı olarak yaklaşık {min}–{max} dakika ayırın",
+    "setupPrompt.body": "Sesli giriş etkinleştirildi. İlk kullanımda yerel tanıma modellerinin indirilip hazırlanması gerekir. Kuruluma başlamadan önce disk alanı, bellek ve süre tahminlerini görmek için eklenti ayrıntılarını açın.",
+    "setupPrompt.details": "Ses eklentisi ayarlarını aç",
+    "setupPrompt.later": "Daha sonra",
+    "setupPrompt.open": "Kuruluma git",
+    "setupPrompt.title": "Kayıttan önce sesli girişi kurun",
+    "setupPrompt.trigger": "Sesli giriş kurulumunu aç",
+    "setupPrompt.unavailableBody": "Tanıma durumunu, hazırlık ilerlemesini veya hataları görmek için ses eklentisi ayrıntılarını açın.",
+    "setupPrompt.unavailableTitle": "Konuşma tanıma hazır değil",
+    "short.downloading": "İndiriliyor",
+    "short.failed": "Kurulum başarısız",
+    "step.check": "Yerel kaynakları kontrol et",
+    "step.load": "{name} yükle",
+    "step.model": "Tanıma modelini hazırla",
+    "step.vad": "Ses algılama modelini hazırla",
+    "step.verify": "Model dosyalarını doğrula",
+    "stepStatus.cancelled": "İptal edildi",
+    "stepStatus.complete": "Tamamlandı",
+    "stepStatus.failed": "Başarısız",
+    "stepStatus.pending": "Başlamadı",
+    "stepStatus.running": "Devam ediyor"
+  },
+  "rows": {
+    "cancelPrepare": {
+      "en": "Cancel preparation",
+      "zh": "取消准备"
+    },
+    "download.certificate": {
+      "en": "Cannot download {resource}: certificate verification failed.",
+      "zh": "无法下载 {resource}：安全连接的证书校验失败。"
+    },
+    "download.dns": {
+      "en": "Cannot download {resource}: the download address could not be resolved.",
+      "zh": "无法下载 {resource}：无法解析下载地址。"
+    },
+    "download.http": {
+      "en": "Cannot download {resource}: the download service returned HTTP {status}.",
+      "zh": "无法下载 {resource}：下载服务返回 HTTP {status}。"
+    },
+    "download.integrity": {
+      "en": "The download of {resource} is incomplete or failed verification.",
+      "zh": "{resource} 下载不完整或文件校验失败。"
+    },
+    "download.network": {
+      "en": "Cannot download {resource}: connection to the download service failed.",
+      "zh": "无法下载 {resource}：连接下载服务失败。"
+    },
+    "download.storage": {
+      "en": "Cannot save {resource}: insufficient disk space or write permission.",
+      "zh": "无法保存 {resource}：磁盘空间不足或没有写入权限。"
+    },
+    "download.timeout": {
+      "en": "The download of {resource} timed out.",
+      "zh": "下载 {resource} 超时。"
+    },
+    "download.unknown": {
+      "en": "Could not prepare {resource}.",
+      "zh": "准备 {resource} 失败。"
+    },
+    "downloadAdvice.certificate": {
+      "en": "Check the system clock, trusted certificates and proxy settings on the machine running DSH, then retry.",
+      "zh": "请检查运行 DSH 的机器的系统时间、受信任证书和代理设置后重试。"
+    },
+    "downloadAdvice.dns": {
+      "en": "Check DNS and proxy settings on the machine running DSH. Confirm that it can resolve the download source domain, then retry.",
+      "zh": "请检查运行 DSH 的机器的 DNS 和代理设置，确认可以解析下载来源的域名后重试。"
+    },
+    "downloadAdvice.http": {
+      "en": "Confirm that the download address is available and the proxy can reach the download service, or retry later.",
+      "zh": "请确认下载地址可用、代理可正常连接下载服务，或稍后重试。"
+    },
+    "downloadAdvice.integrity": {
+      "en": "Retry the download. Other completed and verified files are retained.",
+      "zh": "请重试下载。已完成并通过校验的其他文件会保留。"
+    },
+    "downloadAdvice.network": {
+      "en": "Check that the machine running DSH can reach the download source and its model download services. Configure a proxy on that machine if needed, then retry.",
+      "zh": "请检查运行 DSH 的机器能否访问下载来源及其模型下载服务；如需代理，请在该机器上配置后重试。"
+    },
+    "downloadAdvice.storage": {
+      "en": "Check available disk space and write permission for the model directory on the machine running DSH, then retry.",
+      "zh": "请检查运行 DSH 的机器的剩余磁盘空间，以及模型目录的写入权限后重试。"
+    },
+    "downloadAdvice.timeout": {
+      "en": "Check the network or proxy connection on the machine running DSH, then retry later. Verified downloaded files are retained.",
+      "zh": "请检查运行 DSH 的机器的网络或代理连接，稍后重试。已下载并通过校验的文件会保留。"
+    },
+    "downloadAdvice.unknown": {
+      "en": "Check the network, disk space and model directory permissions on the machine running DSH, then retry.",
+      "zh": "请检查运行 DSH 的机器的网络、磁盘空间和模型目录权限后重试。"
+    },
+    "downloadBytes": {
+      "en": "Download: {completed} / {total} MB, {percent}%",
+      "zh": "下载：{completed} / {total} MB，{percent}%"
+    },
+    "downloadProgress": {
+      "en": "Download progress",
+      "zh": "下载进度"
+    },
+    "downloadUnknown": {
+      "en": "Downloaded {completed} MB",
+      "zh": "已下载 {completed} MB"
+    },
+    "elapsed": {
+      "en": "Waiting {seconds} seconds",
+      "zh": "已等待 {seconds} 秒"
+    },
+    "preparation.cancelled": {
+      "en": "Preparation cancelled. Completed downloads are retained.",
+      "zh": "准备已取消，已完成的下载会保留。"
+    },
+    "preparation.cancelling": {
+      "en": "Cancelling preparation…",
+      "zh": "正在取消准备…"
+    },
+    "preparation.checking": {
+      "en": "Checking local resources…",
+      "zh": "正在检查本地资源…"
+    },
+    "preparation.loading": {
+      "en": "Loading {name}…",
+      "zh": "正在加载 {name}…"
+    },
+    "preparation.ready": {
+      "en": "Local speech recognition is ready.",
+      "zh": "本地语音已就绪。"
+    },
+    "preparation.standby": {
+      "en": "Local resources are prepared. Recording wakes the recognizer.",
+      "zh": "本地资源已准备，录音时自动唤醒。"
+    },
+    "preparation.unprepared": {
+      "en": "First use downloads the local recognition models.",
+      "zh": "首次使用需要下载本地识别模型。"
+    },
+    "preparation.waking": {
+      "en": "Waking local speech recognition…",
+      "zh": "正在唤醒本地语音…"
+    },
+    "preparationFailed": {
+      "en": "Preparation failed: {message}",
+      "zh": "准备失败：{message}"
+    },
+    "prepare": {
+      "en": "Download and prepare",
+      "zh": "下载并准备"
+    },
+    "reconnecting": {
+      "en": "Connecting to speech recognition…",
+      "zh": "正在连接语音服务…"
+    },
+    "retryPrepare": {
+      "en": "Retry preparation",
+      "zh": "重试准备"
+    },
+    "setup.disk": {
+      "en": "Disk space",
+      "zh": "硬盘空间"
+    },
+    "setup.diskValue": {
+      "en": "Allow about {gb} GB for models, runtime, and download caches",
+      "zh": "建议预留约 {gb} GB，包含模型、运行时和下载缓存"
+    },
+    "setup.estimateNote": {
+      "en": "These are estimates; slow networks may take longer. Downloads are reused; idle models release memory by default.",
+      "zh": "以上为估算；网络较慢时可能更久。已下载的资源会复用，默认在闲置后释放模型内存。"
+    },
+    "setup.local": {
+      "en": "Local models will be downloaded to the machine running DSH. No Python or compiler is required.",
+      "zh": "将在运行 DSH 的机器上下载本地模型，无需安装 Python 或编译工具。"
+    },
+    "setup.memory": {
+      "en": "Memory",
+      "zh": "运行内存"
+    },
+    "setup.memoryValue": {
+      "en": "About {gb} GB with the model loaded; recognition may use more",
+      "zh": "模型加载后约 {gb} GB，识别时可能更高"
+    },
+    "setup.time": {
+      "en": "First setup",
+      "zh": "首次准备"
+    },
+    "setup.timeValue": {
+      "en": "Allow roughly {min}–{max} minutes, depending on the network and machine",
+      "zh": "参考 {min}–{max} 分钟，取决于网络和机器性能"
+    },
+    "setupPrompt.body": {
+      "en": "Voice input is enabled. First use requires downloading and preparing local recognition models. Open the plugin details to review disk space, memory and time estimates before starting setup.",
+      "zh": "语音输入插件已开启。首次使用需要在本机下载并准备识别模型，请前往插件详情页查看空间、内存和时间说明，再开始安装。"
+    },
+    "setupPrompt.details": {
+      "en": "Open voice plugin settings",
+      "zh": "前往语音插件设置"
+    },
+    "setupPrompt.later": {
+      "en": "Later",
+      "zh": "稍后"
+    },
+    "setupPrompt.open": {
+      "en": "Go to setup",
+      "zh": "前往安装"
+    },
+    "setupPrompt.title": {
+      "en": "Set up voice input before recording",
+      "zh": "使用语音输入前需要安装"
+    },
+    "setupPrompt.trigger": {
+      "en": "Open voice input setup",
+      "zh": "打开语音输入引导"
+    },
+    "setupPrompt.unavailableBody": {
+      "en": "Open the voice plugin details to check recognition status, preparation progress, or errors.",
+      "zh": "请前往语音插件详情页查看识别服务状态、准备进度或错误信息"
+    },
+    "setupPrompt.unavailableTitle": {
+      "en": "Speech recognition is not ready",
+      "zh": "语音识别尚未就绪"
+    },
+    "short.downloading": {
+      "en": "Downloading",
+      "zh": "下载中"
+    },
+    "short.failed": {
+      "en": "Setup failed",
+      "zh": "准备失败"
+    },
+    "step.check": {
+      "en": "Check local resources",
+      "zh": "检查本地资源"
+    },
+    "step.load": {
+      "en": "Load {name}",
+      "zh": "加载 {name}"
+    },
+    "step.model": {
+      "en": "Prepare recognition model",
+      "zh": "准备语音识别模型"
+    },
+    "step.vad": {
+      "en": "Prepare voice detection model",
+      "zh": "准备语音检测模型"
+    },
+    "step.verify": {
+      "en": "Verify model files",
+      "zh": "校验模型文件"
+    },
+    "stepStatus.cancelled": {
+      "en": "Cancelled",
+      "zh": "已取消"
+    },
+    "stepStatus.complete": {
+      "en": "Completed",
+      "zh": "已完成"
+    },
+    "stepStatus.failed": {
+      "en": "Failed",
+      "zh": "失败"
+    },
+    "stepStatus.pending": {
+      "en": "Not started",
+      "zh": "未开始"
+    },
+    "stepStatus.running": {
+      "en": "In progress",
+      "zh": "进行中"
+    }
+  }
+}

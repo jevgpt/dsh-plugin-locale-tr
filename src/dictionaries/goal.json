@@ -1,0 +1,68 @@
+{
+  "ns": "goal",
+  "pkg": "dsh-client-ui-goal",
+  "tr": {
+    "action.cancel": "Düzenlemeyi iptal et",
+    "action.clear": "Hedefi temizle",
+    "action.edit": "Hedefi düzenle",
+    "action.pause": "Hedefi duraklat",
+    "action.resume": "Hedefe devam et",
+    "action.save": "Hedefi kaydet",
+    "commandInput.aria": "Komut girişi",
+    "objective.aria": "Hedef amacı",
+    "phase.active": "Süren hedef",
+    "phase.active.disarmed": "Etkin olmayan hedef",
+    "phase.blocked": "Engellenen hedef",
+    "phase.paused": "Duraklatılmış hedef"
+  },
+  "rows": {
+    "action.cancel": {
+      "en": "Cancel edit",
+      "zh": "取消编辑"
+    },
+    "action.clear": {
+      "en": "Clear goal",
+      "zh": "清除目标"
+    },
+    "action.edit": {
+      "en": "Edit goal",
+      "zh": "编辑目标"
+    },
+    "action.pause": {
+      "en": "Pause goal",
+      "zh": "暂停目标"
+    },
+    "action.resume": {
+      "en": "Resume goal",
+      "zh": "恢复目标"
+    },
+    "action.save": {
+      "en": "Save goal",
+      "zh": "保存目标"
+    },
+    "commandInput.aria": {
+      "en": "Command input",
+      "zh": "指令输入"
+    },
+    "objective.aria": {
+      "en": "Goal objective",
+      "zh": "目标内容"
+    },
+    "phase.active": {
+      "en": "Ongoing Goal",
+      "zh": "进行中的目标"
+    },
+    "phase.active.disarmed": {
+      "en": "Inactive Goal",
+      "zh": "未运行的目标"
+    },
+    "phase.blocked": {
+      "en": "Blocked Goal",
+      "zh": "受阻的目标"
+    },
+    "phase.paused": {
+      "en": "Paused Goal",
+      "zh": "已暂停的目标"
+    }
+  }
+}

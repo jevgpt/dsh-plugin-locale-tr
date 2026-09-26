@@ -1,0 +1,103 @@
+{
+  "ns": "sidebarBrowser",
+  "pkg": "dsh-client-ui-sidebar-browser",
+  "tr": {
+    "address.changed": "URL değişti",
+    "address.placeholder": "Bir HTTP(S) adresi girin",
+    "address.unknown": "Sayfa başka bir adrese gitti; bu taşıyıcı yeni URL'sini okuyamıyor.",
+    "error.application-origin": "Gömülü tarayıcı DSH uygulamasının kendisini açamaz.",
+    "error.credentials": "Adresler kullanıcı adı veya parola içeremez.",
+    "error.empty": "Bir adres girin.",
+    "error.invalid": "Bu adres geçersiz veya çok uzun.",
+    "error.protocol": "Yalnızca HTTP ve HTTPS adresleri desteklenir; yerel dosyalar için Belge Önizleme'yi kullanın.",
+    "guide.description": "Web sayfalarına göz atın",
+    "guide.title": "Tarayıcı",
+    "load.failed": "Sayfa yüklenemedi; yeniden yükleyin veya sistem tarayıcısında açın.",
+    "load.failed.detail": "Sayfa yüklenemedi ({code}): {description}",
+    "restore.action": "Sayfayı geri yükle",
+    "restore.previous": "Son açılan",
+    "sandbox.disable": "Sandbox kısıtlamalarını devre dışı bırak",
+    "sandbox.enable": "Sandbox kısıtlamalarını geri yükle",
+    "sandbox.warning": "Sandbox kısıtlamaları devre dışı; sayfa üst düzey uygulamada gezinme, indirme, modal pencereler ve girdi kilidi kullanabilir.",
+    "shortcut.noSession": "Önce bir oturum başlatın",
+    "type.label": "Tarayıcı"
+  },
+  "rows": {
+    "address.changed": {
+      "en": "URL changed",
+      "zh": "URL 已变化"
+    },
+    "address.placeholder": {
+      "en": "Enter an HTTP(S) address",
+      "zh": "输入 HTTP(S) 地址"
+    },
+    "address.unknown": {
+      "en": "The page navigated; this carrier cannot read its new URL.",
+      "zh": "页面已跳转；当前载体无法读取新的 URL。"
+    },
+    "error.application-origin": {
+      "en": "The embedded browser cannot open the DSH application itself.",
+      "zh": "不能在嵌入浏览器中打开 DSH 应用自身。"
+    },
+    "error.credentials": {
+      "en": "Addresses cannot contain a username or password.",
+      "zh": "地址不能包含用户名或密码。"
+    },
+    "error.empty": {
+      "en": "Enter an address.",
+      "zh": "请输入地址。"
+    },
+    "error.invalid": {
+      "en": "That address is invalid or too long.",
+      "zh": "这个地址无效或过长。"
+    },
+    "error.protocol": {
+      "en": "Only HTTP and HTTPS addresses are supported; use Document Preview for local files.",
+      "zh": "只支持 HTTP 和 HTTPS 地址；本地文件请使用文档预览。"
+    },
+    "guide.description": {
+      "en": "Browse web pages",
+      "zh": "浏览网页"
+    },
+    "guide.title": {
+      "en": "Browser",
+      "zh": "浏览器"
+    },
+    "load.failed": {
+      "en": "The page could not load; reload or open it in the system browser.",
+      "zh": "页面加载失败；请刷新重试或在系统浏览器中打开。"
+    },
+    "load.failed.detail": {
+      "en": "Page load failed ({code}): {description}",
+      "zh": "页面加载失败 ({code}): {description}"
+    },
+    "restore.action": {
+      "en": "Restore page",
+      "zh": "恢复页面"
+    },
+    "restore.previous": {
+      "en": "Previously opened",
+      "zh": "上次打开"
+    },
+    "sandbox.disable": {
+      "en": "Disable sandbox restrictions",
+      "zh": "关闭沙箱限制"
+    },
+    "sandbox.enable": {
+      "en": "Restore sandbox restrictions",
+      "zh": "恢复沙箱限制"
+    },
+    "sandbox.warning": {
+      "en": "Sandbox restrictions are disabled; the page can navigate the top-level app and use downloads, modal dialogs, and input locks.",
+      "zh": "沙箱限制已关闭；页面可以导航顶层应用，并使用下载、模态对话框与输入锁定。"
+    },
+    "shortcut.noSession": {
+      "en": "Open a session first",
+      "zh": "请先打开一个会话"
+    },
+    "type.label": {
+      "en": "Browser",
+      "zh": "浏览器"
+    }
+  }
+}

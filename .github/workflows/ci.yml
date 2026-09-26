@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  gates:
+    name: build, verify and test
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ['20', '22', '24']
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+
+      # The published bundle is committed, so a rebuild that produces different
+      # bytes means lib/client.js drifted from src/dictionaries.
+      - name: Rebuild the bundle
+        run: npm run build
+
+      - name: The committed bundle matches src/dictionaries
+        run: git diff --exit-code -- lib/client.js
+
+      - name: Verify the bundle registers every dictionary
+        run: npm run verify
+
+      - name: Dictionary and manifest gates
+        run: npm test

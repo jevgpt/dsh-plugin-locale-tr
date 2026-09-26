@@ -1,0 +1,63 @@
+{
+  "ns": "reference",
+  "pkg": "dsh-client-ui-reference",
+  "tr": {
+    "candidate.noCwd": "(çalışma dizini yok)",
+    "crumb.root": "Çalışma Alanı",
+    "section.files": "Dosyalar ve klasörler",
+    "section.sessions": "Oturumlar",
+    "section.subagents": "Alt ajanlar",
+    "time.days": "{n}g",
+    "time.hours": "{n}sa",
+    "time.minutes": "{n}dk",
+    "time.months": "{n}ay",
+    "time.now": "şimdi",
+    "time.years": "{n}yıl"
+  },
+  "rows": {
+    "candidate.noCwd": {
+      "en": "(no cwd)",
+      "zh": "（无工作目录）"
+    },
+    "crumb.root": {
+      "en": "Workspace",
+      "zh": "工作区"
+    },
+    "section.files": {
+      "en": "Files & folders",
+      "zh": "文件与文件夹"
+    },
+    "section.sessions": {
+      "en": "Sessions",
+      "zh": "对话"
+    },
+    "section.subagents": {
+      "en": "Subagents",
+      "zh": "子智能体"
+    },
+    "time.days": {
+      "en": "{n}d",
+      "zh": "{n}天"
+    },
+    "time.hours": {
+      "en": "{n}h",
+      "zh": "{n}小时"
+    },
+    "time.minutes": {
+      "en": "{n}min",
+      "zh": "{n}分钟"
+    },
+    "time.months": {
+      "en": "{n}mo",
+      "zh": "{n}个月"
+    },
+    "time.now": {
+      "en": "now",
+      "zh": "刚刚"
+    },
+    "time.years": {
+      "en": "{n}y",
+      "zh": "{n}年"
+    }
+  }
+}

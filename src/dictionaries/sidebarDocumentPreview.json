@@ -1,0 +1,63 @@
+{
+  "ns": "sidebarDocumentPreview",
+  "pkg": "dsh-client-ui-sidebar-documentpreview",
+  "tr": {
+    "autoRefresh.disable": "Otomatik yenilemeyi devre dışı bırak",
+    "autoRefresh.enable": "Otomatik yenilemeyi etkinleştir",
+    "error.notFound": "Dosya bulunamadı. Taşınmış veya silinmiş olabilir.",
+    "error.notRegularFile": "Normal bir dosya değil, gösterilecek içerik yok.",
+    "error.notText": "Bu dosya türü için önizleme henüz kullanılamıyor.",
+    "error.tooLarge": "Bu sayfa {limit} sınırını aşıyor ve okunamıyor.",
+    "error.unavailable": "Okuma başarısız: {message}",
+    "viewer.text": "Düz metin",
+    "wrap.aria": "Satır kaydırma",
+    "wrap.disable": "Satır kaydırmayı kapat",
+    "wrap.enable": "Satır kaydırmayı aç"
+  },
+  "rows": {
+    "autoRefresh.disable": {
+      "en": "Disable auto refresh",
+      "zh": "关闭自动刷新"
+    },
+    "autoRefresh.enable": {
+      "en": "Enable auto refresh",
+      "zh": "开启自动刷新"
+    },
+    "error.notFound": {
+      "en": "File not found. It may have been moved or deleted.",
+      "zh": "文件不存在，可能已被移动或删除"
+    },
+    "error.notRegularFile": {
+      "en": "Not a regular file, nothing to display.",
+      "zh": "该路径不是普通文件，没有可显示的内容"
+    },
+    "error.notText": {
+      "en": "Preview is not available for this file type yet.",
+      "zh": "该格式文件暂时无法预览"
+    },
+    "error.tooLarge": {
+      "en": "This page exceeds the {limit} limit and cannot be read.",
+      "zh": "单页内容超过 {limit} 上限，无法读取"
+    },
+    "error.unavailable": {
+      "en": "Read failed: {message}",
+      "zh": "读取失败：{message}"
+    },
+    "viewer.text": {
+      "en": "Plain text",
+      "zh": "纯文本"
+    },
+    "wrap.aria": {
+      "en": "Line wrap",
+      "zh": "自动换行"
+    },
+    "wrap.disable": {
+      "en": "Turn off line wrap",
+      "zh": "取消换行"
+    },
+    "wrap.enable": {
+      "en": "Turn on line wrap",
+      "zh": "自动换行"
+    }
+  }
+}

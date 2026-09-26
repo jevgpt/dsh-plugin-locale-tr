@@ -1,0 +1,938 @@
+{
+  "ns": "chat",
+  "pkg": "dsh-client-ui-chat",
+  "tr": {
+    "chat.deepDiving": "Derinlemesine düşünüyor…",
+    "chat.loadError": "Geçmiş yüklenemedi: {message} ({code})",
+    "chat.loadOlder": "Daha eskisini yükle",
+    "chat.loadingHistory": "Geçmiş yükleniyor…",
+    "chat.toBottom": "En alta dön",
+    "chat.turnNavigation.jump": "{turn}. tura git",
+    "chat.turnNavigation.jumpLoad": "{turn}. turu yükle ve git",
+    "chat.turnNavigation.label": "Turlar arasında gezinme",
+    "chat.turnNavigation.turn": "{turn}. tur",
+    "clock.md": "{m}/{d}",
+    "clock.ymd": "{y}-{m}-{d}",
+    "command.done": "Tamamlandı",
+    "command.failed": "Komut başarısız",
+    "command.running": "Çalışıyor…",
+    "command.title": "Komut",
+    "duration.compactMinutes": "{minutes}dk {seconds}sn",
+    "duration.compactSeconds": "{seconds}sn",
+    "duration.hours": "{hours}sa {minutes}dk {seconds}sn",
+    "duration.milliseconds": "{milliseconds}ms",
+    "duration.minutes": "{minutes}dk {seconds}sn",
+    "duration.seconds": "{seconds}sn",
+    "fileOpen.title": "Dosya açılamadı",
+    "fileOpen.unknown": "Bu dosya açılamadı",
+    "image.close": "Görsel önizlemesini kapat",
+    "image.dialog": "Görsel önizleme",
+    "image.failed": "Görsel önizlemesi kullanılamıyor",
+    "image.loading": "Görsel yükleniyor…",
+    "image.open": "Tam boyutlu görseli görüntüle",
+    "json.truncated": "… kesildi, toplam {total} karakter",
+    "message.accountStopped": "Görev durduruldu",
+    "message.branch": "Yeni sohbete dallandır",
+    "message.branchUnavailable": "Yalnızca tamamlanmış bir turun son iletisinde kullanılabilir",
+    "message.compaction": "Bağlam sıkıştırıldı",
+    "message.compaction.commandTitle": "compact",
+    "message.compaction.completed": "{items} geçmiş öğesi sıkıştırıldı (~{tokens} token)",
+    "message.compaction.expand": "Sıkıştırma özetini görüntüle",
+    "message.compaction.running": "Bağlam sıkıştırılıyor…",
+    "message.compaction.unavailable": "Sıkıştırma özeti kullanılamıyor",
+    "message.context.catalog.more": "… {count} tane daha",
+    "message.context.catalog.replaced": "Değiştirme kataloğu",
+    "message.context.instructions.added": "eklendi",
+    "message.context.instructions.loaded": "yüklendi",
+    "message.context.instructions.removed": "kaldırıldı",
+    "message.context.instructions.updated": "güncellendi",
+    "message.context.recall.counts": "{retained} tutuldu · {omitted} atlandı",
+    "message.context.recall.truncated": "kesildi",
+    "message.context.relay.from": "{session} oturumundan",
+    "message.context.snapshot.supersedes": "Önceki anlık görüntülerin yerine geçer",
+    "message.contextInjection": "Bağlam enjeksiyonu",
+    "message.contextRecall": "Oturum geri çağırma",
+    "message.extraBlock": "Ek içerik bloğu",
+    "message.failure.accountSignInRequired": "DeepSeek oturumu açın ve istek adresinin hesap kimlik doğrulamasını desteklediğinden emin olun.",
+    "message.failure.accountSignedOut": "DeepSeek oturumundan çıkış yaptığınız için durduruldu.",
+    "message.failure.auth": "API anahtarı geçersiz",
+    "message.failure.quota": "İstek kotası tükendi.",
+    "message.maxTokens": "Çıktı token sınırına ulaşıldı",
+    "message.maxTokens.hint": "Yanıt kesildi; önceki çıktı sohbette korunuyor. Modelin devam etmesi için \"continue\" gönderin.",
+    "message.referenceSeparator": ", ",
+    "message.referenceSummary": "Başvurulan oturum · {labels}",
+    "message.retry.active": "Model isteği yeniden deneniyor",
+    "message.retry.cancelled": "Model isteği yeniden denemesi iptal edildi",
+    "message.retry.delay": "Yeniden deneme gecikmesi: ",
+    "message.retry.failure": "Hata nedeni: ",
+    "message.retry.scheduled": "Model isteğinin yeniden denenmesi bekleniyor",
+    "message.retry.started": "Model isteği yeniden denendi",
+    "message.retry.status": "{label} ({retry}/{maximum}) · {seconds}sn",
+    "message.stepProcess.code": "Kod çalıştırılıyor",
+    "message.stepProcess.comma": ", ",
+    "message.stepProcess.commands": "Komutlar çalıştırılıyor",
+    "message.stepProcess.done.code": "Kod çalıştırıldı",
+    "message.stepProcess.done.commands": "Komutlar çalıştırıldı",
+    "message.stepProcess.done.edit": "Dosyalar düzenlendi",
+    "message.stepProcess.done.plan": "Plan güncellendi",
+    "message.stepProcess.done.questions": "Sorular soruldu",
+    "message.stepProcess.done.read": "Dosyalar okundu",
+    "message.stepProcess.done.readImage": "Görseller okundu",
+    "message.stepProcess.done.search": "Kod arandı",
+    "message.stepProcess.done.subagents": "Alt ajanlar koordine edildi",
+    "message.stepProcess.done.thinking": "Analiz tamamlandı",
+    "message.stepProcess.done.tools": "Araçlar çağrıldı",
+    "message.stepProcess.done.webFetch": "Web sayfaları ziyaret edildi",
+    "message.stepProcess.done.webSearch": "Web'de arama yapıldı",
+    "message.stepProcess.done.write": "Dosyalar yazıldı",
+    "message.stepProcess.edit": "Dosyalar düzenleniyor",
+    "message.stepProcess.joinTwo": "{first} ve {second}",
+    "message.stepProcess.more": "{title} vb.",
+    "message.stepProcess.plan": "Plan güncelleniyor",
+    "message.stepProcess.prepare.code": "Kod çalıştırmaya hazırlanıyor",
+    "message.stepProcess.prepare.commands": "Komut çalıştırmaya hazırlanıyor",
+    "message.stepProcess.prepare.edit": "Dosyaları düzenlemeye hazırlanıyor",
+    "message.stepProcess.prepare.plan": "Planı güncellemeye hazırlanıyor",
+    "message.stepProcess.prepare.questions": "Sorular hazırlanıyor",
+    "message.stepProcess.prepare.read": "Dosyaları okumaya hazırlanıyor",
+    "message.stepProcess.prepare.readImage": "Görselleri okumaya hazırlanıyor",
+    "message.stepProcess.prepare.search": "Kod aramaya hazırlanıyor",
+    "message.stepProcess.prepare.subagents": "Alt ajanları koordine etmeye hazırlanıyor",
+    "message.stepProcess.prepare.tools": "Araç çağrıları hazırlanıyor",
+    "message.stepProcess.prepare.webFetch": "Web sayfalarını ziyaret etmeye hazırlanıyor",
+    "message.stepProcess.prepare.webSearch": "Web'de arama yapmaya hazırlanıyor",
+    "message.stepProcess.prepare.write": "Dosyaları yazmaya hazırlanıyor",
+    "message.stepProcess.questions": "İşleminiz bekleniyor",
+    "message.stepProcess.read": "Dosyalar okunuyor",
+    "message.stepProcess.readImage": "Görseller okunuyor",
+    "message.stepProcess.search": "Kod aranıyor",
+    "message.stepProcess.sharedPrefix": "Dosyalar ",
+    "message.stepProcess.subagents": "Alt ajanlar koordine ediliyor",
+    "message.stepProcess.thinking": "İstek analiz ediliyor",
+    "message.stepProcess.tools": "Araçlar çağrılıyor",
+    "message.stepProcess.webFetch": "Web sayfaları ziyaret ediliyor",
+    "message.stepProcess.webSearch": "Web'de arama yapılıyor",
+    "message.stepProcess.write": "Dosyalar yazılıyor",
+    "message.stopped": "Durduruldu",
+    "message.systemPrompt": "Sistem istemi",
+    "message.systemPromptUpdate": "Sistem istemi güncellemesi",
+    "message.think": "Düşün",
+    "message.tokensPerSecond": "{tps} tok/s",
+    "message.toolAdded": "Araç eklendi: {name}",
+    "message.toolRemoved": "Araç kaldırıldı: {name}",
+    "message.toolsAdded": "Eklendi: {names}",
+    "message.toolsAddedCount": "{count} eklendi",
+    "message.toolsChanged": "{added} eklendi, {removed} kaldırıldı",
+    "message.toolsRemoved": "Kaldırıldı: {names}",
+    "message.toolsRemovedCount": "{count} kaldırıldı",
+    "message.toolsUpdated": "Araçlar güncellendi",
+    "message.trigger.agent": "Görev iletisi alındı",
+    "message.trigger.explanation": "Bu yanıtı bu bildirim tetikledi.",
+    "message.trigger.github": "GitHub olayı alındı",
+    "message.trigger.goal": "Hedef sürdürülüyor",
+    "message.trigger.job": "Arka plan görevi güncellendi",
+    "message.trigger.plugin": "Eklenti durumu güncellendi",
+    "message.trigger.request": "Yürütme istendi",
+    "message.trigger.schedule": "Zamanlanmış görev",
+    "message.trigger.subagent": "Alt görev durumu güncellendi",
+    "message.trigger.team": "Ekip iletisi alındı",
+    "message.trigger.webhook": "Harici olay alındı",
+    "message.turnError": "Bu tur başarısız oldu",
+    "message.turnProcess.deepDivingFor": "{duration} boyunca derinlemesine düşünüyor",
+    "message.turnProcess.failed": "Başarısız",
+    "message.turnProcess.messages.one": "{count} ileti",
+    "message.turnProcess.messages.other": "{count} ileti",
+    "message.turnProcess.separator": " · ",
+    "message.turnProcess.subagents.one": "{count} alt ajan",
+    "message.turnProcess.subagents.other": "{count} alt ajan",
+    "message.turnProcess.thoughtForAWhile": "Bir süre düşündü",
+    "message.turnProcess.took": "{duration} sürdü",
+    "message.turnProcess.toolCalls.one": "{count} araç çağrısı",
+    "message.turnProcess.toolCalls.other": "{count} araç çağrısı",
+    "message.turnProcess.worked": "Çalıştı",
+    "message.turnUsage.cacheHit": "Önbellek isabeti",
+    "message.turnUsage.cacheRead": "Önbellekten okuma",
+    "message.turnUsage.cacheWrite": "Önbelleğe yazma",
+    "message.turnUsage.consumed": "Kullanım {total}",
+    "message.turnUsage.count": "{count} tok",
+    "message.turnUsage.input": "Önbelleklenmemiş giriş",
+    "message.turnUsage.model": "Sağlayıcı / model",
+    "message.turnUsage.output": "Çıktı",
+    "message.turnUsage.reasoning": " ({tokens} akıl yürütme)",
+    "message.turnUsage.title": "Tur kullanımı",
+    "message.unknownBlock": "Bilinmeyen içerik bloğu",
+    "message.unknownSurface": "Bilinmeyen surface olayı: {type}",
+    "number.groupSeparator": ",",
+    "row.failed": "Başarısız",
+    "row.running": "Çalışıyor",
+    "settings.links.description": "Web bağlantılarının nerede açılacağını seçin",
+    "settings.links.newTab": "Varsayılan tarayıcı",
+    "settings.links.sidebar": "Uygulama içi kenar çubuğu",
+    "settings.links.title": "Sohbet bağlantıları nerede açılsın",
+    "settings.performance.compact": "Kompakt",
+    "settings.performance.description": "Ne kadar performans ve kullanım bilgisi gösterileceğini seçin",
+    "settings.performance.detailed": "Ayrıntılı",
+    "settings.performance.title": "Performans ve kullanım",
+    "settings.transcript.compact": "Kompakt",
+    "settings.transcript.description": "Araç çağrıları için ne kadar ayrıntı gösterileceğini seçin",
+    "settings.transcript.detailed": "Ayrıntılı",
+    "settings.transcript.standard": "Standart",
+    "settings.transcript.title": "Çalışma ayrıntıları",
+    "settings.transcript.verbose": "Çok ayrıntılı",
+    "stats.cacheHit": "Önbellek isabeti %{percent}",
+    "stats.counts": "{turns} tur {steps} adım",
+    "stats.dialog.llmTime": "LLM süresi",
+    "stats.dialog.speed": "Saniyedeki token (TPS)",
+    "stats.dialog.title": "Oturum istatistikleri",
+    "stats.dialog.toolTime": "Araç süresi",
+    "stats.dialog.ttft": "İlk token'a kadar ortalama süre (TTFT)",
+    "stats.dialog.usageTitle": "Token kullanımı",
+    "view.chat": "Sohbet"
+  },
+  "rows": {
+    "chat.deepDiving": {
+      "en": "Deep diving...",
+      "zh": "深度求索中"
+    },
+    "chat.loadError": {
+      "en": "Failed to load history: {message} ({code})",
+      "zh": "历史加载失败：{message}（{code}）"
+    },
+    "chat.loadOlder": {
+      "en": "Load earlier",
+      "zh": "加载更早"
+    },
+    "chat.loadingHistory": {
+      "en": "Loading history…",
+      "zh": "载入历史…"
+    },
+    "chat.toBottom": {
+      "en": "Back to bottom",
+      "zh": "回到底部"
+    },
+    "chat.turnNavigation.jump": {
+      "en": "Jump to turn {turn}",
+      "zh": "跳转到第 {turn} 轮"
+    },
+    "chat.turnNavigation.jumpLoad": {
+      "en": "Load and jump to turn {turn}",
+      "zh": "加载并跳转到第 {turn} 轮"
+    },
+    "chat.turnNavigation.label": {
+      "en": "Turn navigation",
+      "zh": "轮次导航"
+    },
+    "chat.turnNavigation.turn": {
+      "en": "Turn {turn}",
+      "zh": "第 {turn} 轮"
+    },
+    "clock.md": {
+      "en": "{m}/{d}",
+      "zh": "{m}月{d}日"
+    },
+    "clock.ymd": {
+      "en": "{y}-{m}-{d}",
+      "zh": "{y}年{m}月{d}日"
+    },
+    "command.done": {
+      "en": "Completed",
+      "zh": "已完成"
+    },
+    "command.failed": {
+      "en": "Command failed",
+      "zh": "指令失败"
+    },
+    "command.running": {
+      "en": "Running…",
+      "zh": "执行中…"
+    },
+    "command.title": {
+      "en": "Command",
+      "zh": "指令"
+    },
+    "duration.compactMinutes": {
+      "en": "{minutes}m{seconds}s",
+      "zh": "{minutes}分{seconds}秒"
+    },
+    "duration.compactSeconds": {
+      "en": "{seconds}s",
+      "zh": "{seconds}秒"
+    },
+    "duration.hours": {
+      "en": "{hours}h {minutes}m {seconds}s",
+      "zh": "{hours}小时{minutes}分{seconds}秒"
+    },
+    "duration.milliseconds": {
+      "en": "{milliseconds}ms",
+      "zh": "{milliseconds}毫秒"
+    },
+    "duration.minutes": {
+      "en": "{minutes}m {seconds}s",
+      "zh": "{minutes}分{seconds}秒"
+    },
+    "duration.seconds": {
+      "en": "{seconds}s",
+      "zh": "{seconds}秒"
+    },
+    "fileOpen.title": {
+      "en": "Couldn’t open file",
+      "zh": "无法打开文件"
+    },
+    "fileOpen.unknown": {
+      "en": "Couldn’t open this file",
+      "zh": "无法打开此文件"
+    },
+    "image.close": {
+      "en": "Close image preview",
+      "zh": "关闭图片预览"
+    },
+    "image.dialog": {
+      "en": "Image preview",
+      "zh": "图片预览"
+    },
+    "image.failed": {
+      "en": "Image preview unavailable",
+      "zh": "图片无法预览"
+    },
+    "image.loading": {
+      "en": "Loading image…",
+      "zh": "加载图片…"
+    },
+    "image.open": {
+      "en": "View full image",
+      "zh": "查看大图"
+    },
+    "json.truncated": {
+      "en": "… truncated, {total} characters total",
+      "zh": "… 已截断，共 {total} 字符"
+    },
+    "message.accountStopped": {
+      "en": "Task stopped",
+      "zh": "任务已停止"
+    },
+    "message.branch": {
+      "en": "Branch into a new conversation",
+      "zh": "在新对话中分支"
+    },
+    "message.branchUnavailable": {
+      "en": "Available only on the last message of a completed turn",
+      "zh": "仅可从已完成轮次的最后一条消息分支"
+    },
+    "message.compaction": {
+      "en": "Context compacted",
+      "zh": "上下文已压缩"
+    },
+    "message.compaction.commandTitle": {
+      "en": "compact",
+      "zh": "compact"
+    },
+    "message.compaction.completed": {
+      "en": "Compacted {items} history items (~{tokens} tokens)",
+      "zh": "已压缩 {items} 条历史记录（约 {tokens} tokens）"
+    },
+    "message.compaction.expand": {
+      "en": "View compaction summary",
+      "zh": "点击查看压缩摘要"
+    },
+    "message.compaction.running": {
+      "en": "Compacting context…",
+      "zh": "正在压缩…"
+    },
+    "message.compaction.unavailable": {
+      "en": "Compaction summary unavailable",
+      "zh": "压缩摘要不可用"
+    },
+    "message.context.catalog.more": {
+      "en": "… {count} more",
+      "zh": "…还有 {count} 条"
+    },
+    "message.context.catalog.replaced": {
+      "en": "Replacement catalog",
+      "zh": "替换目录"
+    },
+    "message.context.instructions.added": {
+      "en": "added",
+      "zh": "已新增"
+    },
+    "message.context.instructions.loaded": {
+      "en": "loaded",
+      "zh": "已载入"
+    },
+    "message.context.instructions.removed": {
+      "en": "removed",
+      "zh": "已移除"
+    },
+    "message.context.instructions.updated": {
+      "en": "updated",
+      "zh": "已更新"
+    },
+    "message.context.recall.counts": {
+      "en": "{retained} kept · {omitted} omitted",
+      "zh": "保留 {retained} 条 · 省略 {omitted} 条"
+    },
+    "message.context.recall.truncated": {
+      "en": "truncated",
+      "zh": "已截断"
+    },
+    "message.context.relay.from": {
+      "en": "From session {session}",
+      "zh": "来自会话 {session}"
+    },
+    "message.context.snapshot.supersedes": {
+      "en": "Supersedes earlier snapshots",
+      "zh": "取代先前的快照"
+    },
+    "message.contextInjection": {
+      "en": "Context injection",
+      "zh": "上下文注入"
+    },
+    "message.contextRecall": {
+      "en": "Session recall",
+      "zh": "跨会话召回"
+    },
+    "message.extraBlock": {
+      "en": "Extra content block",
+      "zh": "附加内容块"
+    },
+    "message.failure.accountSignInRequired": {
+      "en": "Sign in to DeepSeek and ensure the request destination supports account authentication.",
+      "zh": "请先登录 DeepSeek，并确认请求地址支持账号认证。"
+    },
+    "message.failure.accountSignedOut": {
+      "en": "Stopped because you signed out of DeepSeek.",
+      "zh": "任务已因退出 DeepSeek 登录而停止。"
+    },
+    "message.failure.auth": {
+      "en": "API key is invalid",
+      "zh": "API 密钥无效"
+    },
+    "message.failure.quota": {
+      "en": "Request quota exhausted.",
+      "zh": "当前请求的额度已用尽"
+    },
+    "message.maxTokens": {
+      "en": "Output token limit reached",
+      "zh": "已达到输出 token 上限"
+    },
+    "message.maxTokens.hint": {
+      "en": "The reply was cut off; earlier output is preserved in the conversation. Send \"continue\" to let the model resume.",
+      "zh": "回答被截断，已有输出保留在对话中。发送“继续”可让模型接着输出。"
+    },
+    "message.referenceSeparator": {
+      "en": ", ",
+      "zh": "、"
+    },
+    "message.referenceSummary": {
+      "en": "Referenced session · {labels}",
+      "zh": "引用会话 · {labels}"
+    },
+    "message.retry.active": {
+      "en": "Retrying model request",
+      "zh": "正在重试模型请求"
+    },
+    "message.retry.cancelled": {
+      "en": "Model request retry cancelled",
+      "zh": "模型请求重试已取消"
+    },
+    "message.retry.delay": {
+      "en": "Retry delay: ",
+      "zh": "重试延迟："
+    },
+    "message.retry.failure": {
+      "en": "Failure reason: ",
+      "zh": "失败原因："
+    },
+    "message.retry.scheduled": {
+      "en": "Waiting to retry model request",
+      "zh": "等待重试模型请求"
+    },
+    "message.retry.started": {
+      "en": "Retried model request",
+      "zh": "已重试模型请求"
+    },
+    "message.retry.status": {
+      "en": "{label} ({retry}/{maximum}) · {seconds}s",
+      "zh": "{label}（{retry}/{maximum}） · {seconds}s"
+    },
+    "message.stepProcess.code": {
+      "en": "Running code",
+      "zh": "正在运行代码"
+    },
+    "message.stepProcess.comma": {
+      "en": ", ",
+      "zh": "，"
+    },
+    "message.stepProcess.commands": {
+      "en": "Running commands",
+      "zh": "正在运行命令"
+    },
+    "message.stepProcess.done.code": {
+      "en": "Ran code",
+      "zh": "运行了代码"
+    },
+    "message.stepProcess.done.commands": {
+      "en": "Ran commands",
+      "zh": "执行了命令"
+    },
+    "message.stepProcess.done.edit": {
+      "en": "Edited files",
+      "zh": "修改了文件"
+    },
+    "message.stepProcess.done.plan": {
+      "en": "Updated the plan",
+      "zh": "更新了计划"
+    },
+    "message.stepProcess.done.questions": {
+      "en": "Asked questions",
+      "zh": "向用户提出了问题"
+    },
+    "message.stepProcess.done.read": {
+      "en": "Read files",
+      "zh": "已读取文件"
+    },
+    "message.stepProcess.done.readImage": {
+      "en": "Read images",
+      "zh": "已读取图片"
+    },
+    "message.stepProcess.done.search": {
+      "en": "Searched code",
+      "zh": "已搜索代码"
+    },
+    "message.stepProcess.done.subagents": {
+      "en": "Coordinated subagents",
+      "zh": "已协调子智能体"
+    },
+    "message.stepProcess.done.thinking": {
+      "en": "Analysis completed",
+      "zh": "已完成分析"
+    },
+    "message.stepProcess.done.tools": {
+      "en": "Called tools",
+      "zh": "已调用工具"
+    },
+    "message.stepProcess.done.webFetch": {
+      "en": "Visited web pages",
+      "zh": "已访问网页"
+    },
+    "message.stepProcess.done.webSearch": {
+      "en": "Searched the web",
+      "zh": "已搜索网页"
+    },
+    "message.stepProcess.done.write": {
+      "en": "Wrote files",
+      "zh": "已写入文件"
+    },
+    "message.stepProcess.edit": {
+      "en": "Editing files",
+      "zh": "正在编辑文件"
+    },
+    "message.stepProcess.joinTwo": {
+      "en": "{first} and {second}",
+      "zh": "{first}并{second}"
+    },
+    "message.stepProcess.more": {
+      "en": "{title}, etc.",
+      "zh": "{title}等"
+    },
+    "message.stepProcess.plan": {
+      "en": "Updating the plan",
+      "zh": "正在更新计划"
+    },
+    "message.stepProcess.prepare.code": {
+      "en": "Preparing to run code",
+      "zh": "准备运行代码"
+    },
+    "message.stepProcess.prepare.commands": {
+      "en": "Preparing to run commands",
+      "zh": "准备运行命令"
+    },
+    "message.stepProcess.prepare.edit": {
+      "en": "Preparing to edit files",
+      "zh": "准备编辑文件"
+    },
+    "message.stepProcess.prepare.plan": {
+      "en": "Preparing to update the plan",
+      "zh": "准备更新计划"
+    },
+    "message.stepProcess.prepare.questions": {
+      "en": "Preparing questions",
+      "zh": "准备提问"
+    },
+    "message.stepProcess.prepare.read": {
+      "en": "Preparing to read files",
+      "zh": "准备读取文件"
+    },
+    "message.stepProcess.prepare.readImage": {
+      "en": "Preparing to read images",
+      "zh": "准备读取图片"
+    },
+    "message.stepProcess.prepare.search": {
+      "en": "Preparing to search code",
+      "zh": "准备搜索代码"
+    },
+    "message.stepProcess.prepare.subagents": {
+      "en": "Preparing to coordinate subagents",
+      "zh": "准备协调子智能体"
+    },
+    "message.stepProcess.prepare.tools": {
+      "en": "Preparing tool calls",
+      "zh": "准备调用工具"
+    },
+    "message.stepProcess.prepare.webFetch": {
+      "en": "Preparing to visit web pages",
+      "zh": "准备访问网页"
+    },
+    "message.stepProcess.prepare.webSearch": {
+      "en": "Preparing to search the web",
+      "zh": "准备搜索网页"
+    },
+    "message.stepProcess.prepare.write": {
+      "en": "Preparing to write files",
+      "zh": "准备写入文件"
+    },
+    "message.stepProcess.questions": {
+      "en": "Waiting for your action",
+      "zh": "等待你的操作"
+    },
+    "message.stepProcess.read": {
+      "en": "Reading files",
+      "zh": "正在读取文件"
+    },
+    "message.stepProcess.readImage": {
+      "en": "Reading images",
+      "zh": "正在读取图片"
+    },
+    "message.stepProcess.search": {
+      "en": "Searching code",
+      "zh": "正在搜索代码"
+    },
+    "message.stepProcess.sharedPrefix": {
+      "en": "",
+      "zh": "已"
+    },
+    "message.stepProcess.subagents": {
+      "en": "Coordinating subagents",
+      "zh": "正在协调子智能体"
+    },
+    "message.stepProcess.thinking": {
+      "en": "Analyzing the request",
+      "zh": "正在分析请求"
+    },
+    "message.stepProcess.tools": {
+      "en": "Calling tools",
+      "zh": "正在调用工具"
+    },
+    "message.stepProcess.webFetch": {
+      "en": "Visiting web pages",
+      "zh": "正在访问网页"
+    },
+    "message.stepProcess.webSearch": {
+      "en": "Searching the web",
+      "zh": "正在搜索网页"
+    },
+    "message.stepProcess.write": {
+      "en": "Writing files",
+      "zh": "正在写入文件"
+    },
+    "message.stopped": {
+      "en": "Stopped",
+      "zh": "已停止"
+    },
+    "message.systemPrompt": {
+      "en": "System prompt",
+      "zh": "系统提示词"
+    },
+    "message.systemPromptUpdate": {
+      "en": "System prompt update",
+      "zh": "系统提示词更新"
+    },
+    "message.think": {
+      "en": "Think",
+      "zh": "思考"
+    },
+    "message.tokensPerSecond": {
+      "en": "{tps} tok/s",
+      "zh": "{tps} tok/s"
+    },
+    "message.toolAdded": {
+      "en": "Tool added: {name}",
+      "zh": "已添加工具：{name}"
+    },
+    "message.toolRemoved": {
+      "en": "Tool removed: {name}",
+      "zh": "已移除工具：{name}"
+    },
+    "message.toolsAdded": {
+      "en": "Added: {names}",
+      "zh": "新增：{names}"
+    },
+    "message.toolsAddedCount": {
+      "en": "{count} added",
+      "zh": "新增 {count} 个"
+    },
+    "message.toolsChanged": {
+      "en": "{added} added, {removed} removed",
+      "zh": "新增 {added} 个，移除 {removed} 个"
+    },
+    "message.toolsRemoved": {
+      "en": "Removed: {names}",
+      "zh": "移除：{names}"
+    },
+    "message.toolsRemovedCount": {
+      "en": "{count} removed",
+      "zh": "移除 {count} 个"
+    },
+    "message.toolsUpdated": {
+      "en": "Tools updated",
+      "zh": "工具已更新"
+    },
+    "message.trigger.agent": {
+      "en": "Task message received",
+      "zh": "收到任务消息"
+    },
+    "message.trigger.explanation": {
+      "en": "This notification triggered this response.",
+      "zh": "这条通知触发了本轮回复。"
+    },
+    "message.trigger.github": {
+      "en": "GitHub event received",
+      "zh": "收到 GitHub 事件"
+    },
+    "message.trigger.goal": {
+      "en": "Continuing goal",
+      "zh": "继续执行目标"
+    },
+    "message.trigger.job": {
+      "en": "Background task updated",
+      "zh": "后台任务状态更新"
+    },
+    "message.trigger.plugin": {
+      "en": "Plugin status updated",
+      "zh": "插件状态更新"
+    },
+    "message.trigger.request": {
+      "en": "Execution requested",
+      "zh": "收到执行请求"
+    },
+    "message.trigger.schedule": {
+      "en": "Scheduled task",
+      "zh": "定时任务"
+    },
+    "message.trigger.subagent": {
+      "en": "Subtask status updated",
+      "zh": "子任务状态更新"
+    },
+    "message.trigger.team": {
+      "en": "Team message received",
+      "zh": "收到团队消息"
+    },
+    "message.trigger.webhook": {
+      "en": "External event received",
+      "zh": "收到外部事件"
+    },
+    "message.turnError": {
+      "en": "This turn failed",
+      "zh": "本轮运行失败"
+    },
+    "message.turnProcess.deepDivingFor": {
+      "en": "Deep diving for {duration}",
+      "zh": "深度求索中，用时{duration}"
+    },
+    "message.turnProcess.failed": {
+      "en": "Failed",
+      "zh": "处理失败"
+    },
+    "message.turnProcess.messages.one": {
+      "en": "{count} message",
+      "zh": "{count} 条消息"
+    },
+    "message.turnProcess.messages.other": {
+      "en": "{count} messages",
+      "zh": "{count} 条消息"
+    },
+    "message.turnProcess.separator": {
+      "en": " · ",
+      "zh": " · "
+    },
+    "message.turnProcess.subagents.one": {
+      "en": "{count} subagent",
+      "zh": "{count} 个 subagent"
+    },
+    "message.turnProcess.subagents.other": {
+      "en": "{count} subagents",
+      "zh": "{count} 个 subagent"
+    },
+    "message.turnProcess.thoughtForAWhile": {
+      "en": "Thought for a while",
+      "zh": "已思考"
+    },
+    "message.turnProcess.took": {
+      "en": "Took {duration}",
+      "zh": "用时 {duration}"
+    },
+    "message.turnProcess.toolCalls.one": {
+      "en": "{count} tool call",
+      "zh": "{count} 次工具调用"
+    },
+    "message.turnProcess.toolCalls.other": {
+      "en": "{count} tool calls",
+      "zh": "{count} 次工具调用"
+    },
+    "message.turnProcess.worked": {
+      "en": "Worked",
+      "zh": "已完成工作"
+    },
+    "message.turnUsage.cacheHit": {
+      "en": "Cache hit",
+      "zh": "缓存命中"
+    },
+    "message.turnUsage.cacheRead": {
+      "en": "Cached input",
+      "zh": "缓存读取"
+    },
+    "message.turnUsage.cacheWrite": {
+      "en": "Cache write",
+      "zh": "缓存写入"
+    },
+    "message.turnUsage.consumed": {
+      "en": "Usage {total}",
+      "zh": "用量 {total}"
+    },
+    "message.turnUsage.count": {
+      "en": "{count} tok",
+      "zh": "{count} tok"
+    },
+    "message.turnUsage.input": {
+      "en": "Uncached input",
+      "zh": "未缓存输入"
+    },
+    "message.turnUsage.model": {
+      "en": "Provider / model",
+      "zh": "提供方 / 模型"
+    },
+    "message.turnUsage.output": {
+      "en": "Output",
+      "zh": "输出"
+    },
+    "message.turnUsage.reasoning": {
+      "en": " ({tokens} reasoning)",
+      "zh": "（其中推理 {tokens}）"
+    },
+    "message.turnUsage.title": {
+      "en": "Turn usage",
+      "zh": "本轮用量"
+    },
+    "message.unknownBlock": {
+      "en": "Unknown content block",
+      "zh": "未知内容块"
+    },
+    "message.unknownSurface": {
+      "en": "Unknown surface event: {type}",
+      "zh": "未知 surface 事件：{type}"
+    },
+    "number.groupSeparator": {
+      "en": ",",
+      "zh": ","
+    },
+    "row.failed": {
+      "en": "Failed",
+      "zh": "失败"
+    },
+    "row.running": {
+      "en": "Running",
+      "zh": "运行中"
+    },
+    "settings.links.description": {
+      "en": "Choose where to open web links",
+      "zh": "对话中网页链接的打开位置"
+    },
+    "settings.links.newTab": {
+      "en": "Default Browser",
+      "zh": "默认浏览器"
+    },
+    "settings.links.sidebar": {
+      "en": "In-App Sidebar",
+      "zh": "应用内侧边栏"
+    },
+    "settings.links.title": {
+      "en": "Open chat links in",
+      "zh": "网页链接默认打开方式"
+    },
+    "settings.performance.compact": {
+      "en": "Compact",
+      "zh": "简洁"
+    },
+    "settings.performance.description": {
+      "en": "Choose how much performance and usage information to show",
+      "zh": "选择性能与用量信息展示的详细程度"
+    },
+    "settings.performance.detailed": {
+      "en": "Detailed",
+      "zh": "详细"
+    },
+    "settings.performance.title": {
+      "en": "Performance & usage",
+      "zh": "性能与用量"
+    },
+    "settings.transcript.compact": {
+      "en": "Compact",
+      "zh": "简洁"
+    },
+    "settings.transcript.description": {
+      "en": "Choose how much detail to show for tool calls",
+      "zh": "选择希望看到多少工具调用细节"
+    },
+    "settings.transcript.detailed": {
+      "en": "Detailed",
+      "zh": "详细"
+    },
+    "settings.transcript.standard": {
+      "en": "Standard",
+      "zh": "标准"
+    },
+    "settings.transcript.title": {
+      "en": "Work details",
+      "zh": "工作步骤展示"
+    },
+    "settings.transcript.verbose": {
+      "en": "Verbose",
+      "zh": "完全展开"
+    },
+    "stats.cacheHit": {
+      "en": "Cache hit {percent}%",
+      "zh": "缓存命中 {percent}%"
+    },
+    "stats.counts": {
+      "en": "{turns} turns {steps} steps",
+      "zh": "{turns} 轮 {steps} 步"
+    },
+    "stats.dialog.llmTime": {
+      "en": "LLM time",
+      "zh": "模型用时"
+    },
+    "stats.dialog.speed": {
+      "en": "Tokens per second (TPS)",
+      "zh": "输出速度（TPS）"
+    },
+    "stats.dialog.title": {
+      "en": "Session statistics",
+      "zh": "会话统计"
+    },
+    "stats.dialog.toolTime": {
+      "en": "Tool time",
+      "zh": "工具调用用时"
+    },
+    "stats.dialog.ttft": {
+      "en": "Avg time to first token (TTFT)",
+      "zh": "首 token 平均（TTFT）"
+    },
+    "stats.dialog.usageTitle": {
+      "en": "Token usage",
+      "zh": "Token 用量"
+    },
+    "view.chat": {
+      "en": "Chat",
+      "zh": "对话"
+    }
+  }
+}

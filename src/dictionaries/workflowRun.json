@@ -1,0 +1,98 @@
+{
+  "ns": "workflowRun",
+  "pkg": "dsh-client-ui-workflow-run",
+  "tr": {
+    "member.empty": "Üye adı boş",
+    "member.open": "{name} öğesini aç",
+    "phase.empty": "Aşama adı boş",
+    "phase.unassigned": "Aşamasız",
+    "run.empty": "Başlatılan üye yok",
+    "run.members.one": "{count} üye",
+    "run.members.other": "{count} üye",
+    "run.title": "{name}",
+    "status.cancelled": "İptal edildi",
+    "status.completed": "Tamamlandı",
+    "status.failed": "Başarısız",
+    "status.interrupted": "Kesildi",
+    "status.running": "Çalışıyor",
+    "statusCount.cancelled": "{count} iptal edildi",
+    "statusCount.completed": "{count} tamamlandı",
+    "statusCount.failed": "{count} başarısız",
+    "statusCount.interrupted": "{count} kesildi",
+    "statusCount.running": "{count} çalışıyor"
+  },
+  "rows": {
+    "member.empty": {
+      "en": "Empty member name",
+      "zh": "空成员名"
+    },
+    "member.open": {
+      "en": "Open {name}",
+      "zh": "打开 {name}"
+    },
+    "phase.empty": {
+      "en": "Empty phase name",
+      "zh": "空阶段名"
+    },
+    "phase.unassigned": {
+      "en": "Unphased",
+      "zh": "未分阶段"
+    },
+    "run.empty": {
+      "en": "No members started",
+      "zh": "没有启动成员"
+    },
+    "run.members.one": {
+      "en": "{count} member",
+      "zh": "{count} 个成员"
+    },
+    "run.members.other": {
+      "en": "{count} members",
+      "zh": "{count} 个成员"
+    },
+    "run.title": {
+      "en": "{name}",
+      "zh": "{name}"
+    },
+    "status.cancelled": {
+      "en": "Cancelled",
+      "zh": "已取消"
+    },
+    "status.completed": {
+      "en": "Completed",
+      "zh": "已完成"
+    },
+    "status.failed": {
+      "en": "Failed",
+      "zh": "失败"
+    },
+    "status.interrupted": {
+      "en": "Interrupted",
+      "zh": "已中断"
+    },
+    "status.running": {
+      "en": "Running",
+      "zh": "运行中"
+    },
+    "statusCount.cancelled": {
+      "en": "Cancelled {count}",
+      "zh": "已取消 {count}"
+    },
+    "statusCount.completed": {
+      "en": "Completed {count}",
+      "zh": "已完成 {count}"
+    },
+    "statusCount.failed": {
+      "en": "Failed {count}",
+      "zh": "失败 {count}"
+    },
+    "statusCount.interrupted": {
+      "en": "Interrupted {count}",
+      "zh": "已中断 {count}"
+    },
+    "statusCount.running": {
+      "en": "Running {count}",
+      "zh": "运行中 {count}"
+    }
+  }
+}

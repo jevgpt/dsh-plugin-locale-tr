@@ -1,0 +1,148 @@
+{
+  "ns": "command",
+  "pkg": "dsh-client-ui-commands",
+  "tr": {
+    "description.compact": "Eski sohbet geçmişini sıkıştırın",
+    "description.export": "Bu oturum günlüğünü ZIP arşivi olarak indirin",
+    "description.feedback": "Bu oturum hakkında geri bildirim kaydedin",
+    "description.goal": "Uzun süreli bir görev için hedefi belirleyin veya görüntüleyin",
+    "description.permission": "İzin ön ayarını değiştirin (sandbox modu + onay ilkesi)",
+    "description.plan": "Plan moduna girin veya çıkın",
+    "label.compact": "Sıkıştır",
+    "label.export": "Dışa aktar",
+    "label.feedback": "Geri bildirim",
+    "label.goal": "Hedef",
+    "label.permission": "İzin",
+    "label.plan": "Plan",
+    "listbox.aria": "/{command} eşleşmeleri",
+    "notice.attachmentsUnsupported": "/{command} ek kabul etmiyor; önce ekleri kaldırın",
+    "overlay.aria": "/{command} seçenekleri",
+    "search.aria": "Seçenekleri filtrele",
+    "search.placeholder": "Ara…",
+    "section.add": "Ekle",
+    "section.commands": "Komutlar",
+    "status.applying": "Uygulanıyor…",
+    "status.empty": "Seçenek yok",
+    "status.loading": "Seçenekler yükleniyor…",
+    "token.compact": "compact",
+    "token.export": "export",
+    "token.feedback": "feedback",
+    "token.goal": "goal",
+    "token.permission": "permission",
+    "token.plan": "plan"
+  },
+  "rows": {
+    "description.compact": {
+      "en": "Compact older conversation history",
+      "zh": "压缩以上对话内容"
+    },
+    "description.export": {
+      "en": "Download this Session log as a ZIP archive",
+      "zh": "将当前会话内容导出为 ZIP"
+    },
+    "description.feedback": {
+      "en": "Record feedback about this session",
+      "zh": "发送关于当前会话的反馈"
+    },
+    "description.goal": {
+      "en": "Set or view the goal for a long-running task",
+      "zh": "设置或查看长期任务目标"
+    },
+    "description.permission": {
+      "en": "Switch the permission preset (sandbox mode + approval policy)",
+      "zh": "切换权限预设（沙箱模式与审批策略）"
+    },
+    "description.plan": {
+      "en": "Enter or leave plan mode",
+      "zh": "进入或退出计划模式"
+    },
+    "label.compact": {
+      "en": "Compact",
+      "zh": "压缩"
+    },
+    "label.export": {
+      "en": "Export",
+      "zh": "下载日志"
+    },
+    "label.feedback": {
+      "en": "Feedback",
+      "zh": "反馈"
+    },
+    "label.goal": {
+      "en": "Goal",
+      "zh": "目标"
+    },
+    "label.permission": {
+      "en": "Permission",
+      "zh": "权限"
+    },
+    "label.plan": {
+      "en": "Plan",
+      "zh": "计划"
+    },
+    "listbox.aria": {
+      "en": "/{command} matches",
+      "zh": "/{command} 匹配项"
+    },
+    "notice.attachmentsUnsupported": {
+      "en": "/{command} does not accept attachments; remove them first",
+      "zh": "/{command} 不接受附件，请先移除附件"
+    },
+    "overlay.aria": {
+      "en": "/{command} options",
+      "zh": "/{command} 选项"
+    },
+    "search.aria": {
+      "en": "Filter options",
+      "zh": "筛选选项"
+    },
+    "search.placeholder": {
+      "en": "Search…",
+      "zh": "搜索…"
+    },
+    "section.add": {
+      "en": "Add",
+      "zh": "添加"
+    },
+    "section.commands": {
+      "en": "Commands",
+      "zh": "指令"
+    },
+    "status.applying": {
+      "en": "Applying…",
+      "zh": "正在应用…"
+    },
+    "status.empty": {
+      "en": "No options",
+      "zh": "无选项"
+    },
+    "status.loading": {
+      "en": "Loading options…",
+      "zh": "正在加载选项…"
+    },
+    "token.compact": {
+      "en": "compact",
+      "zh": "压缩"
+    },
+    "token.export": {
+      "en": "export",
+      "zh": "导出"
+    },
+    "token.feedback": {
+      "en": "feedback",
+      "zh": "反馈"
+    },
+    "token.goal": {
+      "en": "goal",
+      "zh": "目标"
+    },
+    "token.permission": {
+      "en": "permission",
+      "zh": "权限"
+    },
+    "token.plan": {
+      "en": "plan",
+      "zh": "计划"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "ns": "agent-team",
+  "pkg": "dsh-experimental-client-ui-agent-team",
+  "tr": {
+    "memberStatus.failed": "Başarısız",
+    "memberStatus.inactive": "Etkin değil",
+    "memberStatus.provisioning": "Hazırlanıyor",
+    "memberStatus.running": "Çalışıyor",
+    "status.completed": "Tamamlandı",
+    "status.in_progress": "Devam ediyor",
+    "status.pending": "Beklemede",
+    "task.collapse": "Daha az göster",
+    "task.expand": "Daha fazla göster"
+  },
+  "rows": {
+    "memberStatus.failed": {
+      "en": "Failed",
+      "zh": "失败"
+    },
+    "memberStatus.inactive": {
+      "en": "Inactive",
+      "zh": "未运行"
+    },
+    "memberStatus.provisioning": {
+      "en": "Provisioning",
+      "zh": "准备中"
+    },
+    "memberStatus.running": {
+      "en": "Running",
+      "zh": "运行中"
+    },
+    "status.completed": {
+      "en": "Completed",
+      "zh": "已完成"
+    },
+    "status.in_progress": {
+      "en": "In progress",
+      "zh": "进行中"
+    },
+    "status.pending": {
+      "en": "Pending",
+      "zh": "待处理"
+    },
+    "task.collapse": {
+      "en": "Show less",
+      "zh": "收起"
+    },
+    "task.expand": {
+      "en": "Show more",
+      "zh": "展开"
+    }
+  }
+}
