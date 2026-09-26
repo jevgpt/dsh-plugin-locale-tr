@@ -1,6 +1,6 @@
 # dsh-plugin-locale-tr
 
-[![CI](https://github.com/OWNER/dsh-plugin-locale-tr/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/dsh-plugin-locale-tr/actions/workflows/ci.yml)
+[![CI](https://github.com/jevgpt/dsh-plugin-locale-tr/actions/workflows/ci.yml/badge.svg)](https://github.com/jevgpt/dsh-plugin-locale-tr/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/dsh-plugin-locale-tr.svg)](https://www.npmjs.com/package/dsh-plugin-locale-tr)
 [![license](https://img.shields.io/npm/l/dsh-plugin-locale-tr.svg)](LICENSE)
 [![topic](https://img.shields.io/badge/topic-dsh--plugin-blue)](https://github.com/topics/dsh-plugin)
@@ -28,20 +28,26 @@ Any key this pack does not carry falls back along the locale chain to English, s
 
 ## Install
 
-Until it is published to npm, install from a checkout:
-
 ```sh
-# 1. Put the pack where your profile can resolve it
-mkdir -p ~/.dsh/profiles/desktop/node_modules/dsh-plugin-locale-tr
-cp -r package.json lib README.md LICENSE ~/.dsh/profiles/desktop/node_modules/dsh-plugin-locale-tr/
+# 1. Clone the pack somewhere permanent
+git clone https://github.com/jevgpt/dsh-plugin-locale-tr.git ~/.dsh/plugins/dsh-plugin-locale-tr
 
-# 2. Declare it in the profile manifest
-#    ~/.dsh/profiles/desktop/package.json
-#    "dependencies": { "dsh-plugin-locale-tr": "file:/absolute/path/to/dsh-plugin-locale-tr" }
+# 2. Put it where your profile can resolve it
+mkdir -p ~/.dsh/profiles/desktop/node_modules/dsh-plugin-locale-tr
+cp -r ~/.dsh/plugins/dsh-plugin-locale-tr/{package.json,lib,README.md,LICENSE} \
+      ~/.dsh/profiles/desktop/node_modules/dsh-plugin-locale-tr/
+```
+
+```jsonc
+// 3. Declare it in the profile manifest
+//    ~/.dsh/profiles/desktop/package.json
+"dependencies": {
+  "dsh-plugin-locale-tr": "file:/absolute/path/to/dsh-plugin-locale-tr"
+}
 ```
 
 ```yaml
-# 3. Add it to the profile's patch layer
+# 4. Add it to the profile's patch layer
 #    ~/.dsh/profiles/desktop/cordis.patch.yml
 - insert:
     - id: locale-tr
