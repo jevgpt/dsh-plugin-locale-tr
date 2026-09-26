@@ -1,0 +1,6 @@
+# The bundle is generated with LF and committed; a CRLF working copy would make
+# the rebuild-and-compare CI step fail for a reason that is not a real drift.
+* text=auto eol=lf
+
+# Committed artifacts that must stay byte-identical to generator output.
+lib/client.js text eol=lf -diff
