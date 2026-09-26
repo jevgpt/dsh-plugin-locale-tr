@@ -81,7 +81,8 @@ The bundle only ever calls the documented public API. It touches no private inte
 
 ## Development
 
-Requires Node.js 20 or later. No dependencies.
+Requires Node.js 22.19 or later — the same floor as dsh, and what the test
+script's `node --test` glob needs. No dependencies.
 
 ```sh
 npm run build        # regenerate lib/client.js from src/dictionaries/

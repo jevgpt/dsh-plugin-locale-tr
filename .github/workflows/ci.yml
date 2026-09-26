@@ -15,8 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
+      # Node 22 is the floor: the test script uses the glob support `node --test`
+      # gained in 22.0.0. dsh itself requires node ^22.19 || >=24.
       matrix:
-        node: ['20', '22', '24']
+        node: ['22', '24']
     steps:
       - uses: actions/checkout@v4
 

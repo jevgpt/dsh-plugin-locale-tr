@@ -64,7 +64,7 @@ Bundle yalnızca belgelenmiş genel API'yi çağırır ve hiçbir özel iç yap�
 
 ## Geliştirme
 
-Node.js 20 veya üzeri gerekir. Bağımlılık yoktur.
+Node.js 22.19 veya üzeri gerekir (dsh ile aynı taban; `node --test` glob desteği için de gerekli). Bağımlılık yoktur.
 
 ```sh
 npm run build        # src/dictionaries/ içinden lib/client.js üretir

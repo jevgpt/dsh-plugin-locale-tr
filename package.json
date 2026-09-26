@@ -17,7 +17,7 @@
     "translation"
   ],
   "engines": {
-    "node": ">=20"
+    "node": "^22.19 || >=24"
   },
   "exports": {
     ".": {
